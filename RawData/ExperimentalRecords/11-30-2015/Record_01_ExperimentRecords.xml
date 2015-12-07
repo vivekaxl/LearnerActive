@@ -1,0 +1,2812 @@
+<Experiment>
+    <Problem name='POM3B'>
+        <Algorithm name='GALE2'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>35</NumEvals>
+                    <RunTime>0.513112068176</RunTime>
+                    <IBD>0.919312834134</IBD>
+                    <IBS>0.1160266384</IBS>
+                    <Cost>4100.68249979</Cost>
+                    <Score>0.208309697077</Score>
+                    <Idle>0.12</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>76</NumEvals>
+                    <RunTime>1.10756397247</RunTime>
+                    <IBD>0.957798992663</IBD>
+                    <IBS>0.0708662568032</IBS>
+                    <Cost>3368.8631294</Cost>
+                    <Score>0.244569682814</Score>
+                    <Idle>0.588235294118</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>46</NumEvals>
+                    <RunTime>0.646438837051</RunTime>
+                    <IBD>0.949978949526</IBD>
+                    <IBS>0.136041366971</IBS>
+                    <Cost>2940.6677735</Cost>
+                    <Score>0.193617536586</Score>
+                    <Idle>0.16</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>46</NumEvals>
+                    <RunTime>0.663553237915</RunTime>
+                    <IBD>0.946024408809</IBD>
+                    <IBS>0.0216081034227</IBS>
+                    <Cost>4690.8224466</Cost>
+                    <Score>0.0592610500329</Score>
+                    <Idle>0.467532467532</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>36</NumEvals>
+                    <RunTime>0.52183508873</RunTime>
+                    <IBD>0.952455668055</IBD>
+                    <IBS>0.0678564483281</IBS>
+                    <Cost>4585.88816567</Cost>
+                    <Score>0.149576443047</Score>
+                    <Idle>0.333333333333</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>53</NumEvals>
+                    <RunTime>0.87887597084</RunTime>
+                    <IBD>0.875895902958</IBD>
+                    <IBS>0.0945030993533</IBS>
+                    <Cost>2329.59973364</Cost>
+                    <Score>0.0791689656827</Score>
+                    <Idle>0.176470588235</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>65</NumEvals>
+                    <RunTime>1.45876002312</RunTime>
+                    <IBD>0.811021143113</IBD>
+                    <IBS>0.0424290402024</IBS>
+                    <Cost>2745.50193267</Cost>
+                    <Score>0.168155047821</Score>
+                    <Idle>0.277777777778</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>45</NumEvals>
+                    <RunTime>0.866677999496</RunTime>
+                    <IBD>0.997499685738</IBD>
+                    <IBS>0.0293981463844</IBS>
+                    <Cost>4361.09325776</Cost>
+                    <Score>0.339995494624</Score>
+                    <Idle>0.5</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>67</NumEvals>
+                    <RunTime>1.07435894012</RunTime>
+                    <IBD>1.05414512576</IBD>
+                    <IBS>0.0369466073507</IBS>
+                    <Cost>4694.26593825</Cost>
+                    <Score>0.383254912955</Score>
+                    <Idle>0.34693877551</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>56</NumEvals>
+                    <RunTime>0.945417881012</RunTime>
+                    <IBD>0.950460104781</IBD>
+                    <IBS>0.0567319570812</IBS>
+                    <Cost>2826.43212452</Cost>
+                    <Score>0.107887464068</Score>
+                    <Idle>0.3</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='GALE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>82</NumEvals>
+                    <RunTime>0.909317016602</RunTime>
+                    <IBD>0.96680952862</IBD>
+                    <IBS>0.0669525535483</IBS>
+                    <Cost>4812.13407886</Cost>
+                    <Score>0.115046213589</Score>
+                    <Idle>0.210526315789</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>110</NumEvals>
+                    <RunTime>2.12719297409</RunTime>
+                    <IBD>0.846606744016</IBD>
+                    <IBS>0.0366858726258</IBS>
+                    <Cost>5812.10947199</Cost>
+                    <Score>0.0327682316158</Score>
+                    <Idle>0.163265306122</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>70</NumEvals>
+                    <RunTime>1.67886018753</RunTime>
+                    <IBD>0.873694909004</IBD>
+                    <IBS>0.0715674743383</IBS>
+                    <Cost>4339.37796547</Cost>
+                    <Score>0.240191635806</Score>
+                    <Idle>0.0263157894737</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>111</NumEvals>
+                    <RunTime>1.87264895439</RunTime>
+                    <IBD>1.02032053847</IBD>
+                    <IBS>0.0894713668106</IBS>
+                    <Cost>3746.21514643</Cost>
+                    <Score>0.384813808606</Score>
+                    <Idle>0.0294117647059</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>82</NumEvals>
+                    <RunTime>0.953058958054</RunTime>
+                    <IBD>1.03605707469</IBD>
+                    <IBS>0.129072383375</IBS>
+                    <Cost>6813.06930798</Cost>
+                    <Score>0.513683818749</Score>
+                    <Idle>0.0588235294118</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>113</NumEvals>
+                    <RunTime>1.19086885452</RunTime>
+                    <IBD>0.939208947535</IBD>
+                    <IBS>0.0139099192575</IBS>
+                    <Cost>8347.85938064</Cost>
+                    <Score>0.219525600926</Score>
+                    <Idle>0.266666666667</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>63</NumEvals>
+                    <RunTime>0.704817056656</RunTime>
+                    <IBD>1.03538328598</IBD>
+                    <IBS>0.0252366657978</IBS>
+                    <Cost>8775.4732269</Cost>
+                    <Score>0.410054291556</Score>
+                    <Idle>0.0238095238095</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>72</NumEvals>
+                    <RunTime>0.750159025192</RunTime>
+                    <IBD>0.924448999877</IBD>
+                    <IBS>0.0731723124188</IBS>
+                    <Cost>1983.39597722</Cost>
+                    <Score>0.112369371956</Score>
+                    <Idle>0.25</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>59</NumEvals>
+                    <RunTime>0.675186157227</RunTime>
+                    <IBD>0.94805960459</IBD>
+                    <IBS>0.0364532968993</IBS>
+                    <Cost>5902.37817751</Cost>
+                    <Score>0.239698766408</Score>
+                    <Idle>0.413793103448</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>74</NumEvals>
+                    <RunTime>1.11692976952</RunTime>
+                    <IBD>0.841208582224</IBD>
+                    <IBS>0.0339779808578</IBS>
+                    <Cost>3163.92998989</Cost>
+                    <Score>0.42458508262</Score>
+                    <Idle>0.09375</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='DE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>5.03191804886</RunTime>
+                    <IBD>0.800492130464</IBD>
+                    <IBS>0.0347883144965</IBS>
+                    <Cost>1509.36274161</Cost>
+                    <Score>0.00576559408531</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>4.14033198357</RunTime>
+                    <IBD>0.812331932658</IBD>
+                    <IBS>0.0274400350502</IBS>
+                    <Cost>2219.86807421</Cost>
+                    <Score>0.00396719395675</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>4.29976701736</RunTime>
+                    <IBD>0.800014548597</IBD>
+                    <IBS>0.0417968483419</IBS>
+                    <Cost>1657.05910425</Cost>
+                    <Score>0.0270301805944</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>4.11073994637</RunTime>
+                    <IBD>0.784582036303</IBD>
+                    <IBS>0.0458878921156</IBS>
+                    <Cost>156.453800431</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>3.90659594536</RunTime>
+                    <IBD>0.803342219213</IBD>
+                    <IBS>0.0412284700389</IBS>
+                    <Cost>1786.20965565</Cost>
+                    <Score>0.00516368143691</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>4.27420401573</RunTime>
+                    <IBD>0.819173377774</IBD>
+                    <IBS>0.0363738616975</IBS>
+                    <Cost>2183.88745828</Cost>
+                    <Score>0.00838557765156</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>3.85063409805</RunTime>
+                    <IBD>0.797914059263</IBD>
+                    <IBS>0.0314012668706</IBS>
+                    <Cost>1633.94302108</Cost>
+                    <Score>0.00398328513324</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>3.67603588104</RunTime>
+                    <IBD>0.805200654523</IBD>
+                    <IBS>0.0282420436936</IBS>
+                    <Cost>1675.32740199</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>5.90665912628</RunTime>
+                    <IBD>0.809236992993</IBD>
+                    <IBS>0.0343851669412</IBS>
+                    <Cost>1736.67437635</Cost>
+                    <Score>0.00662958362666</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>4.27828383446</RunTime>
+                    <IBD>0.804872805568</IBD>
+                    <IBS>0.0364240566781</IBS>
+                    <Cost>2362.05417867</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='MOEAD'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.1159260273</RunTime>
+                    <IBD>0.922232042522</IBD>
+                    <IBS>0.0798018485135</IBS>
+                    <Cost>846.270229458</Cost>
+                    <Score>0.04059377977</Score>
+                    <Idle>0.2</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.34696698189</RunTime>
+                    <IBD>0.898663564107</IBD>
+                    <IBS>0.0491651571917</IBS>
+                    <Cost>1013.77770868</Cost>
+                    <Score>0.00120230303961</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>8.06422019005</RunTime>
+                    <IBD>0.803136623021</IBD>
+                    <IBS>0.0283620801365</IBS>
+                    <Cost>1184.20173889</Cost>
+                    <Score>0.109622813229</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.18206000328</RunTime>
+                    <IBD>0.889002039496</IBD>
+                    <IBS>0.0926239872095</IBS>
+                    <Cost>905.164286818</Cost>
+                    <Score>0.381476903818</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.51717495918</RunTime>
+                    <IBD>0.852433620032</IBD>
+                    <IBS>0.0439271750367</IBS>
+                    <Cost>501.621305245</Cost>
+                    <Score>0.0164502432774</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.63418006897</RunTime>
+                    <IBD>0.869040451773</IBD>
+                    <IBS>0.0650644260392</IBS>
+                    <Cost>1133.59617616</Cost>
+                    <Score>0.0957146767859</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>6.12696194649</RunTime>
+                    <IBD>0.901054017528</IBD>
+                    <IBS>0.0931961808897</IBS>
+                    <Cost>443.427850921</Cost>
+                    <Score>0.0583089873119</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.47955393791</RunTime>
+                    <IBD>0.916799324651</IBD>
+                    <IBS>0.0246596987248</IBS>
+                    <Cost>538.888306812</Cost>
+                    <Score>0.371146095963</Score>
+                    <Idle>0.25</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>6.27211999893</RunTime>
+                    <IBD>0.900477720181</IBD>
+                    <IBS>0.0586049123295</IBS>
+                    <Cost>500.377890337</Cost>
+                    <Score>0.199488106522</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>6.4653980732</RunTime>
+                    <IBD>0.885108983787</IBD>
+                    <IBS>0.037109147353</IBS>
+                    <Cost>1690.73417144</Cost>
+                    <Score>0.454898373456</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='NSGA3'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.65903997421</RunTime>
+                    <IBD>0.87622102026</IBD>
+                    <IBS>0.040035798623</IBS>
+                    <Cost>440.036610197</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.7396709919</RunTime>
+                    <IBD>0.843011307715</IBD>
+                    <IBS>0.0364766437568</IBS>
+                    <Cost>520.426193857</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.57001900673</RunTime>
+                    <IBD>0.838649648552</IBD>
+                    <IBS>0.0354570866403</IBS>
+                    <Cost>1453.6724546</Cost>
+                    <Score>0.00926868506373</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.5690870285</RunTime>
+                    <IBD>0.851400004513</IBD>
+                    <IBS>0.0569074698555</IBS>
+                    <Cost>556.844122413</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.75055193901</RunTime>
+                    <IBD>0.880340800685</IBD>
+                    <IBS>0.0446687729269</IBS>
+                    <Cost>365.978890371</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.82919502258</RunTime>
+                    <IBD>0.8820285717</IBD>
+                    <IBS>0.0434662955721</IBS>
+                    <Cost>722.099394294</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.63680410385</RunTime>
+                    <IBD>0.86822104937</IBD>
+                    <IBS>0.0444186732419</IBS>
+                    <Cost>488.015386488</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.55610108376</RunTime>
+                    <IBD>0.860273276883</IBD>
+                    <IBS>0.0360999565302</IBS>
+                    <Cost>1101.10939064</Cost>
+                    <Score>0.00189278608962</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.93520689011</RunTime>
+                    <IBD>0.912935407996</IBD>
+                    <IBS>0.0540433257265</IBS>
+                    <Cost>1125.57072784</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>6.22342300415</RunTime>
+                    <IBD>0.883279058854</IBD>
+                    <IBS>0.0490596681784</IBS>
+                    <Cost>1048.61615027</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+    </Problem>
+    <Problem name='POM3A'>
+        <Algorithm name='GALE2'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>45</NumEvals>
+                    <RunTime>4.73550510406</RunTime>
+                    <IBD>0.933513781842</IBD>
+                    <IBS>0.0680334694068</IBS>
+                    <Cost>351.074858888</Cost>
+                    <Score>0.378072180514</Score>
+                    <Idle>0.0714285714286</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>54</NumEvals>
+                    <RunTime>4.80665683746</RunTime>
+                    <IBD>1.0104287045</IBD>
+                    <IBS>0.148740256718</IBS>
+                    <Cost>320.138741861</Cost>
+                    <Score>0.157838840583</Score>
+                    <Idle>0.254385964912</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>65</NumEvals>
+                    <RunTime>8.62297606468</RunTime>
+                    <IBD>0.877414651995</IBD>
+                    <IBS>0.00494724936027</IBS>
+                    <Cost>184.713781575</Cost>
+                    <Score>0.24864405181</Score>
+                    <Idle>0.352941176471</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>53</NumEvals>
+                    <RunTime>8.51805710793</RunTime>
+                    <IBD>0.945905899299</IBD>
+                    <IBS>0.0607253124877</IBS>
+                    <Cost>166.172310862</Cost>
+                    <Score>0.139004299712</Score>
+                    <Idle>0.218181818182</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>46</NumEvals>
+                    <RunTime>6.4173169136</RunTime>
+                    <IBD>1.07171815242</IBD>
+                    <IBS>0.0805886966992</IBS>
+                    <Cost>183.77517722</Cost>
+                    <Score>0.379739460833</Score>
+                    <Idle>0.438596491228</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>53</NumEvals>
+                    <RunTime>8.70948982239</RunTime>
+                    <IBD>0.894873745634</IBD>
+                    <IBS>0.0776941112257</IBS>
+                    <Cost>113.067887259</Cost>
+                    <Score>0.414061516971</Score>
+                    <Idle>0.0666666666667</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>83</NumEvals>
+                    <RunTime>7.20408797264</RunTime>
+                    <IBD>0.877447069211</IBD>
+                    <IBS>0.148401538627</IBS>
+                    <Cost>371.867182853</Cost>
+                    <Score>0.260592314383</Score>
+                    <Idle>0.142857142857</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>36</NumEvals>
+                    <RunTime>8.20479202271</RunTime>
+                    <IBD>0.806748324535</IBD>
+                    <IBS>0.0974298267282</IBS>
+                    <Cost>388.604699215</Cost>
+                    <Score>0.155842487957</Score>
+                    <Idle>0.0921052631579</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>66</NumEvals>
+                    <RunTime>4.40175104141</RunTime>
+                    <IBD>0.965291311279</IBD>
+                    <IBS>0.150780166908</IBS>
+                    <Cost>511.331107906</Cost>
+                    <Score>0.10970028717</Score>
+                    <Idle>0.111111111111</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>56</NumEvals>
+                    <RunTime>6.76433515549</RunTime>
+                    <IBD>0.908666722496</IBD>
+                    <IBS>0.115309895064</IBS>
+                    <Cost>212.082640168</Cost>
+                    <Score>0.296584267776</Score>
+                    <Idle>0.166666666667</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='GALE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>85</NumEvals>
+                    <RunTime>6.00770306587</RunTime>
+                    <IBD>0.907703749943</IBD>
+                    <IBS>0.064474398064</IBS>
+                    <Cost>354.997880305</Cost>
+                    <Score>0.0960580454423</Score>
+                    <Idle>0.0769230769231</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>88</NumEvals>
+                    <RunTime>5.81878113747</RunTime>
+                    <IBD>0.926086298951</IBD>
+                    <IBS>0.0727645216566</IBS>
+                    <Cost>313.615066366</Cost>
+                    <Score>0.126723849703</Score>
+                    <Idle>0.2</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>81</NumEvals>
+                    <RunTime>4.32863521576</RunTime>
+                    <IBD>0.912049267501</IBD>
+                    <IBS>0.0203279559652</IBS>
+                    <Cost>373.47316631</Cost>
+                    <Score>0.314715337348</Score>
+                    <Idle>0.466666666667</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>81</NumEvals>
+                    <RunTime>4.71314787865</RunTime>
+                    <IBD>0.972085280239</IBD>
+                    <IBS>0.0695312131766</IBS>
+                    <Cost>370.203872322</Cost>
+                    <Score>0.203998595793</Score>
+                    <Idle>0.0909090909091</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>98</NumEvals>
+                    <RunTime>5.31395506859</RunTime>
+                    <IBD>0.871572844625</IBD>
+                    <IBS>0.046912214218</IBS>
+                    <Cost>162.079074174</Cost>
+                    <Score>0.377370548108</Score>
+                    <Idle>0.111111111111</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>62</NumEvals>
+                    <RunTime>4.67581486702</RunTime>
+                    <IBD>0.851475195643</IBD>
+                    <IBS>0.0338052107404</IBS>
+                    <Cost>462.201403985</Cost>
+                    <Score>0.400016342577</Score>
+                    <Idle>0.0833333333333</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>108</NumEvals>
+                    <RunTime>5.1730120182</RunTime>
+                    <IBD>0.859977528543</IBD>
+                    <IBS>0.00782488308384</IBS>
+                    <Cost>176.251858499</Cost>
+                    <Score>0.191532171246</Score>
+                    <Idle>0.333333333333</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>101</NumEvals>
+                    <RunTime>12.6304380894</RunTime>
+                    <IBD>0.90628049229</IBD>
+                    <IBS>0.0575602427572</IBS>
+                    <Cost>655.673398703</Cost>
+                    <Score>0.0725008319817</Score>
+                    <Idle>0.0662251655629</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>69</NumEvals>
+                    <RunTime>4.59775209427</RunTime>
+                    <IBD>0.839713296668</IBD>
+                    <IBS>0.0297979568747</IBS>
+                    <Cost>399.781668248</Cost>
+                    <Score>0.0910092456237</Score>
+                    <Idle>0.104166666667</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>79</NumEvals>
+                    <RunTime>4.55909395218</RunTime>
+                    <IBD>0.921238976084</IBD>
+                    <IBS>0.0353387066786</IBS>
+                    <Cost>491.173447882</Cost>
+                    <Score>0.267129547526</Score>
+                    <Idle>0.0275229357798</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='DE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>212.436094046</RunTime>
+                    <IBD>0.783332649738</IBD>
+                    <IBS>0.0423636935651</IBS>
+                    <Cost>51.1090624275</Cost>
+                    <Score>0.0188876115258</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>107.218977928</RunTime>
+                    <IBD>0.774492838114</IBD>
+                    <IBS>0.0327252398852</IBS>
+                    <Cost>54.1297238059</Cost>
+                    <Score>0.00945069099186</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>55.7511379719</RunTime>
+                    <IBD>0.775978080589</IBD>
+                    <IBS>0.0327746883155</IBS>
+                    <Cost>97.5014133696</Cost>
+                    <Score>0.00985994952654</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>69.2845880985</RunTime>
+                    <IBD>0.816532030263</IBD>
+                    <IBS>0.0340397301588</IBS>
+                    <Cost>90.3925432528</Cost>
+                    <Score>0.00330502448797</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>77.088919878</RunTime>
+                    <IBD>0.819886066306</IBD>
+                    <IBS>0.0416777573828</IBS>
+                    <Cost>78.5221494507</Cost>
+                    <Score>0.00773340456001</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>91.5818479061</RunTime>
+                    <IBD>0.79969714741</IBD>
+                    <IBS>0.0326710772725</IBS>
+                    <Cost>53.6842921789</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>115.847208023</RunTime>
+                    <IBD>0.809095755637</IBD>
+                    <IBS>0.0395567083199</IBS>
+                    <Cost>45.6428668422</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>142.599383116</RunTime>
+                    <IBD>0.797552613366</IBD>
+                    <IBS>0.0394524070278</IBS>
+                    <Cost>78.8277203188</Cost>
+                    <Score>0.0144200216397</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>81.1406991482</RunTime>
+                    <IBD>0.798459458802</IBD>
+                    <IBS>0.0379465835821</IBS>
+                    <Cost>20.0575251878</Cost>
+                    <Score>0.0334827126939</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>128.225898981</RunTime>
+                    <IBD>0.775202965681</IBD>
+                    <IBS>0.035625070539</IBS>
+                    <Cost>109.289253584</Cost>
+                    <Score>0.00107663437257</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='MOEAD'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>12.2515001297</RunTime>
+                    <IBD>0.895903354766</IBD>
+                    <IBS>0.0691231747459</IBS>
+                    <Cost>54.3997280335</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>10.4689040184</RunTime>
+                    <IBD>0.837945940482</IBD>
+                    <IBS>0.0509062364832</IBS>
+                    <Cost>24.8340277686</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>8.25981903076</RunTime>
+                    <IBD>0.831902655244</IBD>
+                    <IBS>0.0329411054321</IBS>
+                    <Cost>33.9255241409</Cost>
+                    <Score>0.224480398224</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>8.34746384621</RunTime>
+                    <IBD>0.872417304878</IBD>
+                    <IBS>0.0372262830365</IBS>
+                    <Cost>82.4368876353</Cost>
+                    <Score>0.173520418042</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>8.62121701241</RunTime>
+                    <IBD>0.870780369696</IBD>
+                    <IBS>0.0683409597612</IBS>
+                    <Cost>102.735583398</Cost>
+                    <Score>-2.22044604925e-16</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>9.34141492844</RunTime>
+                    <IBD>0.846792521861</IBD>
+                    <IBS>0.0420178956599</IBS>
+                    <Cost>63.2034692856</Cost>
+                    <Score>0.0578092570365</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>9.42752814293</RunTime>
+                    <IBD>0.92071446123</IBD>
+                    <IBS>0.0477864508541</IBS>
+                    <Cost>33.8576176645</Cost>
+                    <Score>0.436072774334</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>828</NumEvals>
+                    <RunTime>5.49632382393</RunTime>
+                    <IBD>0.825976484588</IBD>
+                    <IBS>0.0408893167593</IBS>
+                    <Cost>71.6806591141</Cost>
+                    <Score>0.148175818707</Score>
+                    <Idle>0.0769230769231</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>8.98748397827</RunTime>
+                    <IBD>0.897092121856</IBD>
+                    <IBS>0.0202467107658</IBS>
+                    <Cost>67.9259001956</Cost>
+                    <Score>0.180974601426</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>8.88943696022</RunTime>
+                    <IBD>0.913020845703</IBD>
+                    <IBS>0.0539438869462</IBS>
+                    <Cost>55.0378307175</Cost>
+                    <Score>0.188939284719</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='NSGA3'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>16.4287102222</RunTime>
+                    <IBD>0.817016278315</IBD>
+                    <IBS>0.0374473137732</IBS>
+                    <Cost>53.374176567</Cost>
+                    <Score>0.0161640583184</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>21.8626098633</RunTime>
+                    <IBD>0.828877574586</IBD>
+                    <IBS>0.0402457212518</IBS>
+                    <Cost>47.1035337232</Cost>
+                    <Score>0.0197983333287</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>22.188519001</RunTime>
+                    <IBD>0.846305107641</IBD>
+                    <IBS>0.0386752332828</IBS>
+                    <Cost>22.475855442</Cost>
+                    <Score>0.0203623931794</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>22.533965826</RunTime>
+                    <IBD>0.814427706552</IBD>
+                    <IBS>0.0403424429161</IBS>
+                    <Cost>47.6207215675</Cost>
+                    <Score>0.00258195852448</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>23.2502861023</RunTime>
+                    <IBD>0.833228726657</IBD>
+                    <IBS>0.0378709362673</IBS>
+                    <Cost>40.8500816801</Cost>
+                    <Score>0.0276747355774</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>15.7817921638</RunTime>
+                    <IBD>0.801629026209</IBD>
+                    <IBS>0.0461347154517</IBS>
+                    <Cost>48.5641776985</Cost>
+                    <Score>0.0028597298662</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>16.426099062</RunTime>
+                    <IBD>0.834772711104</IBD>
+                    <IBS>0.0356594923972</IBS>
+                    <Cost>66.7302434922</Cost>
+                    <Score>0.00724193769838</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>22.5980520248</RunTime>
+                    <IBD>0.851879049364</IBD>
+                    <IBS>0.0457970784962</IBS>
+                    <Cost>71.1985519425</Cost>
+                    <Score>0.00368519069187</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>25.4911999702</RunTime>
+                    <IBD>0.822517596518</IBD>
+                    <IBS>0.0398510529273</IBS>
+                    <Cost>71.524751782</Cost>
+                    <Score>0.00516717793169</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>19.3710680008</RunTime>
+                    <IBD>0.810790795136</IBD>
+                    <IBS>0.0521965357406</IBS>
+                    <Cost>39.4210927172</Cost>
+                    <Score>0.0087897142727</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+    </Problem>
+    <Problem name='POM3C'>
+        <Algorithm name='GALE2'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>42</NumEvals>
+                    <RunTime>7.75075316429</RunTime>
+                    <IBD>0.954302530813</IBD>
+                    <IBS>0.0214611390827</IBS>
+                    <Cost>499.21461898</Cost>
+                    <Score>0.580947252978</Score>
+                    <Idle>0.204419889503</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>30</NumEvals>
+                    <RunTime>7.53686094284</RunTime>
+                    <IBD>0.985564918691</IBD>
+                    <IBS>0.0114165512278</IBS>
+                    <Cost>906.560327188</Cost>
+                    <Score>0.557004458262</Score>
+                    <Idle>0.128712871287</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>40</NumEvals>
+                    <RunTime>5.91223907471</RunTime>
+                    <IBD>0.862544743969</IBD>
+                    <IBS>0.0670689858401</IBS>
+                    <Cost>323.580335281</Cost>
+                    <Score>0.503635784632</Score>
+                    <Idle>0.0852713178295</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>52</NumEvals>
+                    <RunTime>6.73734211922</RunTime>
+                    <IBD>1.05749268533</IBD>
+                    <IBS>0.145901112133</IBS>
+                    <Cost>525.508267956</Cost>
+                    <Score>0.57816858561</Score>
+                    <Idle>0.22962962963</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>50</NumEvals>
+                    <RunTime>10.7898540497</RunTime>
+                    <IBD>0.938694645675</IBD>
+                    <IBS>0.163127057859</IBS>
+                    <Cost>437.47901726</Cost>
+                    <Score>0.590996688533</Score>
+                    <Idle>0.199524940618</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>36</NumEvals>
+                    <RunTime>8.20365691185</RunTime>
+                    <IBD>0.945555547181</IBD>
+                    <IBS>0.0757133823152</IBS>
+                    <Cost>394.1011804</Cost>
+                    <Score>0.591782029181</Score>
+                    <Idle>0.301801801802</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>42</NumEvals>
+                    <RunTime>5.91952991486</RunTime>
+                    <IBD>0.868913121527</IBD>
+                    <IBS>0.0431726383739</IBS>
+                    <Cost>682.082967533</Cost>
+                    <Score>0.562938180071</Score>
+                    <Idle>0.0588235294118</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>46</NumEvals>
+                    <RunTime>10.2614150047</RunTime>
+                    <IBD>0.817357800717</IBD>
+                    <IBS>0.055709681654</IBS>
+                    <Cost>318.45231957</Cost>
+                    <Score>0.52799544211</Score>
+                    <Idle>0.0892857142857</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>42</NumEvals>
+                    <RunTime>7.58100199699</RunTime>
+                    <IBD>1.00600830656</IBD>
+                    <IBS>0.058211232165</IBS>
+                    <Cost>788.764376017</Cost>
+                    <Score>0.513448552218</Score>
+                    <Idle>0.113043478261</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>45</NumEvals>
+                    <RunTime>7.35480308533</RunTime>
+                    <IBD>0.807946676699</IBD>
+                    <IBS>0.0171263717397</IBS>
+                    <Cost>545.347970806</Cost>
+                    <Score>0.52384045158</Score>
+                    <Idle>0.102564102564</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='GALE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>52</NumEvals>
+                    <RunTime>5.98825097084</RunTime>
+                    <IBD>0.950599736676</IBD>
+                    <IBS>0.0740630055732</IBS>
+                    <Cost>479.01951502</Cost>
+                    <Score>0.607889422451</Score>
+                    <Idle>0.0130293159609</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>52</NumEvals>
+                    <RunTime>6.89537405968</RunTime>
+                    <IBD>1.05482065815</IBD>
+                    <IBS>0.0434736384405</IBS>
+                    <Cost>935.220454992</Cost>
+                    <Score>0.612112297637</Score>
+                    <Idle>0.0754716981132</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>63</NumEvals>
+                    <RunTime>7.5562980175</RunTime>
+                    <IBD>0.8977227329</IBD>
+                    <IBS>0.12153089513</IBS>
+                    <Cost>304.920772626</Cost>
+                    <Score>0.527596849081</Score>
+                    <Idle>0.220472440945</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>79</NumEvals>
+                    <RunTime>6.51639389992</RunTime>
+                    <IBD>0.999162490697</IBD>
+                    <IBS>0.0558845036793</IBS>
+                    <Cost>930.593289256</Cost>
+                    <Score>0.587500294508</Score>
+                    <Idle>0.0272108843537</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>83</NumEvals>
+                    <RunTime>10.2547669411</RunTime>
+                    <IBD>1.04365532667</IBD>
+                    <IBS>0.164793801609</IBS>
+                    <Cost>331.463496438</Cost>
+                    <Score>0.563825775844</Score>
+                    <Idle>0.00724637681159</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>66</NumEvals>
+                    <RunTime>7.00506782532</RunTime>
+                    <IBD>0.962448920925</IBD>
+                    <IBS>0.111966007288</IBS>
+                    <Cost>330.692390559</Cost>
+                    <Score>0.49164361705</Score>
+                    <Idle>0.512261580381</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>68</NumEvals>
+                    <RunTime>6.36972498894</RunTime>
+                    <IBD>0.847584198227</IBD>
+                    <IBS>0.128907884803</IBS>
+                    <Cost>494.432493193</Cost>
+                    <Score>0.527245172666</Score>
+                    <Idle>0.23</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>79</NumEvals>
+                    <RunTime>7.13084292412</RunTime>
+                    <IBD>1.02512066835</IBD>
+                    <IBS>0.13406903415</IBS>
+                    <Cost>293.15908941</Cost>
+                    <Score>0.557133765048</Score>
+                    <Idle>0.375661375661</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>54</NumEvals>
+                    <RunTime>5.58523201942</RunTime>
+                    <IBD>0.914571412017</IBD>
+                    <IBS>0.0847748647038</IBS>
+                    <Cost>575.754294523</Cost>
+                    <Score>0.556417442929</Score>
+                    <Idle>0.16149068323</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>67</NumEvals>
+                    <RunTime>7.90075993538</RunTime>
+                    <IBD>0.903207895846</IBD>
+                    <IBS>0.0660381709186</IBS>
+                    <Cost>480.563225295</Cost>
+                    <Score>0.5469565252</Score>
+                    <Idle>0.246601941748</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='DE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>219.771097898</RunTime>
+                    <IBD>0.806212164805</IBD>
+                    <IBS>0.0346856549124</IBS>
+                    <Cost>197.234385361</Cost>
+                    <Score>0.483788681239</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>229.835227013</RunTime>
+                    <IBD>0.825310768544</IBD>
+                    <IBS>0.0291171771281</IBS>
+                    <Cost>288.4842104</Cost>
+                    <Score>0.435042718121</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>257.691906929</RunTime>
+                    <IBD>0.823290081198</IBD>
+                    <IBS>0.0398905886932</IBS>
+                    <Cost>253.995994028</Cost>
+                    <Score>0.444805901873</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>184.181444883</RunTime>
+                    <IBD>0.830834355062</IBD>
+                    <IBS>0.0308480992204</IBS>
+                    <Cost>283.881251146</Cost>
+                    <Score>0.368935735222</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>241.195775032</RunTime>
+                    <IBD>0.809709603185</IBD>
+                    <IBS>0.0311702955527</IBS>
+                    <Cost>347.242961775</Cost>
+                    <Score>0.406385821062</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>241.795772076</RunTime>
+                    <IBD>0.824903777605</IBD>
+                    <IBS>0.0441780404914</IBS>
+                    <Cost>263.021985159</Cost>
+                    <Score>0.430953423854</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>157.493079901</RunTime>
+                    <IBD>0.810387182231</IBD>
+                    <IBS>0.0353446486106</IBS>
+                    <Cost>280.272696733</Cost>
+                    <Score>0.413227522633</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>235.202796936</RunTime>
+                    <IBD>0.809472155631</IBD>
+                    <IBS>0.0338614084267</IBS>
+                    <Cost>349.281555446</Cost>
+                    <Score>0.43581247988</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>219.17132616</RunTime>
+                    <IBD>0.821186650039</IBD>
+                    <IBS>0.0317300111259</IBS>
+                    <Cost>338.391081944</Cost>
+                    <Score>0.391500298863</Score>
+                    <Idle>0.0106382978723</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>259.190550804</RunTime>
+                    <IBD>0.826855702551</IBD>
+                    <IBS>0.037658994476</IBS>
+                    <Cost>248.278110845</Cost>
+                    <Score>0.454925044234</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='MOEAD'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>69.6218209267</RunTime>
+                    <IBD>0.851386833786</IBD>
+                    <IBS>0.0605713507601</IBS>
+                    <Cost>195.361907673</Cost>
+                    <Score>0.548638287765</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>84.0614080429</RunTime>
+                    <IBD>0.835446192308</IBD>
+                    <IBS>0.0541517306746</IBS>
+                    <Cost>212.574104127</Cost>
+                    <Score>0.510058156075</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>82.226626873</RunTime>
+                    <IBD>0.85686562657</IBD>
+                    <IBS>0.0272601709933</IBS>
+                    <Cost>204.937953379</Cost>
+                    <Score>0.632674647359</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>551.472131014</RunTime>
+                    <IBD>0.850979778947</IBD>
+                    <IBS>0.0487841558505</IBS>
+                    <Cost>277.296682072</Cost>
+                    <Score>0.554650023583</Score>
+                    <Idle>0.0656455142232</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>69.9200279713</RunTime>
+                    <IBD>0.80753994178</IBD>
+                    <IBS>0.0595122759894</IBS>
+                    <Cost>201.461424742</Cost>
+                    <Score>0.496362134123</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>81.3738880157</RunTime>
+                    <IBD>0.898935593168</IBD>
+                    <IBS>0.0582405448718</IBS>
+                    <Cost>208.122706175</Cost>
+                    <Score>0.52883004576</Score>
+                    <Idle>0.0434782608696</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>69.2522060871</RunTime>
+                    <IBD>0.851880424979</IBD>
+                    <IBS>0.0406583378445</IBS>
+                    <Cost>178.977977604</Cost>
+                    <Score>0.577832116075</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>72.5655739307</RunTime>
+                    <IBD>0.828375310109</IBD>
+                    <IBS>0.0948532048611</IBS>
+                    <Cost>205.742360582</Cost>
+                    <Score>0.502902530784</Score>
+                    <Idle>0.00985221674877</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>90.8429689407</RunTime>
+                    <IBD>0.908640428561</IBD>
+                    <IBS>0.113977565208</IBS>
+                    <Cost>212.25951453</Cost>
+                    <Score>0.564204675196</Score>
+                    <Idle>0.0122699386503</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>77.5816800594</RunTime>
+                    <IBD>0.829721025775</IBD>
+                    <IBS>0.0325871079467</IBS>
+                    <Cost>213.215410031</Cost>
+                    <Score>0.530895148528</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='NSGA3'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>73.8071060181</RunTime>
+                    <IBD>0.859381393968</IBD>
+                    <IBS>0.0285639310382</IBS>
+                    <Cost>214.894022848</Cost>
+                    <Score>0.44840924207</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>81.7967870235</RunTime>
+                    <IBD>0.898799885232</IBD>
+                    <IBS>0.0428721024174</IBS>
+                    <Cost>335.787459349</Cost>
+                    <Score>0.350394804437</Score>
+                    <Idle>0.162790697674</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>74.6794700623</RunTime>
+                    <IBD>0.850669578406</IBD>
+                    <IBS>0.0269104947797</IBS>
+                    <Cost>267.814830444</Cost>
+                    <Score>0.399137464453</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>71.2218909264</RunTime>
+                    <IBD>0.890464438883</IBD>
+                    <IBS>0.0374251296591</IBS>
+                    <Cost>267.193958436</Cost>
+                    <Score>0.401030858373</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>68.5473659039</RunTime>
+                    <IBD>0.885676822654</IBD>
+                    <IBS>0.0300392637666</IBS>
+                    <Cost>254.243919214</Cost>
+                    <Score>0.406303627196</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>84.4936342239</RunTime>
+                    <IBD>0.896053511663</IBD>
+                    <IBS>0.0410589364568</IBS>
+                    <Cost>250.899122978</Cost>
+                    <Score>0.40789591427</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>76.2779669762</RunTime>
+                    <IBD>0.926242606038</IBD>
+                    <IBS>0.0329900137899</IBS>
+                    <Cost>259.013577743</Cost>
+                    <Score>0.422008805338</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>88.5775430202</RunTime>
+                    <IBD>0.878105542722</IBD>
+                    <IBS>0.0337602928091</IBS>
+                    <Cost>367.27185175</Cost>
+                    <Score>0.361220321505</Score>
+                    <Idle>0.0612244897959</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>61.4967930317</RunTime>
+                    <IBD>0.893671159815</IBD>
+                    <IBS>0.0377729148268</IBS>
+                    <Cost>293.0756162</Cost>
+                    <Score>0.368504504948</Score>
+                    <Idle>0.119402985075</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>84.4557931423</RunTime>
+                    <IBD>0.862314836916</IBD>
+                    <IBS>0.0235209184006</IBS>
+                    <Cost>278.366361485</Cost>
+                    <Score>0.364366405756</Score>
+                    <Idle>0.151785714286</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+    </Problem>
+    <Problem name='POM3D'>
+        <Algorithm name='GALE2'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>61</NumEvals>
+                    <RunTime>1.04075193405</RunTime>
+                    <IBD>0.832978590325</IBD>
+                    <IBS>0.118960045621</IBS>
+                    <Cost>323.206716935</Cost>
+                    <Score>0.0145776263106</Score>
+                    <Idle>0.0714285714286</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>58</NumEvals>
+                    <RunTime>0.875591993332</RunTime>
+                    <IBD>0.934758231714</IBD>
+                    <IBS>0.0451178406466</IBS>
+                    <Cost>155.862959985</Cost>
+                    <Score>0.009736152687</Score>
+                    <Idle>0.5</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>44</NumEvals>
+                    <RunTime>0.669387817383</RunTime>
+                    <IBD>0.927429885196</IBD>
+                    <IBS>0.033781525036</IBS>
+                    <Cost>218.2782157</Cost>
+                    <Score>0.0402898258205</Score>
+                    <Idle>0.260273972603</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>80</NumEvals>
+                    <RunTime>1.34187293053</RunTime>
+                    <IBD>0.86634871182</IBD>
+                    <IBS>0.0500513669066</IBS>
+                    <Cost>199.461288067</Cost>
+                    <Score>0.0170734791181</Score>
+                    <Idle>0.142857142857</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>49</NumEvals>
+                    <RunTime>0.790409088135</RunTime>
+                    <IBD>0.85628023745</IBD>
+                    <IBS>0.0275195022012</IBS>
+                    <Cost>169.724949572</Cost>
+                    <Score>0.0139048793376</Score>
+                    <Idle>0.363636363636</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>55</NumEvals>
+                    <RunTime>0.919041872025</RunTime>
+                    <IBD>1.07020337703</IBD>
+                    <IBS>0.0959917546075</IBS>
+                    <Cost>410.956106727</Cost>
+                    <Score>0.0368660950463</Score>
+                    <Idle>0.228571428571</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>55</NumEvals>
+                    <RunTime>0.829299211502</RunTime>
+                    <IBD>0.939020943764</IBD>
+                    <IBS>0.0669888318652</IBS>
+                    <Cost>244.756838376</Cost>
+                    <Score>0.040634704087</Score>
+                    <Idle>0.214285714286</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>80</NumEvals>
+                    <RunTime>1.25147795677</RunTime>
+                    <IBD>1.10220905561</IBD>
+                    <IBS>0.0812806570507</IBS>
+                    <Cost>225.857975884</Cost>
+                    <Score>0.0309098602523</Score>
+                    <Idle>0.404761904762</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>66</NumEvals>
+                    <RunTime>1.09170198441</RunTime>
+                    <IBD>0.983920585902</IBD>
+                    <IBS>0.0221534495098</IBS>
+                    <Cost>164.679355106</Cost>
+                    <Score>0.0434506275573</Score>
+                    <Idle>0.25</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>30</NumEvals>
+                    <RunTime>0.537651777267</RunTime>
+                    <IBD>0.935733642076</IBD>
+                    <IBS>0.0437049741369</IBS>
+                    <Cost>137.363008723</Cost>
+                    <Score>0.0155954084527</Score>
+                    <Idle>0.181818181818</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='GALE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>100</NumEvals>
+                    <RunTime>1.10012316704</RunTime>
+                    <IBD>0.939038940229</IBD>
+                    <IBS>0.115838076713</IBS>
+                    <Cost>135.86982237</Cost>
+                    <Score>0.0436167969892</Score>
+                    <Idle>0.2</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>107</NumEvals>
+                    <RunTime>1.15860486031</RunTime>
+                    <IBD>0.797644652886</IBD>
+                    <IBS>0.0458481611068</IBS>
+                    <Cost>112.465661929</Cost>
+                    <Score>0.0187248292482</Score>
+                    <Idle>0.142857142857</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>111</NumEvals>
+                    <RunTime>1.19276094437</RunTime>
+                    <IBD>0.937709839702</IBD>
+                    <IBS>0.0617793545753</IBS>
+                    <Cost>209.388251555</Cost>
+                    <Score>0.0384072974877</Score>
+                    <Idle>0.0833333333333</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>60</NumEvals>
+                    <RunTime>0.679185152054</RunTime>
+                    <IBD>0.850742737776</IBD>
+                    <IBS>0.144071760924</IBS>
+                    <Cost>310.694983243</Cost>
+                    <Score>0.0284437921472</Score>
+                    <Idle>0.0769230769231</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>100</NumEvals>
+                    <RunTime>1.1358859539</RunTime>
+                    <IBD>0.859538469276</IBD>
+                    <IBS>0.0281455705837</IBS>
+                    <Cost>167.510187773</Cost>
+                    <Score>0.0158346838756</Score>
+                    <Idle>0.315789473684</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>67</NumEvals>
+                    <RunTime>0.808656930923</RunTime>
+                    <IBD>0.932204534088</IBD>
+                    <IBS>0.167659713702</IBS>
+                    <Cost>148.598550647</Cost>
+                    <Score>0.0491803439042</Score>
+                    <Idle>0.307692307692</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>86</NumEvals>
+                    <RunTime>0.974817037582</RunTime>
+                    <IBD>0.907716346852</IBD>
+                    <IBS>0.0663774366776</IBS>
+                    <Cost>381.663044277</Cost>
+                    <Score>0.02699306063</Score>
+                    <Idle>0.127272727273</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>88</NumEvals>
+                    <RunTime>1.03624296188</RunTime>
+                    <IBD>0.939835488787</IBD>
+                    <IBS>0.0707945702633</IBS>
+                    <Cost>180.466927582</Cost>
+                    <Score>0.0454650632261</Score>
+                    <Idle>0.230769230769</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>63</NumEvals>
+                    <RunTime>0.663542032242</RunTime>
+                    <IBD>1.06041493021</IBD>
+                    <IBS>0.0450618338391</IBS>
+                    <Cost>805.320653138</Cost>
+                    <Score>0.0184143330152</Score>
+                    <Idle>0.235294117647</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>46</NumEvals>
+                    <RunTime>0.451744794846</RunTime>
+                    <IBD>1.02590625919</IBD>
+                    <IBS>0.0377602283548</IBS>
+                    <Cost>552.367305418</Cost>
+                    <Score>0.0243416994869</Score>
+                    <Idle>0.272727272727</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='DE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>4.48696303368</RunTime>
+                    <IBD>0.814236832925</IBD>
+                    <IBS>0.0462719639528</IBS>
+                    <Cost>54.525652136</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>4.23928308487</RunTime>
+                    <IBD>0.818863866054</IBD>
+                    <IBS>0.0308151990966</IBS>
+                    <Cost>85.3643149855</Cost>
+                    <Score>0.00214905420707</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>4.11472821236</RunTime>
+                    <IBD>0.824438425663</IBD>
+                    <IBS>0.0331553905636</IBS>
+                    <Cost>46.3328235708</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>4.46626281738</RunTime>
+                    <IBD>0.805888783411</IBD>
+                    <IBS>0.0341630474875</IBS>
+                    <Cost>65.2234391485</Cost>
+                    <Score>0.00426474346689</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>4.3772649765</RunTime>
+                    <IBD>0.803906191437</IBD>
+                    <IBS>0.0308158574735</IBS>
+                    <Cost>53.57424837</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>4.77722191811</RunTime>
+                    <IBD>0.814185652549</IBD>
+                    <IBS>0.025515069562</IBS>
+                    <Cost>58.191056124</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>4.7074739933</RunTime>
+                    <IBD>0.803990565507</IBD>
+                    <IBS>0.0276974021605</IBS>
+                    <Cost>87.5624533675</Cost>
+                    <Score>0.00348358971028</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>3.88630700111</RunTime>
+                    <IBD>0.814830316751</IBD>
+                    <IBS>0.031781981173</IBS>
+                    <Cost>34.1428147241</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>3.99022006989</RunTime>
+                    <IBD>0.825263153881</IBD>
+                    <IBS>0.0286342423999</IBS>
+                    <Cost>21.80319895</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>3.83939909935</RunTime>
+                    <IBD>0.794947779997</IBD>
+                    <IBS>0.0320878386757</IBS>
+                    <Cost>33.9474778034</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='MOEAD'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.48289895058</RunTime>
+                    <IBD>0.848653779243</IBD>
+                    <IBS>0.0844697466728</IBS>
+                    <Cost>16.7551468587</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.33661603928</RunTime>
+                    <IBD>0.916687531063</IBD>
+                    <IBS>0.0</IBS>
+                    <Cost>17.6998716698</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.42678809166</RunTime>
+                    <IBD>0.822649528917</IBD>
+                    <IBS>0.101808200453</IBS>
+                    <Cost>24.4666314858</Cost>
+                    <Score>0.0117959101615</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.21599602699</RunTime>
+                    <IBD>0.918571310908</IBD>
+                    <IBS>0.0</IBS>
+                    <Cost>35.6390884179</Cost>
+                    <Score>0.037029383246</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.59032392502</RunTime>
+                    <IBD>0.842155386751</IBD>
+                    <IBS>0.031555894627</IBS>
+                    <Cost>39.1678259646</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.36907696724</RunTime>
+                    <IBD>0.788319899646</IBD>
+                    <IBS>0.0550764504271</IBS>
+                    <Cost>7.0022501805</Cost>
+                    <Score>0.0150564494038</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.30124306679</RunTime>
+                    <IBD>0.896564250776</IBD>
+                    <IBS>0.0584056708318</IBS>
+                    <Cost>32.5799685294</Cost>
+                    <Score>0.0413481389602</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.67836999893</RunTime>
+                    <IBD>0.940090940062</IBD>
+                    <IBS>0.0874072475494</IBS>
+                    <Cost>52.0843491445</Cost>
+                    <Score>0.0369138887467</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.2787270546</RunTime>
+                    <IBD>0.847568102347</IBD>
+                    <IBS>0.0711194104618</IBS>
+                    <Cost>54.4562744668</Cost>
+                    <Score>0.00462268631913</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.56473112106</RunTime>
+                    <IBD>0.863827788256</IBD>
+                    <IBS>0.0489464122815</IBS>
+                    <Cost>35.9937912986</Cost>
+                    <Score>0.0281500906435</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='NSGA3'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>6.04020094872</RunTime>
+                    <IBD>0.90036644966</IBD>
+                    <IBS>0.0455862158542</IBS>
+                    <Cost>12.5936251131</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.93048501015</RunTime>
+                    <IBD>0.879719047193</IBD>
+                    <IBS>0.0530596675496</IBS>
+                    <Cost>30.7355275295</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.84973692894</RunTime>
+                    <IBD>0.888766888174</IBD>
+                    <IBS>0.050147761273</IBS>
+                    <Cost>49.3796807257</Cost>
+                    <Score>0.00558834197772</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>6.01625299454</RunTime>
+                    <IBD>0.853974587818</IBD>
+                    <IBS>0.0529933227404</IBS>
+                    <Cost>17.455251585</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.96871900558</RunTime>
+                    <IBD>0.797208009502</IBD>
+                    <IBS>0.0396498302941</IBS>
+                    <Cost>50.1070085752</Cost>
+                    <Score>0.00490810756254</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.95499801636</RunTime>
+                    <IBD>0.89897178603</IBD>
+                    <IBS>0.0404072777609</IBS>
+                    <Cost>47.4692457821</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.93774914742</RunTime>
+                    <IBD>0.869495857583</IBD>
+                    <IBS>0.0399152354964</IBS>
+                    <Cost>29.0740802836</Cost>
+                    <Score>0.0371754971766</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>6.07902002335</RunTime>
+                    <IBD>0.891990372781</IBD>
+                    <IBS>0.0407219331378</IBS>
+                    <Cost>52.5580721002</Cost>
+                    <Score>0.0021789201954</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.86738181114</RunTime>
+                    <IBD>0.895990032708</IBD>
+                    <IBS>0.0455037762156</IBS>
+                    <Cost>25.1761664689</Cost>
+                    <Score>0.0147088692663</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>6.03468585014</RunTime>
+                    <IBD>0.838451200219</IBD>
+                    <IBS>0.0461545354674</IBS>
+                    <Cost>25.8317970879</Cost>
+                    <Score>0.0</Score>
+                    <Idle>0.0</Idle>
+                </Summary>
+            </Run>
+        </Algorithm>
+    </Problem>
+    <Problem name='xomo_all'>
+        <Algorithm name='GALE2'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>47</NumEvals>
+                    <RunTime>1.63131308556</RunTime>
+                    <IBD>1.11030036426</IBD>
+                    <IBS>0.067195719527</IBS>
+                    <Effort>1706.93594779</Effort>
+                    <Months>24.1468763775</Months>
+                    <Defects>31950.7098542</Defects>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>39</NumEvals>
+                    <RunTime>1.24930000305</RunTime>
+                    <IBD>0.931034100656</IBD>
+                    <IBS>0.174856394684</IBS>
+                    <Effort>1466.878551</Effort>
+                    <Months>24.8751146599</Months>
+                    <Defects>5710.67637504</Defects>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>41</NumEvals>
+                    <RunTime>1.31987595558</RunTime>
+                    <IBD>0.938861516196</IBD>
+                    <IBS>0.17792989029</IBS>
+                    <Effort>643.235781589</Effort>
+                    <Months>18.7758143695</Months>
+                    <Defects>5266.01677152</Defects>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>38</NumEvals>
+                    <RunTime>1.2869579792</RunTime>
+                    <IBD>1.02397372078</IBD>
+                    <IBS>0.0673389604569</IBS>
+                    <Effort>893.947719203</Effort>
+                    <Months>24.5115421923</Months>
+                    <Defects>13792.0422601</Defects>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>29</NumEvals>
+                    <RunTime>0.916071891785</RunTime>
+                    <IBD>0.991234278733</IBD>
+                    <IBS>0.162762401581</IBS>
+                    <Effort>406.00846304</Effort>
+                    <Months>22.1682588689</Months>
+                    <Defects>2018.83146857</Defects>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>27</NumEvals>
+                    <RunTime>0.956856966019</RunTime>
+                    <IBD>0.932765711861</IBD>
+                    <IBS>0.0901814219117</IBS>
+                    <Effort>1090.37866761</Effort>
+                    <Months>22.8096820633</Months>
+                    <Defects>9226.47012707</Defects>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>28</NumEvals>
+                    <RunTime>0.923444986343</RunTime>
+                    <IBD>1.03399495917</IBD>
+                    <IBS>0.187666928655</IBS>
+                    <Effort>185.795169997</Effort>
+                    <Months>15.0761086459</Months>
+                    <Defects>1416.44896609</Defects>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>34</NumEvals>
+                    <RunTime>1.12854599953</RunTime>
+                    <IBD>1.01623817173</IBD>
+                    <IBS>0.177660342754</IBS>
+                    <Effort>751.736411868</Effort>
+                    <Months>22.8023077579</Months>
+                    <Defects>3522.23009968</Defects>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>53</NumEvals>
+                    <RunTime>1.66034078598</RunTime>
+                    <IBD>0.949720126648</IBD>
+                    <IBS>0.219992894283</IBS>
+                    <Effort>1154.99094699</Effort>
+                    <Months>22.2021463041</Months>
+                    <Defects>3628.78733622</Defects>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>51</NumEvals>
+                    <RunTime>1.63363003731</RunTime>
+                    <IBD>1.03932242425</IBD>
+                    <IBS>0.141124419519</IBS>
+                    <Effort>320.526833171</Effort>
+                    <Months>18.243534594</Months>
+                    <Defects>475.179204186</Defects>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='GALE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>62</NumEvals>
+                    <RunTime>1.38110184669</RunTime>
+                    <IBD>1.01469387598</IBD>
+                    <IBS>0.0686899027268</IBS>
+                    <Effort>1826.75840532</Effort>
+                    <Months>36.247233565</Months>
+                    <Defects>2850.65703399</Defects>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>53</NumEvals>
+                    <RunTime>1.41193914413</RunTime>
+                    <IBD>1.06603862821</IBD>
+                    <IBS>0.131279916442</IBS>
+                    <Effort>791.74713098</Effort>
+                    <Months>27.81184937</Months>
+                    <Defects>4415.03755477</Defects>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>44</NumEvals>
+                    <RunTime>0.98283290863</RunTime>
+                    <IBD>1.01822081966</IBD>
+                    <IBS>0.0768498090214</IBS>
+                    <Effort>961.585387898</Effort>
+                    <Months>21.230316589</Months>
+                    <Defects>3191.6385287</Defects>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>47</NumEvals>
+                    <RunTime>1.02958583832</RunTime>
+                    <IBD>0.962994066404</IBD>
+                    <IBS>0.131748356861</IBS>
+                    <Effort>418.898897949</Effort>
+                    <Months>23.6223019249</Months>
+                    <Defects>2508.56436595</Defects>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>33</NumEvals>
+                    <RunTime>0.846575021744</RunTime>
+                    <IBD>0.849423265512</IBD>
+                    <IBS>0.000641173519709</IBS>
+                    <Effort>677.922575313</Effort>
+                    <Months>28.127152215</Months>
+                    <Defects>13152.0521249</Defects>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>74</NumEvals>
+                    <RunTime>1.56285619736</RunTime>
+                    <IBD>1.07164085215</IBD>
+                    <IBS>0.173848345775</IBS>
+                    <Effort>1944.88608685</Effort>
+                    <Months>30.4563580735</Months>
+                    <Defects>20157.2092462</Defects>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>44</NumEvals>
+                    <RunTime>0.983935117722</RunTime>
+                    <IBD>0.9727818272</IBD>
+                    <IBS>0.145366418801</IBS>
+                    <Effort>510.291371594</Effort>
+                    <Months>23.8174755125</Months>
+                    <Defects>2226.60226716</Defects>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>80</NumEvals>
+                    <RunTime>1.77000498772</RunTime>
+                    <IBD>0.900978925485</IBD>
+                    <IBS>0.0980374067904</IBS>
+                    <Effort>1303.03243142</Effort>
+                    <Months>24.3501697747</Months>
+                    <Defects>6121.55031994</Defects>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>47</NumEvals>
+                    <RunTime>1.02863192558</RunTime>
+                    <IBD>1.04270433766</IBD>
+                    <IBS>0.0589121117792</IBS>
+                    <Effort>1235.41783764</Effort>
+                    <Months>44.0587219803</Months>
+                    <Defects>5023.88431022</Defects>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>62</NumEvals>
+                    <RunTime>1.36305713654</RunTime>
+                    <IBD>0.769764516011</IBD>
+                    <IBS>0.011052490252</IBS>
+                    <Effort>1415.34851834</Effort>
+                    <Months>22.784594195</Months>
+                    <Defects>7005.20465884</Defects>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='DE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>1.62163186073</RunTime>
+                    <IBD>0.762748570717</IBD>
+                    <IBS>0.0480509946953</IBS>
+                    <Effort>12.8834220096</Effort>
+                    <Months>5.74014959984</Months>
+                    <Defects>45.4435037873</Defects>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>1.60911488533</RunTime>
+                    <IBD>0.764066238684</IBD>
+                    <IBS>0.0466891851905</IBS>
+                    <Effort>15.5551857126</Effort>
+                    <Months>6.10976854343</Months>
+                    <Defects>162.039512747</Defects>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>1.60382223129</RunTime>
+                    <IBD>0.756803932309</IBD>
+                    <IBS>0.045586045539</IBS>
+                    <Effort>14.410615626</Effort>
+                    <Months>5.89755226867</Months>
+                    <Defects>114.567061754</Defects>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>1.60283184052</RunTime>
+                    <IBD>0.779070720216</IBD>
+                    <IBS>0.0337226357628</IBS>
+                    <Effort>13.2392403918</Effort>
+                    <Months>5.83485825067</Months>
+                    <Defects>26.2956698547</Defects>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>1.67571902275</RunTime>
+                    <IBD>0.756028338403</IBD>
+                    <IBS>0.0375169628599</IBS>
+                    <Effort>17.1995514121</Effort>
+                    <Months>6.29164148857</Months>
+                    <Defects>222.65411768</Defects>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>1.59373307228</RunTime>
+                    <IBD>0.757815341424</IBD>
+                    <IBS>0.0407107023027</IBS>
+                    <Effort>19.5127938492</Effort>
+                    <Months>6.38641700485</Months>
+                    <Defects>56.0297702153</Defects>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>1.58913207054</RunTime>
+                    <IBD>0.785102297826</IBD>
+                    <IBS>0.0377356222857</IBS>
+                    <Effort>23.6370646825</Effort>
+                    <Months>8.01811100401</Months>
+                    <Defects>141.657389452</Defects>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>1.58294892311</RunTime>
+                    <IBD>0.805095960786</IBD>
+                    <IBS>0.032162068747</IBS>
+                    <Effort>10.206597893</Effort>
+                    <Months>6.28986691912</Months>
+                    <Defects>49.2947659971</Defects>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>1.59527206421</RunTime>
+                    <IBD>0.774256131583</IBD>
+                    <IBS>0.0379607151214</IBS>
+                    <Effort>37.20568166</Effort>
+                    <Months>7.70684715316</Months>
+                    <Defects>67.8658228111</Defects>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>1.59466004372</RunTime>
+                    <IBD>0.771677936377</IBD>
+                    <IBS>0.0422342140375</IBS>
+                    <Effort>24.7221854514</Effort>
+                    <Months>9.55660515385</Months>
+                    <Defects>25.4339213249</Defects>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='MOEAD'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>6.89550185204</RunTime>
+                    <IBD>0.725843739984</IBD>
+                    <IBS>0.00286543964868</IBS>
+                    <Effort>31.5521675698</Effort>
+                    <Months>7.45888145369</Months>
+                    <Defects>111.198907458</Defects>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>6.89233613014</RunTime>
+                    <IBD>0.728739807362</IBD>
+                    <IBS>0.00716373350288</IBS>
+                    <Effort>13.5741962466</Effort>
+                    <Months>6.64326936475</Months>
+                    <Defects>35.3239283445</Defects>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>6.96871614456</RunTime>
+                    <IBD>0.723920186791</IBD>
+                    <IBS>0.00719958246065</IBS>
+                    <Effort>25.634620838</Effort>
+                    <Months>7.13254097126</Months>
+                    <Defects>45.9610588378</Defects>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.17988610268</RunTime>
+                    <IBD>0.73416226675</IBD>
+                    <IBS>0.0173786875904</IBS>
+                    <Effort>13.9501803973</Effort>
+                    <Months>6.80289239321</Months>
+                    <Defects>35.0292800141</Defects>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>6.91604304314</RunTime>
+                    <IBD>0.725063966508</IBD>
+                    <IBS>0.0141880678469</IBS>
+                    <Effort>11.1630423761</Effort>
+                    <Months>6.41946282759</Months>
+                    <Defects>17.4595029402</Defects>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.07501006126</RunTime>
+                    <IBD>0.743501807599</IBD>
+                    <IBS>0.0181461778166</IBS>
+                    <Effort>9.43804629455</Effort>
+                    <Months>6.16759714814</Months>
+                    <Defects>58.8500382804</Defects>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>6.92088198662</RunTime>
+                    <IBD>0.733304587744</IBD>
+                    <IBS>0.025259168353</IBS>
+                    <Effort>43.6118477082</Effort>
+                    <Months>9.99403042502</Months>
+                    <Defects>183.448958322</Defects>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.04158711433</RunTime>
+                    <IBD>0.732406186771</IBD>
+                    <IBS>0.0213961725485</IBS>
+                    <Effort>16.7805029665</Effort>
+                    <Months>6.12019073924</Months>
+                    <Defects>34.8573586129</Defects>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.08429908752</RunTime>
+                    <IBD>0.731644227536</IBD>
+                    <IBS>0.0187513359472</IBS>
+                    <Effort>6.76255244048</Effort>
+                    <Months>5.46018212386</Months>
+                    <Defects>27.6148607758</Defects>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>6.85868406296</RunTime>
+                    <IBD>0.729581629195</IBD>
+                    <IBS>0.0173376780373</IBS>
+                    <Effort>14.6330816186</Effort>
+                    <Months>6.89071592399</Months>
+                    <Defects>51.8743689021</Defects>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='NSGA3'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.09634613991</RunTime>
+                    <IBD>0.759526679934</IBD>
+                    <IBS>0.0263274394299</IBS>
+                    <Effort>13.391965302</Effort>
+                    <Months>6.89181413058</Months>
+                    <Defects>81.4590363756</Defects>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.17941784859</RunTime>
+                    <IBD>0.758553904933</IBD>
+                    <IBS>0.0204666110766</IBS>
+                    <Effort>4.93961448481</Effort>
+                    <Months>6.03352839754</Months>
+                    <Defects>10.9327232801</Defects>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.10615992546</RunTime>
+                    <IBD>0.747118281854</IBD>
+                    <IBS>0.021996556166</IBS>
+                    <Effort>9.55480169879</Effort>
+                    <Months>7.6177737684</Months>
+                    <Defects>44.5032863982</Defects>
+                </Summary>
+            </Run>
+            <Run id='4'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.1621131897</RunTime>
+                    <IBD>0.751445841664</IBD>
+                    <IBS>0.0261341489726</IBS>
+                    <Effort>14.019673656</Effort>
+                    <Months>6.85087159889</Months>
+                    <Defects>118.157119183</Defects>
+                </Summary>
+            </Run>
+            <Run id='5'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.13197112083</RunTime>
+                    <IBD>0.754867128769</IBD>
+                    <IBS>0.0220615360122</IBS>
+                    <Effort>24.1268723012</Effort>
+                    <Months>6.94663290075</Months>
+                    <Defects>35.5322244732</Defects>
+                </Summary>
+            </Run>
+            <Run id='6'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.1209859848</RunTime>
+                    <IBD>0.753912926637</IBD>
+                    <IBS>0.0179679653466</IBS>
+                    <Effort>8.80301700952</Effort>
+                    <Months>5.04684399479</Months>
+                    <Defects>18.5512147855</Defects>
+                </Summary>
+            </Run>
+            <Run id='7'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.13093185425</RunTime>
+                    <IBD>0.754353024527</IBD>
+                    <IBS>0.0237210759675</IBS>
+                    <Effort>16.3764429882</Effort>
+                    <Months>6.10539264001</Months>
+                    <Defects>53.3194015328</Defects>
+                </Summary>
+            </Run>
+            <Run id='8'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.11050701141</RunTime>
+                    <IBD>0.752333252824</IBD>
+                    <IBS>0.0215881601476</IBS>
+                    <Effort>20.7291849963</Effort>
+                    <Months>6.45272190923</Months>
+                    <Defects>70.4111885244</Defects>
+                </Summary>
+            </Run>
+            <Run id='9'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.17527008057</RunTime>
+                    <IBD>0.763829888678</IBD>
+                    <IBS>0.0202764623702</IBS>
+                    <Effort>14.568989941</Effort>
+                    <Months>6.01616192283</Months>
+                    <Defects>64.0677072814</Defects>
+                </Summary>
+            </Run>
+            <Run id='10'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>7.11722207069</RunTime>
+                    <IBD>0.756260229601</IBD>
+                    <IBS>0.0206091800575</IBS>
+                    <Effort>9.92747002328</Effort>
+                    <Months>5.32936631083</Months>
+                    <Defects>39.7055307501</Defects>
+                </Summary>
+            </Run>
+        </Algorithm>
+    </Problem>
+</Experiment>

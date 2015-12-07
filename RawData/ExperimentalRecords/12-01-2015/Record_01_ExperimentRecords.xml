@@ -1,0 +1,710 @@
+<Experiment>
+    <Problem name='Web_Portal'>
+        <Algorithm name='GALE2'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>115</NumEvals>
+                    <RunTime>16.9929878712</RunTime>
+                    <IBD>0.98317259898</IBD>
+                    <IBS>0.0287886977013</IBS>
+                    <number_of_features>16</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>11.0903822186</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>114</NumEvals>
+                    <RunTime>20.1106939316</RunTime>
+                    <IBD>0.885849473166</IBD>
+                    <IBS>0.018396985317</IBS>
+                    <number_of_features>26</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>6.41403460862</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>108</NumEvals>
+                    <RunTime>20.9020769596</RunTime>
+                    <IBD>0.976032722407</IBD>
+                    <IBS>0.0259393795549</IBS>
+                    <number_of_features>11</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>14.1208301339</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='GALE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>175</NumEvals>
+                    <RunTime>23.2640960217</RunTime>
+                    <IBD>0.989246775068</IBD>
+                    <IBS>0.0128499487038</IBS>
+                    <number_of_features>39</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>5.58423487209</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>179</NumEvals>
+                    <RunTime>24.1400120258</RunTime>
+                    <IBD>0.927684283843</IBD>
+                    <IBS>0.000988850893294</IBS>
+                    <number_of_features>17</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>9.93637491279</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>179</NumEvals>
+                    <RunTime>23.3572309017</RunTime>
+                    <IBD>0.936965420824</IBD>
+                    <IBS>0.0350765450066</IBS>
+                    <number_of_features>30</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>5.63486700636</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='DE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>2.15698099136</RunTime>
+                    <IBD>0.939266261468</IBD>
+                    <IBS>0.0156716862733</IBS>
+                    <number_of_features>17</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>7.69443101184</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>2.8788061142</RunTime>
+                    <IBD>0.954297389314</IBD>
+                    <IBS>0.0127392187895</IBS>
+                    <number_of_features>21</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>6.12397221864</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>2.46472001076</RunTime>
+                    <IBD>0.938397821294</IBD>
+                    <IBS>0.0111403127534</IBS>
+                    <number_of_features>24</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>4.82321827984</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='MOEAD'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>20.6378350258</RunTime>
+                    <IBD>0.942977264616</IBD>
+                    <IBS>0.0170115734315</IBS>
+                    <number_of_features>24</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>4.77273026658</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>19.3869740963</RunTime>
+                    <IBD>0.961297917262</IBD>
+                    <IBS>0.00687147582154</IBS>
+                    <number_of_features>18</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>9.16360919642</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>20.6543080807</RunTime>
+                    <IBD>0.948869567407</IBD>
+                    <IBS>0.0053698703314</IBS>
+                    <number_of_features>22</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>5.57591021934</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='NSGA3'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>17.24914217</RunTime>
+                    <IBD>1.00235923315</IBD>
+                    <IBS>0.0499251563434</IBS>
+                    <number_of_features>24.0</number_of_features>
+                    <constrained_violated>0.0</constrained_violated>
+                    <cost>4.5665504642</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>17.275179863</RunTime>
+                    <IBD>0.980981693265</IBD>
+                    <IBS>0.0484920675674</IBS>
+                    <number_of_features>24.0</number_of_features>
+                    <constrained_violated>0.0</constrained_violated>
+                    <cost>4.5665504642</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>16.3730380535</RunTime>
+                    <IBD>0.997222193809</IBD>
+                    <IBS>0.0524636958423</IBS>
+                    <number_of_features>24.0</number_of_features>
+                    <constrained_violated>0.0</constrained_violated>
+                    <cost>4.5665504642</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+    </Problem>
+    <Problem name='eshop'>
+        <Algorithm name='GALE2'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>108</NumEvals>
+                    <RunTime>1964.11667991</RunTime>
+                    <IBD>0.98860474509</IBD>
+                    <IBS>0.00696065116376</IBS>
+                    <number_of_features>101</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>83.2879804053</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>114</NumEvals>
+                    <RunTime>1850.85395098</RunTime>
+                    <IBD>0.980249142253</IBD>
+                    <IBS>0.00744871677308</IBS>
+                    <number_of_features>125</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>69.3623708189</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>113</NumEvals>
+                    <RunTime>1694.10649204</RunTime>
+                    <IBD>0.998433445506</IBD>
+                    <IBS>0.0075280358146</IBS>
+                    <number_of_features>102</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>80.4601194529</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='GALE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>179</NumEvals>
+                    <RunTime>2453.49706388</RunTime>
+                    <IBD>0.931942564911</IBD>
+                    <IBS>0.0136548851129</IBS>
+                    <number_of_features>118</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>69.4839232076</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>166</NumEvals>
+                    <RunTime>2308.5420022</RunTime>
+                    <IBD>0.979023424183</IBD>
+                    <IBS>0.0259285565192</IBS>
+                    <number_of_features>85</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>84.670663597</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>170</NumEvals>
+                    <RunTime>2322.31339002</RunTime>
+                    <IBD>0.957255851518</IBD>
+                    <IBS>0.00101429783733</IBS>
+                    <number_of_features>153</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>62.9804428787</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='DE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>9.94526696205</RunTime>
+                    <IBD>0.959720208899</IBD>
+                    <IBS>0.017092509589</IBS>
+                    <number_of_features>75</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>80.3836477155</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>10.0405070782</RunTime>
+                    <IBD>0.957930921865</IBD>
+                    <IBS>0.0121436053828</IBS>
+                    <number_of_features>69</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>81.6998472037</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>9.9666800499</RunTime>
+                    <IBD>0.964843743655</IBD>
+                    <IBS>0.00849876841551</IBS>
+                    <number_of_features>86</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>74.144633709</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='MOEAD'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>110.44741416</RunTime>
+                    <IBD>0.969235878898</IBD>
+                    <IBS>0.00885561102226</IBS>
+                    <number_of_features>75</number_of_features>
+                    <constrained_violated>1</constrained_violated>
+                    <cost>79.7268851563</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>116.431571007</RunTime>
+                    <IBD>1.04681113608</IBD>
+                    <IBS>0.0330396705214</IBS>
+                    <number_of_features>157</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>59.7246923916</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>112.169468164</RunTime>
+                    <IBD>0.998828302571</IBD>
+                    <IBS>0.00478755886938</IBS>
+                    <number_of_features>141</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>62.7066654889</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='NSGA3'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>71.3075480461</RunTime>
+                    <IBD>0.979270506786</IBD>
+                    <IBS>0.0302564367263</IBS>
+                    <number_of_features>96.0</number_of_features>
+                    <constrained_violated>0.0</constrained_violated>
+                    <cost>66.0935292121</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>70.7754340172</RunTime>
+                    <IBD>0.980352213655</IBD>
+                    <IBS>0.0435844426798</IBS>
+                    <number_of_features>137.0</number_of_features>
+                    <constrained_violated>0.0</constrained_violated>
+                    <cost>52.2155644529</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>70.0003259182</RunTime>
+                    <IBD>0.976187970897</IBD>
+                    <IBS>0.0325896863017</IBS>
+                    <number_of_features>109.0</number_of_features>
+                    <constrained_violated>0.0</constrained_violated>
+                    <cost>61.2776440461</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+    </Problem>
+    <Problem name='cellphone'>
+        <Algorithm name='GALE2'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>105</NumEvals>
+                    <RunTime>1.63937592506</RunTime>
+                    <IBD>0.947379173168</IBD>
+                    <IBS>0.00829329388618</IBS>
+                    <number_of_features>2</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>2.90021018694</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>107</NumEvals>
+                    <RunTime>1.64044690132</RunTime>
+                    <IBD>0.963965758899</IBD>
+                    <IBS>0.000539096956334</IBS>
+                    <number_of_features>1</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>3.68645777168</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>113</NumEvals>
+                    <RunTime>1.73936414719</RunTime>
+                    <IBD>0.981588077561</IBD>
+                    <IBS>0.00782818988569</IBS>
+                    <number_of_features>2</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>2.90021018694</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='GALE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>161</NumEvals>
+                    <RunTime>1.82250809669</RunTime>
+                    <IBD>0.961407087741</IBD>
+                    <IBS>0.00127933140616</IBS>
+                    <number_of_features>1</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>3.68645777168</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>153</NumEvals>
+                    <RunTime>1.75299596786</RunTime>
+                    <IBD>0.978475906226</IBD>
+                    <IBS>0.00868510415685</IBS>
+                    <number_of_features>1</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>3.7431048981</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>159</NumEvals>
+                    <RunTime>1.77555513382</RunTime>
+                    <IBD>0.981335958867</IBD>
+                    <IBS>0.00951594435902</IBS>
+                    <number_of_features>2</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>3.36901529959</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='DE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>0.288224935532</RunTime>
+                    <IBD>0.965218892408</IBD>
+                    <IBS>0.00372457868565</IBS>
+                    <number_of_features>2</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>2.90021018694</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>0.277209043503</RunTime>
+                    <IBD>0.992539838679</IBD>
+                    <IBS>0.0160674505706</IBS>
+                    <number_of_features>6</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>1.25726039024</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>0.271592140198</RunTime>
+                    <IBD>1.00665225215</IBD>
+                    <IBS>0.0160674505706</IBS>
+                    <number_of_features>6</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>1.25726039024</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='MOEAD'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.23724603653</RunTime>
+                    <IBD>0.99879817414</IBD>
+                    <IBS>0.0512835375863</IBS>
+                    <number_of_features>6</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>1.25726039024</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.11816906929</RunTime>
+                    <IBD>0.967941219768</IBD>
+                    <IBS>0.0387597436811</IBS>
+                    <number_of_features>2</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>2.90021018694</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.24454092979</RunTime>
+                    <IBD>0.988996637941</IBD>
+                    <IBS>0.0844998118095</IBS>
+                    <number_of_features>2</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>2.90021018694</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='NSGA3'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.57403898239</RunTime>
+                    <IBD>1.01332155357</IBD>
+                    <IBS>0.0432419034916</IBS>
+                    <number_of_features>6.0</number_of_features>
+                    <constrained_violated>0.0</constrained_violated>
+                    <cost>1.25726039024</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.57277202606</RunTime>
+                    <IBD>1.01332155357</IBD>
+                    <IBS>0.0432419034916</IBS>
+                    <number_of_features>6.0</number_of_features>
+                    <constrained_violated>0.0</constrained_violated>
+                    <cost>1.25726039024</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>5.56332993507</RunTime>
+                    <IBD>1.01332155357</IBD>
+                    <IBS>0.0432419034916</IBS>
+                    <number_of_features>6.0</number_of_features>
+                    <constrained_violated>0.0</constrained_violated>
+                    <cost>1.25726039024</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+    </Problem>
+    <Problem name='EIS'>
+        <Algorithm name='GALE2'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>114</NumEvals>
+                    <RunTime>299.741481066</RunTime>
+                    <IBD>0.986203588796</IBD>
+                    <IBS>0.0122691886948</IBS>
+                    <number_of_features>236</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>53.4686662749</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>116</NumEvals>
+                    <RunTime>309.948335171</RunTime>
+                    <IBD>0.987402040371</IBD>
+                    <IBS>0.0153983126451</IBS>
+                    <number_of_features>98</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>117.697164827</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>117</NumEvals>
+                    <RunTime>295.312702179</RunTime>
+                    <IBD>0.985139366342</IBD>
+                    <IBS>0.0159986288383</IBS>
+                    <number_of_features>107</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>113.60754218</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='GALE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>182</NumEvals>
+                    <RunTime>370.320354939</RunTime>
+                    <IBD>0.965077101456</IBD>
+                    <IBS>0.00934549894975</IBS>
+                    <number_of_features>107</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>118.108604164</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>186</NumEvals>
+                    <RunTime>368.191919088</RunTime>
+                    <IBD>0.983417561676</IBD>
+                    <IBS>0.0147381418978</IBS>
+                    <number_of_features>139</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>102.178703704</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>168</NumEvals>
+                    <RunTime>375.084638834</RunTime>
+                    <IBD>0.958161768825</IBD>
+                    <IBS>0.0124737265511</IBS>
+                    <number_of_features>202</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>67.1064792251</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='DE'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>22.3361301422</RunTime>
+                    <IBD>0.992730603831</IBD>
+                    <IBS>0.00498317324732</IBS>
+                    <number_of_features>105</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>114.695171967</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>22.4582419395</RunTime>
+                    <IBD>0.990983855401</IBD>
+                    <IBS>0.00565998534353</IBS>
+                    <number_of_features>98</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>117.148088427</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1840</NumEvals>
+                    <RunTime>22.448102951</RunTime>
+                    <IBD>0.991446822039</IBD>
+                    <IBS>0.00523803299001</IBS>
+                    <number_of_features>170</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>76.2869458572</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='MOEAD'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>201.587286949</RunTime>
+                    <IBD>0.973659784564</IBD>
+                    <IBS>0.0385858645669</IBS>
+                    <number_of_features>91</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>112.785257116</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>205.994470119</RunTime>
+                    <IBD>0.977796128815</IBD>
+                    <IBS>0.00319307167228</IBS>
+                    <number_of_features>119</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>98.7471231004</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>208.222282887</RunTime>
+                    <IBD>0.973051623925</IBD>
+                    <IBS>0.00526245698869</IBS>
+                    <number_of_features>117</number_of_features>
+                    <constrained_violated>0</constrained_violated>
+                    <cost>98.0608929874</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+        <Algorithm name='NSGA3'>
+            <Run id='1'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>131.077581882</RunTime>
+                    <IBD>0.987308986922</IBD>
+                    <IBS>0.00858422064253</IBS>
+                    <number_of_features>92.0</number_of_features>
+                    <constrained_violated>0.0</constrained_violated>
+                    <cost>113.434920113</cost>
+                </Summary>
+            </Run>
+            <Run id='2'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>134.048006058</RunTime>
+                    <IBD>0.987812282253</IBD>
+                    <IBS>0.0127949974978</IBS>
+                    <number_of_features>191.0</number_of_features>
+                    <constrained_violated>0.0</constrained_violated>
+                    <cost>62.9035030927</cost>
+                </Summary>
+            </Run>
+            <Run id='3'>
+                <Summary>
+                    <NumEvals>1932</NumEvals>
+                    <RunTime>143.258430004</RunTime>
+                    <IBD>0.989867088124</IBD>
+                    <IBS>0.0076797395213</IBS>
+                    <number_of_features>212.0</number_of_features>
+                    <constrained_violated>0.0</constrained_violated>
+                    <cost>54.1174177088</cost>
+                </Summary>
+            </Run>
+        </Algorithm>
+    </Problem>
+</Experiment>
