@@ -69,19 +69,22 @@ def project(solutions, distance=euclidean_distance):
 def generate_invalid_solutions(valid_solutions):
     return_solutions = []
     number_of_columns = len(valid_solutions[0].data)
-    number_of_solutions = 10 * len(valid_solutions)
+    number_of_solutions = 100 * len(valid_solutions)
     for i in xrange(number_of_solutions):
         while True:
             from random import randint
             temp = [randint(0, 1) for _ in xrange(number_of_columns)]
-            print temp
             validity = True
             for vs in valid_solutions:
-                score = [0 if i == j else 1 for i, j in zip(vs.data, temp)]
+                # print vs.data, temp
+                score = sum([0 if i == j else 1 for i, j in zip(vs.data, temp)])
+                print score
                 if score == 0:
+                    print ".",
                     validity = False
                     break
-            if validity is True: break
+
+            if validity is True: print ">> ";print temp;raw_input();break
         return_solutions.append(SolutionContainer(temp))
     return return_solutions
 
@@ -92,7 +95,10 @@ def generate_graphs(filename):
 
     valid_configurations = [SolutionContainer([1 if x == "Y" else 0 for x in c.split(",")[:-1]], True) for c in content]
 
-    invalid_configurations = generate_invalid_solutions(valid_configurations)
+    # invalid_configurations = generate_invalid_solutions(valid_configurations)
+
+    from random import randint
+    invalid_configurations = [SolutionContainer([randint(0, 1) for _ in xrange(number_of_columns)]) for _ in xrange(100 * len(content))]
 
     all_content = valid_configurations + invalid_configurations
 
