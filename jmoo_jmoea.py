@@ -66,6 +66,28 @@ def store_values(latestdir, generation_number, population):
     f.close()
 
 
+def store_values_g4(latestdir, generation_number, population):
+    filename = latestdir + "/" + str(generation_number) + ".txt"
+    shorten_population = [pop for pop in population if pop.fitness.valid]
+    number_of_objectives = len(shorten_population[0].fitness.fitness)
+    try:
+        values = [", ".join(map(str, pop.decisionValues + pop.fitness.fitness)) for pop in shorten_population]
+    except:
+        import pdb
+        pdb.set_trace()
+
+    try:
+        values.extend([", ".join(map(str, pop.decisionValues)) + "," +
+                                 ",".join(map(str, ["X" for _ in xrange(number_of_objectives)]))
+                       for pop in [pop for pop in population if pop.fitness.valid is False]])
+    except:
+        import pdb
+        pdb.set_trace()
+    f = open(filename, 'w')
+    for value in values: f.write("%s\n" % value)
+    f.close()
+
+
 def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
     """
     ----------------------------------------------------------------------------
@@ -170,6 +192,9 @@ def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
         if algorithm.name == "GALE0" or algorithm.name == "GALE_no_mutation":
             statBox.update(selectees, gen, numNewEvals, population_size=Configurations["Universal"]["Population_Size"])
             store_values(latest_subdir, gen, selectees)
+        elif algorithm.name == "GALE4":
+            statBox.update(selectees, gen, len(selectees), population_size=Configurations["Universal"]["Population_Size"])
+            store_values_g4(latest_subdir, gen, selectees)
         else:
             statBox.update(population, gen, numNewEvals)
             store_values(latest_subdir, gen, population)
@@ -186,10 +211,12 @@ def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
         # # # # # # # # # # # # # # # # # #
         # 4e) Evaluate Stopping Criteria  #
         # # # # # # # # # # # # # # # # # #
-        stoppingCriteria = toStop(statBox)
+        if algorithm.name != "GALE4":
+            stoppingCriteria = toStop(statBox)
         # stoppingCriteria = False
 
         # assert(len(statBox.box[-1].population) == configurations["Universal"]["Population_Size"]), \
         #     "Length in the statBox should be equal to MU"
 
     return statBox
+

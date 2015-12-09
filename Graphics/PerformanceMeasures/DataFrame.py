@@ -44,6 +44,7 @@ class ProblemFrame():
         from Techniques.flatten_list import flatten
         points = flatten(
             [d.get_frontiers_collection(number) for number in xrange(number_of_generations) for d in self.data])
+
         objectives = [point.objectives for point in points]
         for count, objective in enumerate(self.problem.objectives):
             one_objective = [point[count] for point in objectives]
@@ -125,7 +126,7 @@ class GenerationFrame():
     def get_data(self):
         number_of_decisions = len(self.problem.decisions)
         for line in open(self.filename).readlines():
-            content = map(float, line.split(","))
+            content = [float(l) for l in line.replace("\n", "").split(",") if l != "X"]
             self.solutions.append(SolutionFrame(content[:number_of_decisions], content[number_of_decisions:]))
         from Techniques.file_operations import count_number_of_lines
         self.evaluation = count_number_of_lines(self.filename)

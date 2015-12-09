@@ -119,12 +119,49 @@ class jmoo_chart_report:
         self.Configurations = Configurations
 
     def doit(self, tagnote=""):
+        generate_final_frontier_for_gale4(self.tests.problems, self.tests.algorithms, self.Configurations, tag=tagnote)
         hv_spread =[]
         for problem in self.tests.problems:
             hv_spread.append(charter_reporter([problem], self.tests.algorithms, self.Configurations, tag=tagnote))
         statistic_reporter(self.tests.problems, self.tests.algorithms, self.Configurations, tag=tagnote)
         comparision_reporter(self.tests.problems, self.tests.algorithms, [hvp[0] for hvp in hv_spread], [hvp[1] for hvp in hv_spread], "GALE")
+        # for problem in self.tests.problems:
+        #     hv_spread.append(charter_reporter([problem], self.tests.algorithms, self.Configurations, tag=tagnote))
         generate_summary(self.tests.problems, self.tests.algorithms, "GALE", self.Configurations)
+
+
+def generate_final_frontier_for_gale4(problems, algorithms, Configurations, tag=""):
+    if "GALE4" not in [algorithm.name for algorithm in algorithms]: return
+    else:
+        for problem in problems:
+            from Graphics.PerformanceMeasures.DataFrame import ProblemFrame
+            data = ProblemFrame(problem, [a for a in algorithms if a.name == "GALE4"])
+
+            # data for all repeats
+            total_data = [data.get_frontier_values(gen_no) for gen_no in xrange(Configurations["Universal"]["No_of_Generations"])]
+
+            data_for_all_generations = []
+            for repeat in xrange(Configurations["Universal"]["Repeats"]):
+                temp_data = []
+                for gen_no in xrange(Configurations["Universal"]["No_of_Generations"]):
+                    temp_data.extend(total_data[gen_no]["GALE4"][repeat])
+
+                from jmoo_individual import jmoo_individual
+                solutions = [jmoo_individual(problem, td.decisions, problem.evaluate(td.decisions)) for td in temp_data]
+
+                # non dominated sorting
+                from jmoo_algorithms import selNSGA2
+                final_solutions, _ = selNSGA2(problem, [], solutions, Configurations)
+
+                for i in xrange(Configurations["Universal"]["No_of_Generations"]):
+                    filename = "./RawData/PopulationArchives/" + "GALE4" + "_" + problem.name + "/" + str(repeat) + "/" + \
+                               str(i+1) + ".txt"
+                    f = open(filename, "w")
+                    for fs in final_solutions:
+                        f.write(','.join([str(fss) for fss in fs.decisionValues]) + "," + ",".join([str(fss) for fss in fs.fitness.fitness]) + "\n")
+                    f.close()
+
+
 
 
 class jmoo_df_report:

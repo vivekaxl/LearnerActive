@@ -49,14 +49,15 @@ from Problems.XOMO.XOMO_osp2 import XOMO_osp2
 
 # JMOO Experimental Definitions
 algorithms = [
-              # jmoo_GALE2(),
-              # jmoo_GALE(),
-              # jmoo_DE(),
-              # jmoo_MOEAD_TCH(),
-              # jmoo_NSGAIII(),
-              # jmoo_GALE_no_mutation(),
-              jmoo_learneractive()
-              # jmoo_NSGAII(),
+              jmoo_GALE2(),
+              jmoo_GALE(),
+              jmoo_DE(),
+              jmoo_MOEAD_TCH(),
+              jmoo_NSGAIII(),
+              jmoo_GALE_no_mutation(),
+              jmoo_NSGAII(),
+                jmoo_GALE4(),
+            # jmoo_learneractive()
               # jmoo_SPEA2(),
               # jmoo_DE(),
               # jmoo_MOEAD_TCH(),
@@ -76,9 +77,9 @@ problems =[
     # POM3C(),
     # POM3D(),
     dtlz1(9, 5),
-    # dtlz2(14, 5),
-    # dtlz3(14, 5),
-    # dtlz4(14, 5),
+    dtlz2(14, 5),
+    dtlz3(14, 5),
+    dtlz4(14, 5),
     # dtlz1(7, 3),
     # dtlz2(12, 3),
     # dtlz3(12, 3),

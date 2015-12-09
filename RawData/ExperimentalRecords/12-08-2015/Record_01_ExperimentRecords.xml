@@ -1,0 +1,270 @@
+<Experiment>
+<Problem name = 'DTLZ1_9_5'>
+<Algorithm name = 'GALE2'>
+<Run id = '1'>
+<Summary>
+<NumEvals>68</NumEvals>
+<RunTime>1.87454009056</RunTime>
+<IBD>1.02049853634</IBD>
+<IBS>0.0305657172588</IBS>
+<f1>32.3074828342</f1>
+<f2>9.57796522003</f2>
+<f3>3.10969254633</f3>
+<f4>129.592244747</f4>
+<f5>44.4278521312</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>68</NumEvals>
+<RunTime>1.4955868721</RunTime>
+<IBD>1.06320122058</IBD>
+<IBS>0.038759193654</IBS>
+<f1>20.8470514703</f1>
+<f2>2.63473382917</f2>
+<f3>3.79286014111</f3>
+<f4>25.2498478961</f4>
+<f5>226.71197283</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>57</NumEvals>
+<RunTime>2.43177294731</RunTime>
+<IBD>0.948930728011</IBD>
+<IBS>0.0210973059408</IBS>
+<f1>1.72966220902</f1>
+<f2>0.584966595389</f2>
+<f3>1.39573850107</f3>
+<f4>35.245890843</f4>
+<f5>104.815272369</f5>
+</Summary></Run>
+</Algorithm>
+<Algorithm name = 'GALE'>
+<Run id = '1'>
+<Summary>
+<NumEvals>72</NumEvals>
+<RunTime>1.19978499413</RunTime>
+<IBD>0.996135375436</IBD>
+<IBS>0.0478317111352</IBS>
+<f1>18.4331652793</f1>
+<f2>0.903279585316</f2>
+<f3>3.00365491077</f3>
+<f4>2.3756238295</f4>
+<f5>180.394290197</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>115</NumEvals>
+<RunTime>2.30421900749</RunTime>
+<IBD>1.03190019567</IBD>
+<IBS>0.0497625323453</IBS>
+<f1>8.55322573402</f1>
+<f2>1.66174848589</f2>
+<f3>0.718904653747</f3>
+<f4>76.187304111</f4>
+<f5>79.4601852256</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>82</NumEvals>
+<RunTime>1.9109711647</RunTime>
+<IBD>1.02453595337</IBD>
+<IBS>0.0324212674464</IBS>
+<f1>2.38049083724</f1>
+<f2>3.7739530492</f2>
+<f3>0.710602566976</f3>
+<f4>40.2688718761</f4>
+<f5>224.821286207</f5>
+</Summary></Run>
+</Algorithm>
+<Algorithm name = 'DE'>
+<Run id = '1'>
+<Summary>
+<NumEvals>1840</NumEvals>
+<RunTime>0.944526910782</RunTime>
+<IBD>0.841093759099</IBD>
+<IBS>0.00866547864438</IBS>
+<f1>0.0</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>33.3540989519</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>1840</NumEvals>
+<RunTime>1.2198009491</RunTime>
+<IBD>0.844425230443</IBD>
+<IBS>0.00755979704563</IBS>
+<f1>0.0</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>26.8026921034</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>1840</NumEvals>
+<RunTime>0.820043087006</RunTime>
+<IBD>0.87004689052</IBD>
+<IBS>0.00713518994023</IBS>
+<f1>0.0</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>36.302808008</f5>
+</Summary></Run>
+</Algorithm>
+<Algorithm name = 'MOEAD'>
+<Run id = '1'>
+<Summary>
+<NumEvals>1932</NumEvals>
+<RunTime>9.71040296555</RunTime>
+<IBD>0.825067308604</IBD>
+<IBS>0.00316900415634</IBS>
+<f1>0.435373967074</f1>
+<f2>0.354755112558</f2>
+<f3>0.715455133273</f3>
+<f4>0.992082158936</f4>
+<f5>3.41803303738</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>736</NumEvals>
+<RunTime>3.48772192001</RunTime>
+<IBD>0.824639291641</IBD>
+<IBS>0.00218659069216</IBS>
+<f1>0.0186869899924</f1>
+<f2>0.15792736704</f2>
+<f3>1.05961329453</f3>
+<f4>2.74481435569</f4>
+<f5>4.13399770181</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>1932</NumEvals>
+<RunTime>8.51733088493</RunTime>
+<IBD>0.819626734852</IBD>
+<IBS>0.000357660000369</IBS>
+<f1>0.182699641538</f1>
+<f2>0.216351722436</f2>
+<f3>0.205578453532</f3>
+<f4>0.544841457536</f4>
+<f5>0.664069765757</f5>
+</Summary></Run>
+</Algorithm>
+<Algorithm name = 'NSGA3'>
+<Run id = '1'>
+<Summary>
+<NumEvals>1932</NumEvals>
+<RunTime>10.6392920017</RunTime>
+<IBD>0.932510166647</IBD>
+<IBS>0.0107382936677</IBS>
+<f1>0.0115347895808</f1>
+<f2>0.0137011722647</f2>
+<f3>6.88841170406</f3>
+<f4>0.0958427564522</f4>
+<f5>2.17166113969</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>1932</NumEvals>
+<RunTime>12.0223069191</RunTime>
+<IBD>0.943707310147</IBD>
+<IBS>0.0129433333377</IBS>
+<f1>0.00132836756105</f1>
+<f2>0.0167468001995</f2>
+<f3>4.12651934122</f3>
+<f4>0.219700006513</f4>
+<f5>11.8974902295</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>1932</NumEvals>
+<RunTime>15.3203668594</RunTime>
+<IBD>0.927955425314</IBD>
+<IBS>0.00820584210233</IBS>
+<f1>0.552713771046</f1>
+<f2>2.19759523921</f2>
+<f3>4.12738945653</f3>
+<f4>0.0140764353036</f4>
+<f5>4.6275091141</f5>
+</Summary></Run>
+</Algorithm>
+<Algorithm name = 'GALE_no_mutation'>
+<Run id = '1'>
+<Summary>
+<NumEvals>64</NumEvals>
+<RunTime>1.16256308556</RunTime>
+<IBD>0.949961751851</IBD>
+<IBS>0.0124341078542</IBS>
+<f1>0.933163050893</f1>
+<f2>4.05887278252</f2>
+<f3>11.3437858142</f3>
+<f4>5.6368085506</f4>
+<f5>280.534947373</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>106</NumEvals>
+<RunTime>1.74083614349</RunTime>
+<IBD>0.945809923907</IBD>
+<IBS>0.0191139297248</IBS>
+<f1>0.461998482711</f1>
+<f2>0.761398584108</f2>
+<f3>13.7101575732</f3>
+<f4>22.3511156989</f4>
+<f5>206.080487059</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>115</NumEvals>
+<RunTime>1.32866001129</RunTime>
+<IBD>0.955992754666</IBD>
+<IBS>0.0405701895627</IBS>
+<f1>1.63604447797</f1>
+<f2>0.563550542906</f2>
+<f3>1.56131755939</f3>
+<f4>8.19729043304</f4>
+<f5>333.767874908</f5>
+</Summary></Run>
+</Algorithm>
+<Algorithm name = 'GALE4'>
+<Run id = '1'>
+<Summary>
+<NumEvals>191</NumEvals>
+<RunTime>3.08325505257</RunTime>
+<IBD>0.941210013565</IBD>
+<IBS>0.0430675780717</IBS>
+<f1>0.0485165892817</f1>
+<f2>0.326337768968</f2>
+<f3>2.19706996829</f3>
+<f4>9.49619414423</f4>
+<f5>91.3395154925</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>192</NumEvals>
+<RunTime>4.02095794678</RunTime>
+<IBD>0.925521680558</IBD>
+<IBS>0.0191097708588</IBS>
+<f1>1.21032894964</f1>
+<f2>1.74565531926</f2>
+<f3>10.3531043605</f3>
+<f4>5.66088129238</f4>
+<f5>348.909133952</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>192</NumEvals>
+<RunTime>4.49618506432</RunTime>
+<IBD>0.882298604646</IBD>
+<IBS>0.0102493185248</IBS>
+<f1>0.0205819766024</f1>
+<f2>0.00213451019098</f2>
+<f3>0.0136481598121</f3>
+<f4>13.1907060377</f4>
+<f5>156.850612158</f5>
+</Summary></Run>
+</Algorithm>
+</Problem>
+</Experiment>
