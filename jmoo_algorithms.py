@@ -48,6 +48,7 @@ from Algorithms.GALE0.gale_components import *
 from Algorithms.GALE_no_mutation.gale_components import *
 from Algorithms.GALE2.gale_components import *
 from Algorithms.GALE4.gale_components import *
+from Algorithms.GALE8.gale_components import *
 from Algorithms.LearnerActive.LearnerActiveComponent import *
 
 from jmoo_individual import *
@@ -156,6 +157,16 @@ class jmoo_learneractive:
         self.selector = la_find
         self.adjustor = la_mutate
         self.recombiner = la_regenerate  # stub
+        self.color = color
+        self.type = '*'
+
+class jmoo_GALE8:
+    def __init__(self, color="magenta"):
+        self.name = "GALE8"
+        self.initializer = None
+        self.selector = gale_8_WHERE
+        self.adjustor = gale_8_Mutate
+        self.recombiner = gale_8_Regen
         self.color = color
         self.type = '*'
 
