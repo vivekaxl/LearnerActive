@@ -51,107 +51,108 @@ def galeWHERE(problem, population, configuration, values_to_be_passed):
     return NDLeafs, numEval
 
 
-def furthest(individual, population):
-    from euclidean_distance import euclidean_distance
-    distances = sorted([[euclidean_distance(individual, pop), pop] for pop in population], key=lambda x: x[0], reverse=True)
-    return distances[0][-1]
 
 
-def projection(a, b, c):
-    """
-    Fastmap projection distance
-    :param a: Distance from West
-    :param b: Distance from East
-    :param c: Distance between West and East
-    :return: FastMap projection distance(float)
-    """
-    return (a**2 + c**2 - b**2) / (2*c+0.00001)
-
-
-def fastmap(problem, true_population):
-    """
-    Fastmap function that projects all the points on the principal component
-    :param problem: Instance of the problem
-    :param population: Set of points in the cluster population
-    :return:
-    """
-
-    def list_equality(lista, listb):
-        for a, b in zip(lista, listb):
-            if a != b: return False
-        return True
-
-    from random import choice
-    from euclidean_distance import euclidean_distance
-
-    decision_population = [pop.decisionValues for pop in true_population]
-    one = choice(decision_population)
-    west = furthest(one, decision_population)
-    east = furthest(west, decision_population)
-
-    west_indi = jmoo_individual(problem,west, None)
-    east_indi = jmoo_individual(problem,east, None)
-    west_indi.evaluate()
-    east_indi.evaluate()
-
-
-    # Score the poles
-    n = len(problem.decisions)
-    weights = []
-    for obj in problem.objectives:
-        # w is negative when we are maximizing that objective
-        if obj.lismore:
-            weights.append(+1)
-        else:
-            weights.append(-1)
-    weightedWest = [c * w for c, w in zip(west_indi.fitness.fitness, weights)]
-    weightedEast = [c * w for c, w in zip(east_indi.fitness.fitness, weights)]
-    westLoss = loss(weightedWest, weightedEast, mins=[obj.low for obj in problem.objectives],
-                    maxs=[obj.up for obj in problem.objectives])
-    eastLoss = loss(weightedEast, weightedWest, mins=[obj.low for obj in problem.objectives],
-                    maxs=[obj.up for obj in problem.objectives])
-
-    # Determine better Pole
-    if eastLoss < westLoss:
-        SouthPole, NorthPole = east_indi, west_indi
-    else:
-        SouthPole, NorthPole = west_indi, east_indi
-
-
-    east = SouthPole.decisionValues
-    west = NorthPole.decisionValues
-
-    c = euclidean_distance(east, west)
-    tpopulation = []
-    for one in decision_population:
-        a = euclidean_distance(one, west)
-        b = euclidean_distance(one, east)
-        tpopulation.append([one, projection(a, b, c)])
-
-    for tpop in tpopulation:
-        for true_pop in true_population:
-            if list_equality(tpop[0], true_pop.decisionValues):
-                true_pop.x = tpop[-1]
-    temp_list = sorted(true_population, key=lambda pop: pop.x)
-    return true_population[:len(temp_list)/2]
-
-
-def galeMutate(problem, leaves, configuration):
+def galeMutate(problem, NDLeafs, configuration):
     #################
     # Mutation Phase
     #################
-
-    # Keep track of evals
+# Keep track of evals
     numEval = 0
 
-    for leaf in leaves:
-        initial_length = len(leaf)
-        reduced_population = fastmap(problem, leaf)
-        regenerate_length = initial_length - len(reduced_population)
-         generate more points
+    for leaf in NDLeafs:
+
+        # print "Number of mutants: ", len(leaf.table.rows)
+        # Pull out the Poles
+        east = leaf.table.rows[0]
+        west = leaf.table.rows[-1]
+
+        # Evaluate those poles if needed
+        if not east.evaluated:
+            for o, objScore in enumerate(problem.evaluate(east.cells)):
+                east.cells[-(len(problem.objectives) - o)] = objScore
+            east.evaluated = True
+            numEval += 1
+        if not west.evaluated:
+            for o, objScore in enumerate(problem.evaluate(west.cells)):
+                west.cells[-(len(problem.objectives) - o)] = objScore
+            west.evaluated = True
+            numEval += 1
+
+        # Score the poles
+        n = len(problem.decisions)
+        weights = []
+        for obj in problem.objectives:
+            # w is negative when we are maximizing that objective
+            if obj.lismore:
+                weights.append(+1)
+            else:
+                weights.append(-1)
+        weightedWest = [c * w for c, w in zip(west.cells[n:], weights)]
+        weightedEast = [c * w for c, w in zip(east.cells[n:], weights)]
+        westLoss = loss(weightedWest, weightedEast, mins=[obj.low for obj in problem.objectives],
+                        maxs=[obj.up for obj in problem.objectives])
+        eastLoss = loss(weightedEast, weightedWest, mins=[obj.low for obj in problem.objectives],
+                        maxs=[obj.up for obj in problem.objectives])
+
+        # Determine better Pole
+        if eastLoss < westLoss:
+            SouthPole, NorthPole = east, west
+        else:
+            SouthPole, NorthPole = west, east
+
+        # Magnitude of the mutations
+        g = abs(SouthPole.x - NorthPole.x)
+
+        # Iterate over the individuals of the leaf
+        for row in leaf.table.rows:
+
+            # Make a copy of the row in case we reject it
+            copy = [item for item in row.cells]
+            cx = row.x
+
+            for attr in range(0, len(problem.decisions)):
+
+                # just some naming shortcuts
+                me = row.cells[attr]
+                good = SouthPole.cells[attr]
+                bad = NorthPole.cells[attr]
+                dec = problem.decisions[attr]
+
+                # Find direction to mutate (Want to mutate towards good pole)
+                if me > good:  d = -1
+                if me < good:  d = +1
+                if me == good: d = 0
+
+                row.cells[attr] = min(dec.up, max(dec.low, (me + me * g * d) * configuration["GALE"]["DELTA"]))
+
+            # Project the Mutant
+            a = row.distance(NorthPole)
+            b = row.distance(SouthPole)
+            c = NorthPole.distance(SouthPole)
+            x = (a ** 2 + row.c ** 2 - b ** 2) / (2 * row.c + 0.00001)
+
+            # Test Mutant for Acceptance
+            # confGAMMA = 0.15 #note: make this a property
+
+            # print abs(cx-x), (cx + (g * configuration["GALE"]["GAMMA"]))
+            if abs(x - cx) > (g * configuration["GALE"]["GAMMA"]) or problem.evalConstraints(
+                    row.cells[:n]):  # reject it
+                row.cells = copy
+                row.x = x
 
 
+    # After mutation; Convert back to JMOO Data Structures
+    population = []
+    for leaf in NDLeafs:
+        for row in leaf.table.rows:
+            if row.evaluated:
+                population.append(jmoo_individual(problem, [x for x in row.cells[:len(problem.decisions)]],
+                                                  [x for x in row.cells[len(problem.decisions):]]))
+            else:
+                population.append(jmoo_individual(problem, [x for x in row.cells[:len(problem.decisions)]], None))
 
+                # Return selectees and number of evaluations
     return population, numEval
 
 
