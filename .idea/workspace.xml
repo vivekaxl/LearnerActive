@@ -2,10 +2,158 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a38f80-8881-4b9f-8044-6c9fa16de38b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LearnerActive.iml" afterPath="$PROJECT_DIR$/.idea/LearnerActive.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/GALE/gale_components.py" afterPath="$PROJECT_DIR$/Algorithms/GALE/gale_components.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/GALE16/gale_components.py" afterPath="$PROJECT_DIR$/Algorithms/GALE16/gale_components.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/GALE32/gale_components.py" afterPath="$PROJECT_DIR$/Algorithms/GALE32/gale_components.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/GALE64/gale_components.py" afterPath="$PROJECT_DIR$/Algorithms/GALE64/gale_components.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/GALE8/gale_components.py" afterPath="$PROJECT_DIR$/Algorithms/GALE8/gale_components.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/DTLZ1_9_5-p92-d9-o5-dataset.txt" afterPath="$PROJECT_DIR$/Data/DTLZ1_9_5-p92-d9-o5-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/DTLZ2_14_5-p92-d14-o5-dataset.txt" afterPath="$PROJECT_DIR$/Data/DTLZ2_14_5-p92-d14-o5-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/DTLZ3_14_5-p92-d14-o5-dataset.txt" afterPath="$PROJECT_DIR$/Data/DTLZ3_14_5-p92-d14-o5-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/DTLZ4_14_5-p92-d14-o5-dataset.txt" afterPath="$PROJECT_DIR$/Data/DTLZ4_14_5-p92-d14-o5-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/POM3A-p92-d9-o3-dataset.txt" afterPath="$PROJECT_DIR$/Data/POM3A-p92-d9-o3-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/POM3B-p92-d9-o3-dataset.txt" afterPath="$PROJECT_DIR$/Data/POM3B-p92-d9-o3-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/POM3C-p92-d9-o3-dataset.txt" afterPath="$PROJECT_DIR$/Data/POM3C-p92-d9-o3-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/POM3D-p92-d9-o3-dataset.txt" afterPath="$PROJECT_DIR$/Data/POM3D-p92-d9-o3-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_12_8-p92-d12-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_12_8-p92-d12-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_7_3-p92-d7-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_7_3-p92-d7-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_9_5-p92-d9-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_9_5-p92-d9-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_9_5-p92-d9-o5_GALE8.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_9_5-p92-d9-o5_GALE8.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_9_5-p92-d9-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_9_5-p92-d9-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_12_3-p92-d12-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_12_3-p92-d12-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_14_5-p92-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_14_5-p92-d14-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_14_5-p92-d14-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_14_5-p92-d14-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_17_8-p92-d17-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_17_8-p92-d17-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_12_3-p92-d12-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_12_3-p92-d12-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_14_5-p92-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_14_5-p92-d14-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_14_5-p92-d14-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_14_5-p92-d14-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_17_8-p92-d17-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_17_8-p92-d17-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_12_3-p92-d12-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_12_3-p92-d12-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_14_5-p92-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_14_5-p92-d14-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_14_5-p92-d14-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_14_5-p92-d14-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_17_8-p92-d17-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_17_8-p92-d17-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3C-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3C-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3C-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3C-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3C-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3C-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3D-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3D-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3D-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3D-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3D-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3D-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__xomo_all-p92-d27-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__xomo_all-p92-d27-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__xomo_all-p92-d27-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__xomo_all-p92-d27-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__xomo_all-p92-d27-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__xomo_all-p92-d27-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_12_8-p92-d12-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_12_8-p92-d12-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_7_3-p92-d7-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_7_3-p92-d7-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_9_5-p92-d9-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_9_5-p92-d9-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_9_5-p92-d9-o5_GALE8.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_9_5-p92-d9-o5_GALE8.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_9_5-p92-d9-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_9_5-p92-d9-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_12_3-p92-d12-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_12_3-p92-d12-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_14_5-p92-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_14_5-p92-d14-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_14_5-p92-d14-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_14_5-p92-d14-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_17_8-p92-d17-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_17_8-p92-d17-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_12_3-p92-d12-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_12_3-p92-d12-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_14_5-p92-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_14_5-p92-d14-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_14_5-p92-d14-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_14_5-p92-d14-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_17_8-p92-d17-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_17_8-p92-d17-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_12_3-p92-d12-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_12_3-p92-d12-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_14_5-p92-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_14_5-p92-d14-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_14_5-p92-d14-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_14_5-p92-d14-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_17_8-p92-d17-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_17_8-p92-d17-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3C-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3C-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3C-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3C-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3C-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3C-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3D-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3D-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3D-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3D-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3D-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3D-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_xomo_all-p92-d27-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_xomo_all-p92-d27-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_xomo_all-p92-d27-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_xomo_all-p92-d27-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_xomo_all-p92-d27-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_xomo_all-p92-d27-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_12_8-p92-d12-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ1_12_8-p92-d12-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_7_3-p92-d7-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ1_7_3-p92-d7-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p92-d9-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p92-d9-o5_GALE.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p92-d9-o5_GALE8.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p92-d9-o5_GALE8.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p92-d9-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p92-d9-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_12_3-p92-d12-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ2_12_3-p92-d12-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_14_5-p92-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ2_14_5-p92-d14-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_14_5-p92-d14-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ2_14_5-p92-d14-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_17_8-p92-d17-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ2_17_8-p92-d17-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ3_12_3-p92-d12-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ3_12_3-p92-d12-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ3_14_5-p92-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ3_14_5-p92-d14-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ3_14_5-p92-d14-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ3_14_5-p92-d14-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ3_17_8-p92-d17-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ3_17_8-p92-d17-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ4_12_3-p92-d12-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ4_12_3-p92-d12-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ4_14_5-p92-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ4_14_5-p92-d14-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ4_14_5-p92-d14-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ4_14_5-p92-d14-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ4_17_8-p92-d17-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ4_17_8-p92-d17-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3C-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3C-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3C-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3C-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3C-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3C-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3D-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3D-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3D-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3D-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3D-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3D-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_xomo_all-p92-d27-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_xomo_all-p92-d27-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_xomo_all-p92-d27-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/results_xomo_all-p92-d27-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_xomo_all-p92-d27-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/results_xomo_all-p92-d27-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_.datatable" afterPath="$PROJECT_DIR$/Data/summary_.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_12_8-p92-d12-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ1_12_8-p92-d12-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_7_3-p92-d7-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ1_7_3-p92-d7-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_9_5-p92-d9-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ1_9_5-p92-d9-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_9_5-p92-d9-o5_GALE8.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ1_9_5-p92-d9-o5_GALE8.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_9_5-p92-d9-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ1_9_5-p92-d9-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_12_3-p92-d12-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ2_12_3-p92-d12-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_14_5-p92-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ2_14_5-p92-d14-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_14_5-p92-d14-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ2_14_5-p92-d14-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_17_8-p92-d17-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ2_17_8-p92-d17-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ3_12_3-p92-d12-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ3_12_3-p92-d12-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ3_14_5-p92-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ3_14_5-p92-d14-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ3_14_5-p92-d14-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ3_14_5-p92-d14-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ3_17_8-p92-d17-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ3_17_8-p92-d17-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_12_3-p92-d12-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ4_12_3-p92-d12-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_14_5-p92-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ4_14_5-p92-d14-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_14_5-p92-d14-o5_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ4_14_5-p92-d14-o5_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_17_8-p92-d17-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ4_17_8-p92-d17-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3C-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3C-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3C-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3C-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3C-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3C-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3D-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3D-p92-d9-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3D-p92-d9-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3D-p92-d9-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3D-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3D-p92-d9-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_xomo_all-p92-d27-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_xomo_all-p92-d27-o3_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_xomo_all-p92-d27-o3_MOEAD.datatable" afterPath="$PROJECT_DIR$/Data/summary_xomo_all-p92-d27-o3_MOEAD.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_xomo_all-p92-d27-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/summary_xomo_all-p92-d27-o3_NSGA3.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/xomo_all-p92-d27-o3-dataset.txt" afterPath="$PROJECT_DIR$/Data/xomo_all-p92-d27-o3-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graphics/Graphs/grouped_bar_plots.py" afterPath="$PROJECT_DIR$/Graphics/Graphs/grouped_bar_plots.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graphics/charter.py" afterPath="$PROJECT_DIR$/Graphics/charter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PerformanceMetrics/Spread/Spread.py" afterPath="$PROJECT_DIR$/PerformanceMetrics/Spread/Spread.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/scatter.py" afterPath="$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/scatter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/script.py" afterPath="$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/script.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_algorithms.py" afterPath="$PROJECT_DIR$/jmoo_algorithms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_properties.py" afterPath="$PROJECT_DIR$/jmoo_properties.py" />
     </list>
     <ignored path="LearnerActive.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,59 +175,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jmoo_core.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jmoo_core.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="124" column="23" selection-start-line="123" selection-start-column="22" selection-end-line="124" selection-end-column="23" />
-              <folding>
-                <element signature="e#5956#6616#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jmoo_jmoea.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jmoo_jmoea.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="195" column="56" selection-start-line="195" selection-start-column="56" selection-end-line="195" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gale_components.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gale_components.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/GALE8/gale_components.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7941681">
-              <caret line="86" column="102" selection-start-line="86" selection-start-column="102" selection-end-line="86" selection-end-column="102" />
-              <folding>
-                <element signature="e#3322#3524#0" expanded="false" />
-                <element signature="e#3556#3758#1" expanded="false" />
-                <element signature="e#3852#6122#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gale_components.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/GALE/gale_components.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.592592">
-              <caret line="163" column="81" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="where.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/GALE8/Utilities/where.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="figure45_DTLZ3_12_3_Evaluations.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Charts/12-22-2015_gale64_dtlz/figure45_DTLZ3_12_3_Evaluations.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="figure54_xomo_all_Evaluations.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_normal/figure54_xomo_all_Evaluations.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="figure48_POM3A_Evaluations.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_normal/figure48_POM3A_Evaluations.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="figure46_POM3B_Evaluations.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_normal/figure46_POM3B_Evaluations.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="figure52_POM3D_Evaluations.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_normal/figure52_POM3D_Evaluations.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="figure51_POM3D_Runtimes.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_normal/figure51_POM3D_Runtimes.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="figure50_POM3C_Evaluations.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_normal/figure50_POM3C_Evaluations.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -87,19 +238,18 @@
         <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="127" column="24" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="24" />
-              <folding />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#1078#1107#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jmoo_algorithms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jmoo_algorithms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-              <folding />
-            </state>
+      <file leaf-file-name="figure57_ComparisionsSpread.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Charts/12-22-2015_gale64_dtlz/figure57_ComparisionsSpread.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -127,17 +277,23 @@
         <option value="$PROJECT_DIR$/Problems/CPM/data/WebPortal.csv" />
         <option value="$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/script.py" />
         <option value="$PROJECT_DIR$/Algorithms/GALE4/gale_components.py" />
-        <option value="$PROJECT_DIR$/PerformanceMetrics/Spread/Spread.py" />
-        <option value="$PROJECT_DIR$/Graphics/charter.py" />
-        <option value="$PROJECT_DIR$/jmoo_jmoea.py" />
         <option value="$PROJECT_DIR$/Graphics/PerformanceMeasures/DataFrame.py" />
         <option value="$PROJECT_DIR$/jmoo_core.py" />
         <option value="$PROJECT_DIR$/RawData/ExperimentalRecords/12-08-2015/Record_09_ExperimentRecords.xml" />
         <option value="$PROJECT_DIR$/RawData/ExperimentalRecords/12-08-2015/Record_10_ExperimentRecords.xml" />
-        <option value="$PROJECT_DIR$/jmoo_algorithms.py" />
-        <option value="$PROJECT_DIR$/jmoo_properties.py" />
         <option value="$PROJECT_DIR$/Algorithms/GALE/gale_components.py" />
+        <option value="$PROJECT_DIR$/jmoo_jmoea.py" />
         <option value="$PROJECT_DIR$/Algorithms/GALE8/gale_components.py" />
+        <option value="$PROJECT_DIR$/Algorithms/GALE16/gale_components.py" />
+        <option value="$PROJECT_DIR$/Algorithms/GALE32/gale_components.py" />
+        <option value="$PROJECT_DIR$/Graphics/Graphs/grouped_bar_plots.py" />
+        <option value="$PROJECT_DIR$/jmoo_algorithms.py" />
+        <option value="$PROJECT_DIR$/RawData/PopulationArchives/GALE64_DTLZ1_9_5/2/7.txt" />
+        <option value="$PROJECT_DIR$/PerformanceMetrics/Spread/Spread.py" />
+        <option value="$PROJECT_DIR$/Algorithms/GALE64/gale_components.py" />
+        <option value="$PROJECT_DIR$/RawData/PopulationArchives/GALE64_DTLZ4_14_5/1/17.txt" />
+        <option value="$PROJECT_DIR$/Graphics/charter.py" />
+        <option value="$PROJECT_DIR$/jmoo_properties.py" />
       </list>
     </option>
   </component>
@@ -147,10 +303,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1920" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1008" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -177,7 +331,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,82 +360,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
+              <option name="myItemId" value="Charts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnerActive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnerActive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Charts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="12-21-2015_normal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Algorithms/GALE8" />
-      <recent name="$PROJECT_DIR$/Algorithms/GALE4" />
-      <recent name="$PROJECT_DIR$/Problems/CPM/ExtraDiagrams" />
-      <recent name="$PROJECT_DIR$/Algorithms/LearnerActive" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Algorithms/LearnerActive" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Algorithms/GALE64" />
+      <recent name="$PROJECT_DIR$/Algorithms/GALE32" />
+      <recent name="$PROJECT_DIR$/Algorithms/GALE16" />
+      <recent name="$PROJECT_DIR$/Algorithms/GALE8" />
+      <recent name="$PROJECT_DIR$/Algorithms/GALE4" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LearnerActive" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LearnerActive" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LearnerActive" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,20 +423,6 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -439,17 +550,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="23" width="1920" height="1008" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2630458" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27836505" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3472222" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3469388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -458,9 +568,30 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3469388" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26286116" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -475,352 +606,277 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE8/gale_components.py">
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale16_pom/figure02_POM3B_Spread.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale16_pom/figure03_POM3B_JoeDiagram.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale16_pom/figure04_POM3A_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale16_pom/figure05_POM3A_Spread.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale16_pom/figure06_POM3A_JoeDiagram.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale16_pom/figure07_POM3C_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale16_pom/figure08_POM3C_Spread.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale16_pom/figure10_POM3D_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale16_pom/figure26_ComparisionsHyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale16_pom/figure13_xomo_all_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure01_DTLZ1_9_5_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure02_DTLZ1_9_5_Spread.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure04_DTLZ2_14_5_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure05_DTLZ2_14_5_Spread.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure07_DTLZ3_14_5_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure09_DTLZ3_14_5_JoeDiagram.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure10_DTLZ4_14_5_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure11_DTLZ4_14_5_Spread.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure13_DTLZ1_7_3_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure16_DTLZ2_12_3_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure19_DTLZ3_12_3_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure20_DTLZ3_12_3_Spread.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure22_DTLZ4_12_3_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure26_DTLZ1_12_8_Spread.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure34_DTLZ4_17_8_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure31_DTLZ3_17_8_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure28_DTLZ2_17_8_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure25_DTLZ1_12_8_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure61_ComparisionsHyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure62_ComparisionsSpread.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_pom/figure01_POM3B_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_pom/figure04_POM3A_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_pom/figure07_POM3C_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_pom/figure10_POM3D_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_pom/figure13_xomo_all_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_pom/figure26_ComparisionsHyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_pom/figure27_ComparisionsSpread.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-22-2015_gale64_dtlz/figure56_ComparisionsHyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/12-22-2015_gale64_pom/figure26_ComparisionsHyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/DE/de_components.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="143" column="30" selection-start-line="143" selection-start-column="30" selection-end-line="143" selection-end-column="30" />
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
           <folding>
-            <element signature="e#3322#3524#0" expanded="false" />
-            <element signature="e#3556#3758#1" expanded="false" />
-            <element signature="e#3852#6122#0" expanded="false" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE/gale_components.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_problems.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE8/Utilities/where.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Charts/12-22-2015_gale64_dtlz/figure01_DTLZ2_14_5_HyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="59" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_algorithms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="124" column="23" selection-start-line="123" selection-start-column="22" selection-end-line="124" selection-end-column="23" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5956#6616#0" expanded="false" />
+            <element signature="e#1078#1107#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_algorithms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="163" column="26" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE8/Fastmap/lib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Charts/12-22-2015_gale64_dtlz/figure57_ComparisionsSpread.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/GALE8/gale_components.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#3322#3524#0" expanded="false" />
-            <element signature="e#3556#3758#1" expanded="false" />
-            <element signature="e#3852#6122#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#5956#6616#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_algorithms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="120" column="37" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE/Fastmap/Moo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/Graphs/grouped_bar_plots.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/Graphs/scatter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49053356">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/data/WebPortal.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40433213">
-          <caret line="77" column="59" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE/Fastmap/lib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/hamming_WebPortal.csv.png">
+    <entry file="file://$PROJECT_DIR$/Charts/12-22-2015_gale64_dtlz/figure45_DTLZ3_12_3_Evaluations.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/scatter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/EuclideanDistance/Apache_AllMeasurements.csv.png">
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_normal/figure52_POM3D_Evaluations.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/EuclideanDistance/BDBC_AllMeasurements.csv.png">
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_normal/figure51_POM3D_Runtimes.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/EuclideanDistance/X264_AllMeasurements.csv.png">
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_normal/figure50_POM3C_Evaluations.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/EuclideanDistance/BDBJ_AllMeasurements.csv.png">
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_normal/figure48_POM3A_Evaluations.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/HammingDistance_Valid_vs_Invalid/Apache_AllMeasurements.csv.png">
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_normal/figure46_POM3B_Evaluations.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/HammingDistance_Valid_vs_Invalid/BDBC_AllMeasurements.csv.png">
+    <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_normal/figure54_xomo_all_Evaluations.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/HammingDistance_Valid_vs_Invalid/BDBJ_AllMeasurements.csv.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/WebPortal.csv.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/ExtraDiagrams/script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.929432">
-          <caret line="100" column="119" selection-start-line="100" selection-start-column="119" selection-end-line="100" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE4/Fastmap/lib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE_no_mutation/gale_components.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE4/gale_components.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_individual.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.814815">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_interface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceMetrics/Spread/Spread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_stats_box.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-54.48148">
-          <caret line="174" column="100" selection-start-line="174" selection-start-column="93" selection-end-line="174" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/PerformanceMeasures/DataFrame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.407408">
-          <caret line="127" column="52" selection-start-line="127" selection-start-column="52" selection-end-line="127" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/charter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.592592">
-          <caret line="378" column="53" selection-start-line="378" selection-start-column="53" selection-end-line="378" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE8/Fastmap/lib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE8/Utilities/where.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_problems.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53001714">
-          <caret line="290" column="10" selection-start-line="290" selection-start-column="6" selection-end-line="290" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE/gale_components.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.592592">
-          <caret line="163" column="81" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_algorithms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="127" column="24" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="124" column="23" selection-start-line="123" selection-start-column="22" selection-end-line="124" selection-end-column="23" />
-          <folding>
-            <element signature="e#5956#6616#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_jmoea.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="195" column="56" selection-start-line="195" selection-start-column="56" selection-end-line="195" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE8/gale_components.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7941681">
-          <caret line="86" column="102" selection-start-line="86" selection-start-column="102" selection-end-line="86" selection-end-column="102" />
-          <folding>
-            <element signature="e#3322#3524#0" expanded="false" />
-            <element signature="e#3556#3758#1" expanded="false" />
-            <element signature="e#3852#6122#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
   </component>

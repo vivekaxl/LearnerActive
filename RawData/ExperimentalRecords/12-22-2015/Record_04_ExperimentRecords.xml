@@ -1,0 +1,194 @@
+<Experiment>
+<Problem name = 'DTLZ1_9_5'>
+<Algorithm name = 'GALE64'>
+<Run id = '1'>
+<Summary>
+<NumEvals>81</NumEvals>
+<RunTime>0.872831821442</RunTime>
+<IBD>0.901256844008</IBD>
+<IBS>0.0143538994921</IBS>
+<f1>2.61183922638</f1>
+<f2>0.293896186119</f2>
+<f3>2.34916017567</f3>
+<f4>13.4126775543</f4>
+<f5>208.20202153</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>76</NumEvals>
+<RunTime>0.975052833557</RunTime>
+<IBD>1.04459880539</IBD>
+<IBS>0.0730439087982</IBS>
+<f1>8.76251716757</f1>
+<f2>0.329826765554</f2>
+<f3>57.3019362975</f3>
+<f4>73.1678337429</f4>
+<f5>32.2904115481</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>77</NumEvals>
+<RunTime>1.36238288879</RunTime>
+<IBD>1.03982836359</IBD>
+<IBS>0.071118775236</IBS>
+<f1>2.0600844491</f1>
+<f2>0.337312363917</f2>
+<f3>10.2288663504</f3>
+<f4>41.080092567</f4>
+<f5>200.446528955</f5>
+</Summary></Run>
+</Algorithm>
+<Algorithm name = 'GALE32'>
+<Run id = '1'>
+<Summary>
+<NumEvals>117</NumEvals>
+<RunTime>1.38663315773</RunTime>
+<IBD>0.906428798672</IBD>
+<IBS>0.0214278455784</IBS>
+<f1>123.370280887</f1>
+<f2>0.893709689749</f2>
+<f3>4.50009192654</f3>
+<f4>9.05635507635</f4>
+<f5>17.9987182115</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>156</NumEvals>
+<RunTime>1.9218120575</RunTime>
+<IBD>0.876525261705</IBD>
+<IBS>6.47677654841e-08</IBS>
+<f1>59.7841640852</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>3.21583591477</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>80</NumEvals>
+<RunTime>0.945033073425</RunTime>
+<IBD>0.879441584323</IBD>
+<IBS>0.0367290470543</IBS>
+<f1>0.652333372376</f1>
+<f2>0.0609460403189</f2>
+<f3>8.06264030991</f3>
+<f4>15.7013984759</f4>
+<f5>137.736360948</f5>
+</Summary></Run>
+</Algorithm>
+<Algorithm name = 'GALE8'>
+<Run id = '1'>
+<Summary>
+<NumEvals>640</NumEvals>
+<RunTime>1.25579285622</RunTime>
+<IBD>0.818731067307</IBD>
+<IBS>0.0</IBS>
+<f1>0.0</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>62.9994754487</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>640</NumEvals>
+<RunTime>1.00641393661</RunTime>
+<IBD>0.818731067307</IBD>
+<IBS>0.0</IBS>
+<f1>0.0</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>62.9994754487</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>640</NumEvals>
+<RunTime>1.24336194992</RunTime>
+<IBD>0.818731067307</IBD>
+<IBS>0.0</IBS>
+<f1>0.0</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>62.9994754487</f5>
+</Summary></Run>
+</Algorithm>
+<Algorithm name = 'GALE16'>
+<Run id = '1'>
+<Summary>
+<NumEvals>173</NumEvals>
+<RunTime>2.08601284027</RunTime>
+<IBD>0.81873076541</IBD>
+<IBS>0.0</IBS>
+<f1>0.0</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>63.0</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>175</NumEvals>
+<RunTime>2.14094805717</RunTime>
+<IBD>0.869969815214</IBD>
+<IBS>0.00425439680632</IBS>
+<f1>63.0469473125</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>0.0</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>215</NumEvals>
+<RunTime>2.28813505173</RunTime>
+<IBD>0.81873076541</IBD>
+<IBS>0.0</IBS>
+<f1>0.0</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>63.0</f5>
+</Summary></Run>
+</Algorithm>
+<Algorithm name = 'GALE'>
+<Run id = '1'>
+<Summary>
+<NumEvals>60</NumEvals>
+<RunTime>0.772648096085</RunTime>
+<IBD>0.93057511619</IBD>
+<IBS>0.00911126416411</IBS>
+<f1>4.31510323252</f1>
+<f2>1.66981781266</f2>
+<f3>2.03367443054</f3>
+<f4>43.237682313</f4>
+<f5>115.627580672</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>150</NumEvals>
+<RunTime>1.92421603203</RunTime>
+<IBD>0.923657799684</IBD>
+<IBS>0.0295694861737</IBS>
+<f1>0.747946408663</f1>
+<f2>0.344349664049</f2>
+<f3>0.927222972497</f3>
+<f4>7.8975828195</f4>
+<f5>223.420299593</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>72</NumEvals>
+<RunTime>0.777647972107</RunTime>
+<IBD>0.897461284681</IBD>
+<IBS>0.0164978534841</IBS>
+<f1>0.309283703822</f1>
+<f2>0.321773438168</f2>
+<f3>5.82631367252</f3>
+<f4>2.44436825217</f4>
+<f5>130.630752021</f5>
+</Summary></Run>
+</Algorithm>
+</Problem>
+</Experiment>

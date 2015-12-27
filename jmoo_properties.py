@@ -49,17 +49,20 @@ from Problems.XOMO.XOMO_osp2 import XOMO_osp2
 
 # JMOO Experimental Definitions
 algorithms = [
-              jmoo_GALE8()
-              # jmoo_GALE2(),
-              # jmoo_GALE(),
-              # jmoo_DE(),
-              # jmoo_MOEAD_TCH(),
-              # jmoo_NSGAIII(),
-              # jmoo_GALE_no_mutation(),
-              # jmoo_NSGAII(),
-              #   jmoo_GALE4(),
-            # jmoo_learneractive()
-              # jmoo_SPEA2(),
+            jmoo_GALE64(),
+            jmoo_GALE32(),
+              jmoo_GALE8(),
+            #   jmoo_GALE2(),
+              jmoo_GALE16(),
+              jmoo_GALE(),
+            #   # jmoo_DE(),
+            #   jmoo_MOEAD_TCH(),
+            #   jmoo_NSGAIII(),
+            #   # jmoo_GALE_no_mutation(),
+            #   jmoo_NSGAII(),
+            #   #   jmoo_GALE4(),
+            # # jmoo_learneractive()
+            #   jmoo_SPEA2(),
               # jmoo_DE(),
               # jmoo_MOEAD_TCH(),
               # jmoo_NSGAIII(),
@@ -73,14 +76,14 @@ problems =[
     #  zdt3(),
     # golinski(), zdt6()
     # srinivas()
-    # POM3B(),
-    # POM3A(),
-    # POM3C(),
-    # POM3D(),
-    dtlz1(9, 5),
-    dtlz2(14, 5),
-    dtlz3(14, 5),
-    dtlz4(14, 5),
+    POM3B(),
+    POM3A(),
+    POM3C(),
+    POM3D(),
+    # dtlz1(9, 5),
+    # dtlz2(14, 5),
+    # dtlz3(14, 5),
+    # dtlz4(14, 5),
     # dtlz1(7, 3),
     # dtlz2(12, 3),
     # dtlz3(12, 3),
@@ -97,7 +100,7 @@ problems =[
     # dtlz2(24, 15),
     # dtlz3(24, 15),
     # dtlz4(24, 15)
-    # XOMO_all(),
+    XOMO_all(),
     # NRP(50, 5, 5, 20, 120)
     # FeatureTreeModel("Web_Portal", valid_solutions=True),
     # FeatureTreeModel("eshop", valid_solutions=True),

@@ -278,8 +278,8 @@ def spread_graphs(problems, algorithms, Configurations,aggregate_measure=mean, t
                                 repeat_dict[str(repeat)]["Spread"] = function(candidates, extreme_point1, extreme_point2)
                                 repeat_dict[str(repeat)]["Evaluations"] = evaluations[algorithm.name][repeat]
                             except:
-                                import pdb
-                                pdb.set_trace()
+                                repeat_dict[str(repeat)]["Spread"] = None
+                                repeat_dict[str(repeat)]["Evaluations"] = None
                         else:
                             repeat_dict[str(repeat)]["Spread"] = None
                             repeat_dict[str(repeat)]["Evaluations"] = None

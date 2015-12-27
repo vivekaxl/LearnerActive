@@ -35,8 +35,7 @@ def spread_calculator(obtained_front, extreme_point1, extreme_point2):
     try:
         distances_mean = sum(distances)/len(distances)
     except:
-        import pdb
-        pdb.set_trace()
+        pass
     d_variance = sum([abs(di - distances_mean) for di in distances])
     N = len(obtained_front)
 

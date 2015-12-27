@@ -49,7 +49,7 @@ def barplot(dpoints, file_name, title, color):
 
     # Set the x-axis tick labels to be equal to the categories
     ax.set_xticks(indeces)
-    ax.set_xticklabels(categories)
+    ax.set_xticklabels(categories, rotation='vertical')
     plt.setp(plt.xticks()[1])
 
     # Add the axis labels

@@ -1,0 +1,194 @@
+<Experiment>
+<Problem name = 'DTLZ1_9_5'>
+<Algorithm name = 'GALE64'>
+<Run id = '1'>
+<Summary>
+<NumEvals>76</NumEvals>
+<RunTime>0.826963186264</RunTime>
+<IBD>0.943274348653</IBD>
+<IBS>0.0107558797129</IBS>
+<f1>42.3677607358</f1>
+<f2>2.22896358876</f2>
+<f3>14.9649366369</f3>
+<f4>5.25775602927</f4>
+<f5>109.846858785</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>86</NumEvals>
+<RunTime>0.913336992264</RunTime>
+<IBD>0.977976834295</IBD>
+<IBS>0.0340509721244</IBS>
+<f1>2.66866277325</f1>
+<f2>5.41018709808</f2>
+<f3>2.05819912464</f3>
+<f4>104.087236242</f4>
+<f5>188.945088261</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>57</NumEvals>
+<RunTime>0.579710960388</RunTime>
+<IBD>0.895338189641</IBD>
+<IBS>0.038598327426</IBS>
+<f1>0.500864002474</f1>
+<f2>0.570438332317</f2>
+<f3>4.59902240669</f3>
+<f4>5.69815980582</f4>
+<f5>179.178999418</f5>
+</Summary></Run>
+</Algorithm>
+<Algorithm name = 'GALE32'>
+<Run id = '1'>
+<Summary>
+<NumEvals>76</NumEvals>
+<RunTime>0.965706825256</RunTime>
+<IBD>0.983936475365</IBD>
+<IBS>0.0690352618841</IBS>
+<f1>1.54374239474</f1>
+<f2>0.0882981457211</f2>
+<f3>2.0959209634</f3>
+<f4>2.30564131923</f4>
+<f5>146.646539235</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>62</NumEvals>
+<RunTime>0.695231199265</RunTime>
+<IBD>0.993130597511</IBD>
+<IBS>0.0617989329945</IBS>
+<f1>0.483865467489</f1>
+<f2>0.467684513247</f2>
+<f3>3.7097439649</f3>
+<f4>13.3101532591</f4>
+<f5>52.088420086</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>64</NumEvals>
+<RunTime>0.79341006279</RunTime>
+<IBD>0.906259868309</IBD>
+<IBS>0.0179190152378</IBS>
+<f1>89.3929562018</f1>
+<f2>0.347837248104</f2>
+<f3>1.45237999559</f3>
+<f4>4.11472196664</f4>
+<f5>0.681858810147</f5>
+</Summary></Run>
+</Algorithm>
+<Algorithm name = 'GALE8'>
+<Run id = '1'>
+<Summary>
+<NumEvals>640</NumEvals>
+<RunTime>1.15618395805</RunTime>
+<IBD>0.818731067307</IBD>
+<IBS>0.0</IBS>
+<f1>0.0</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>62.9994754487</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>640</NumEvals>
+<RunTime>0.987362146378</RunTime>
+<IBD>0.818731067307</IBD>
+<IBS>0.0</IBS>
+<f1>0.0</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>62.9994754487</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>640</NumEvals>
+<RunTime>0.96993303299</RunTime>
+<IBD>0.818731067307</IBD>
+<IBS>0.0</IBS>
+<f1>0.0</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>62.9994754487</f5>
+</Summary></Run>
+</Algorithm>
+<Algorithm name = 'GALE16'>
+<Run id = '1'>
+<Summary>
+<NumEvals>173</NumEvals>
+<RunTime>2.07056498528</RunTime>
+<IBD>0.81873076541</IBD>
+<IBS>0.0</IBS>
+<f1>0.0</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>63.0</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>175</NumEvals>
+<RunTime>2.06978106499</RunTime>
+<IBD>0.869969815214</IBD>
+<IBS>0.00425439680632</IBS>
+<f1>63.0469473125</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>0.0</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>215</NumEvals>
+<RunTime>2.19204282761</RunTime>
+<IBD>0.81873076541</IBD>
+<IBS>0.0</IBS>
+<f1>0.0</f1>
+<f2>0.0</f2>
+<f3>0.0</f3>
+<f4>0.0</f4>
+<f5>63.0</f5>
+</Summary></Run>
+</Algorithm>
+<Algorithm name = 'GALE'>
+<Run id = '1'>
+<Summary>
+<NumEvals>60</NumEvals>
+<RunTime>0.695249080658</RunTime>
+<IBD>0.93057511619</IBD>
+<IBS>0.00911126416411</IBS>
+<f1>4.31510323252</f1>
+<f2>1.66981781266</f2>
+<f3>2.03367443054</f3>
+<f4>43.237682313</f4>
+<f5>115.627580672</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>150</NumEvals>
+<RunTime>2.96386098862</RunTime>
+<IBD>0.923657799684</IBD>
+<IBS>0.0295694861737</IBS>
+<f1>0.747946408663</f1>
+<f2>0.344349664049</f2>
+<f3>0.927222972497</f3>
+<f4>7.8975828195</f4>
+<f5>223.420299593</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>72</NumEvals>
+<RunTime>1.12530899048</RunTime>
+<IBD>0.897461284681</IBD>
+<IBS>0.0164978534841</IBS>
+<f1>0.309283703822</f1>
+<f2>0.321773438168</f2>
+<f3>5.82631367252</f3>
+<f4>2.44436825217</f4>
+<f5>130.630752021</f5>
+</Summary></Run>
+</Algorithm>
+</Problem>
+</Experiment>

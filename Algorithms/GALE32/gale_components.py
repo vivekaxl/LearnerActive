@@ -21,7 +21,7 @@ from Fastmap.Moo import *
 from jmoo_individual import *
 
 
-def gale_16_WHERE(problem, population, configuration, values_to_be_passed):
+def gale_32_WHERE(problem, population, configuration, values_to_be_passed):
     "The Core method behind GALE"
 
     # Compile population into table form used by WHERE
@@ -55,25 +55,30 @@ def over_sampling(problem, population, more_count, f=0.75):
     def trim(mutated, low, up):
         """Constraint checking of decision"""
         return max(low, min(mutated, up))
+
+    def interpolate(a, b, random_number):
+        return a + random_number * (b - a)
+
     new_population = []
-    for _ in xrange(more_count):
-        from random import choice, randint
-        one = choice(population)
-        two = choice(population)
-        three = choice(population)
+    for i in xrange(more_count):
+        from random import choice, randint, random
+        one_count = i%len(population)
+        one = population[one_count]
+        while True:
+            two_count = randint(0, len(population)-1)
+            if one_count != two_count: break
+        two = population[two_count]
         solution = []
         for d, decision in enumerate(problem.decisions):
             assert isinstance(one, jmoo_individual)
             assert isinstance(two, jmoo_individual)
-            assert isinstance(three, jmoo_individual)
-            x, y, z = one.decisionValues[d], two.decisionValues[d], three.decisionValues[d]
-            solution.append(trim(x + f * (y - z), decision.low, decision.up))
+            solution.append(trim(interpolate(one.decisionValues[d], two.decisionValues[d], random()), decision.low, decision.up))
 
         new_population.append(jmoo_individual(problem, solution, None))
     return new_population
 
 
-def gale_16_Mutate(problem, NDLeafs, configuration):
+def gale_32_Mutate(problem, NDLeafs, configuration):
     #################
     # Mutation Phase
     #################
@@ -180,7 +185,7 @@ def gale_16_Mutate(problem, NDLeafs, configuration):
     return population, numEval
 
 
-def gale_16_Regen(problem, unusedslot, mutants, configuration):
+def gale_32_Regen(problem, unusedslot, mutants, configuration):
     howMany = configuration["Universal"]["Population_Size"] - len(mutants)
     # Generate random individuals
     population = []

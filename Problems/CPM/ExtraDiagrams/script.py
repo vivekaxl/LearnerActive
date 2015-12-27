@@ -31,7 +31,6 @@ def hamming_distance(list1, list2):
     return sum([1 if l1!=l2 else 0 for l1, l2 in zip(list1, list2)])
 
 
-
 def euclidean_distance(list1, list2):
     assert(len(list1) == len(list2)), "The points don't have the same dimension"
     distance = sum([(i - j) ** 2 for i, j in zip(list1, list2)]) ** 0.5
@@ -39,10 +38,10 @@ def euclidean_distance(list1, list2):
     return distance
 
 
-def furthest(point, rows):
+def furthest(point, rows, distance):
     max_distance = -1e32
     for row in rows:
-        temp_distance = euclidean_distance(point, row)
+        temp_distance = distance(point, row)
         if temp_distance > max_distance:
             max_distance = temp_distance
             from copy import copy
@@ -50,12 +49,12 @@ def furthest(point, rows):
     return maximum_dist_point
 
 
-def project(solutions, distance=euclidean_distance):
+def project(solutions, distance=hamming_distance):
     "Uses the O(2N) Fastmap heuristic."
     rows = [row.data for row in solutions]
     w = one(rows)  # any row, selected at random
-    west = furthest(w, rows)
-    east = furthest(west, rows)
+    west = furthest(w, rows, distance)
+    east = furthest(west, rows, distance)
     c = distance(east, west)
     for row in solutions:
         a = distance(west, row.data)
@@ -101,6 +100,9 @@ def generate_graphs(filename):
     invalid_configurations = [SolutionContainer([randint(0, 1) for _ in xrange(number_of_columns)]) for _ in xrange(100 * len(content))]
 
     all_content = valid_configurations + invalid_configurations
+    # all_content = valid_configurations + valid_configurations
+
+    assert(len(valid_configurations) + len(invalid_configurations) == len(all_content)), "Something is wrong"
 
     all_content = project(all_content)
 
@@ -108,13 +110,13 @@ def generate_graphs(filename):
     listb = [[content.x, content.y] for content in all_content if content.valid is False]
 
     from scatter import plot_scatter
-    plot_scatter(lista, listb, filename.split("/")[-1])
+    plot_scatter(lista, listb, filename.split("/")[-1].split("_")[0])
 
 
 if __name__ == "__main__":
-    # filenames = ["Apache_AllMeasurements", "BDBC_AllMeasurements", "BDBJ_AllMeasurements", "LLVM_AllMeasurements",
-    #               "X264_AllMeasurements"]
-    filenames = ["WebPortal"]
+    filenames = ["Apache_AllMeasurements", "BDBC_AllMeasurements", "BDBJ_AllMeasurements", "LLVM_AllMeasurements",
+                  "X264_AllMeasurements", "SQL_AllMeasurements"]
+    # filenames = ["WebPortal"] # needs to be changed
     filepath = "../data/"
     extension = ".csv"
     for filename in filenames:

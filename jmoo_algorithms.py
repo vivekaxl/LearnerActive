@@ -49,6 +49,9 @@ from Algorithms.GALE_no_mutation.gale_components import *
 from Algorithms.GALE2.gale_components import *
 from Algorithms.GALE4.gale_components import *
 from Algorithms.GALE8.gale_components import *
+from Algorithms.GALE16.gale_components import *
+from Algorithms.GALE32.gale_components import *
+from Algorithms.GALE64.gale_components import *
 from Algorithms.LearnerActive.LearnerActiveComponent import *
 
 from jmoo_individual import *
@@ -160,6 +163,7 @@ class jmoo_learneractive:
         self.color = color
         self.type = '*'
 
+# my idea
 class jmoo_GALE8:
     def __init__(self, color="magenta"):
         self.name = "GALE8"
@@ -167,6 +171,41 @@ class jmoo_GALE8:
         self.selector = gale_8_WHERE
         self.adjustor = gale_8_Mutate
         self.recombiner = gale_8_Regen
+        self.color = color
+        self.type = '*'
+
+# DE style towards n/2
+class jmoo_GALE16:
+    def __init__(self, color="orange"):
+        self.name = "GALE16"
+        self.initializer = None
+        self.selector = gale_16_WHERE
+        self.adjustor = gale_16_Mutate
+        self.recombiner = gale_16_Regen
+        self.color = color
+        self.type = '*'
+
+
+# Smoting towards n/2
+class jmoo_GALE32:
+    def __init__(self, color="#330066"):
+        self.name = "GALE32"
+        self.initializer = None
+        self.selector = gale_32_WHERE
+        self.adjustor = gale_32_Mutate
+        self.recombiner = gale_32_Regen
+        self.color = color
+        self.type = '*'
+
+
+# GA with half of the ND leaf
+class jmoo_GALE64:
+    def __init__(self, color="#FF6666"):
+        self.name = "GALE64"
+        self.initializer = None
+        self.selector = gale_64_WHERE
+        self.adjustor = gale_64_Mutate
+        self.recombiner = gale_64_Regen
         self.color = color
         self.type = '*'
 
@@ -194,7 +233,7 @@ class jmoo_MOEAD_PBI:
 
 
 class jmoo_NSGAIII:
-    def __init__(self, color="green"):
+    def __init__(self, color="pink"):
         self.name = "NSGA3"
         self.initializer = None
         self.selector = nsgaiii_selector2

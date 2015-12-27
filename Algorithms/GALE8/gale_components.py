@@ -25,16 +25,12 @@ def gale_8_WHERE(problem, population, configuration, values_to_be_passed):
     "The Core method behind GALE"
 
     from Utilities.where import where
-
     import numpy as np
     decisions = np.array([pop.decisionValues for pop in population])
     leaves = where(decisions)
     filled_leaves = []
     for leaf in leaves:
-        temp_list = []
-        for member in leaf:
-            for pop in population:
-                if set(pop.decisionValues) == set(member): temp_list.append(pop)
+        temp_list = [jmoo_individual(problem, list(member), None) for member in leaf]
         filled_leaves.append(temp_list)
 
     return filled_leaves, 0
@@ -56,7 +52,7 @@ def gale_8_Mutate(problem, leaves, configuration):
             if me > good:  d = -1
             if me < good:  d = +1
             if me == good: d = 0
-            mutant[attr] = min(dec.up, max(dec.low, (me + me * g * d) * configuration["GALE"]["DELTA"]))
+            mutant[attr] = min(dec.up, max(dec.low, (me + me * g * d) * 1.1))
 
         return jmoo_individual(problem, mutant, None)
 
@@ -71,22 +67,28 @@ def gale_8_Mutate(problem, leaves, configuration):
     for leaf in leaves:
         initial_length = len(leaf)
         sorted_population = fastmap(problem, leaf)
+        # print "sorted_population: ", len(sorted_population), len([g for g in sorted_population if g.fitness.valid])
         number_of_evaluations += 2
 
         good_ones = sorted_population[:initial_length/2]
+        # print "good_ones: ", len(good_ones), len([g for g in good_ones if g.fitness.valid])
         mutants = [mutate(good_one, sorted_population[0], sorted_population[-1]) for good_one in good_ones]
+        # print "mutants: ", len(mutants)
 
         excess = initial_length - (len(good_ones) + len(mutants))
         random_points = [jmoo_individual(problem, problem.generateInput(), None) for _ in xrange(excess)]
+        # print "excess: ", excess
 
         new_population += good_ones
         new_population += mutants
         new_population += random_points
+        # print "new_population: ", len(new_population)
         assert(initial_length == len(good_ones) + len(mutants) + len(random_points)), "Something is wrong"
 
+
+
+    # print len(new_population), configuration["Universal"]["Population_Size"]
     assert(len(new_population) == configuration["Universal"]["Population_Size"]), "Something is wrong"
-    print len(new_population), configuration["Universal"]["Population_Size"]
-    need to fix it
     return new_population, number_of_evaluations
 
 
@@ -133,6 +135,10 @@ def fastmap(problem, true_population):
     west_indi.evaluate()
     east_indi.evaluate()
 
+    for true_pop in true_population:
+        if list_equality(true_pop.decisionValues, west_indi.decisionValues): true_pop.fitness.fitness = west_indi.fitness.fitness
+        if list_equality(true_pop.decisionValues, east_indi.decisionValues): true_pop.fitness.fitness = east_indi.fitness.fitness
+
 
     # Score the poles
     n = len(problem.decisions)
@@ -171,7 +177,7 @@ def fastmap(problem, true_population):
         for true_pop in true_population:
             if list_equality(tpop[0], true_pop.decisionValues):
                 true_pop.x = tpop[-1]
-    temp_list = sorted(true_population, key=lambda pop: pop.x)
+    temp_list =  sorted(true_population, key=lambda pop: pop.x)
     return temp_list
 
 
