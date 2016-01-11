@@ -166,7 +166,7 @@ class jmoo_learneractive:
 # my idea
 class jmoo_GALE8:
     def __init__(self, color="magenta"):
-        self.name = "GALE8"
+        self.name = "VALE8"
         self.initializer = None
         self.selector = gale_8_WHERE
         self.adjustor = gale_8_Mutate
@@ -177,7 +177,7 @@ class jmoo_GALE8:
 # DE style towards n/2
 class jmoo_GALE16:
     def __init__(self, color="orange"):
-        self.name = "GALE16"
+        self.name = "VALE16"
         self.initializer = None
         self.selector = gale_16_WHERE
         self.adjustor = gale_16_Mutate
@@ -189,7 +189,7 @@ class jmoo_GALE16:
 # Smoting towards n/2
 class jmoo_GALE32:
     def __init__(self, color="#330066"):
-        self.name = "GALE32"
+        self.name = "VALE32"
         self.initializer = None
         self.selector = gale_32_WHERE
         self.adjustor = gale_32_Mutate
@@ -201,7 +201,7 @@ class jmoo_GALE32:
 # GA with half of the ND leaf
 class jmoo_GALE64:
     def __init__(self, color="#FF6666"):
-        self.name = "GALE64"
+        self.name = "VALE64"
         self.initializer = None
         self.selector = gale_64_WHERE
         self.adjustor = gale_64_Mutate
