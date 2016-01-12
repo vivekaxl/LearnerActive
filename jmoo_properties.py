@@ -59,13 +59,13 @@ algorithms = [
               ]
 
 problems =[
-    # POM3B(),
-    # POM3A(),
-    # XOMO_flight(),
-    # XOMO_osp2(),
-    # dtlz7(22, 3),
+    POM3B(),
+    POM3A(),
+    XOMO_flight(),
+    XOMO_osp2(),
+    dtlz7(22, 3),
     dtlz7(24, 5),
-    # dtlz7(27, 8),
+    dtlz7(27, 8),
 ]
 
 build_new_pop = False                                       # Whether or not to rebuild the initial population
@@ -82,9 +82,9 @@ Configurations = {
         "ETA_M_DEFAULT_" : 20
     },
     "GALE": {
-        "GAMMA" : 0.15,  #Constrained Mutation Parameter
-        "EPSILON" : 1.00,  #Continuous Domination Parameter
-        "LAMBDA" :  3,     #Number of lives for bstop
+        "GAMMA" : 0.15,  # Constrained Mutation Parameter
+        "EPSILON" : 1.00,  # Continuous Domination Parameter
+        "LAMBDA" :  3,     # Number of lives for bstop
         "DELTA"  : 3       # Accelerator that increases mutation size
     },
     "DE": {

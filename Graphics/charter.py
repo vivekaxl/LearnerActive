@@ -35,7 +35,6 @@ from pylab import *
 
 from jmoo_properties import *
 from utility import *
-from Algorithms.DEAP.tools.support import ParetoFront
 
 
 def read_initial_population(prob, filename):
@@ -107,7 +106,6 @@ def joes_diagrams(problems, algorithms, Configurations, tag="JoeDiagram"):
     codes2= ["b-", "r-", "g-"]
     colors= ["b", "r", "g"]
     ms = 8
-    from mpl_toolkits.mplot3d import Axes3D
     #fig  = plt.figure()
     #ax = fig.gca(projection='3d')
 
@@ -158,13 +156,13 @@ def joes_diagrams(problems, algorithms, Configurations, tag="JoeDiagram"):
                         axarr[o].set_ylabel(obj.name)
 
 
-                if not os.path.isdir('charts/' + date_folder_prefix):
-                    os.makedirs('charts/' + date_folder_prefix)
+                if not os.path.isdir('./Results/Charts/' + date_folder_prefix):
+                    os.makedirs('./Results/Charts/' + date_folder_prefix)
 
                 f.suptitle(prob.name)
-                fignum = len([name for name in os.listdir('charts/' + date_folder_prefix)]) + 1
+                fignum = len([name for name in os.listdir('./Results/Charts/' + date_folder_prefix)]) + 1
                 plt.legend(loc='lower center', bbox_to_anchor=(1, 0.5))
-                plt.savefig('charts/' + date_folder_prefix + '/figure' + str("%02d" % fignum) + "_" + prob.name + "_" + tag + '.png', dpi=100)
+                plt.savefig('./Results/Charts/' + date_folder_prefix + '/figure' + str("%02d" % fignum) + "_" + prob.name + "_" + tag + '.png', dpi=100)
                 cla()
 
 
@@ -243,13 +241,13 @@ def hypervolume_graphs(problems, algorithms, Configurations, aggregate_measure=m
             axarr.set_xlim([-10, 10000])
             axarr.set_xscale('log', nonposx='clip')
             axarr.set_ylabel("HyperVolume")
-        if not os.path.isdir('charts/' + date_folder_prefix):
-            os.makedirs('charts/' + date_folder_prefix)
+        if not os.path.isdir('./Results/Charts/' + date_folder_prefix):
+            os.makedirs('./Results/Charts/' + date_folder_prefix)
 
         f.suptitle(problem.name)
-        fignum = len([name for name in os.listdir('charts/' + date_folder_prefix)]) + 1
+        fignum = len([name for name in os.listdir('./Results/Charts/' + date_folder_prefix)]) + 1
         plt.legend(loc='lower center', bbox_to_anchor=(1, 0.5))
-        plt.savefig('charts/' + date_folder_prefix + '/figure' + str("%02d" % fignum) + "_" + problem.name + "_" + tag + '.png', dpi=100)
+        plt.savefig('./Results/Charts/' + date_folder_prefix + '/figure' + str("%02d" % fignum) + "_" + problem.name + "_" + tag + '.png', dpi=100)
         cla()
         problem_scores[problem.name] = scores
 
@@ -321,13 +319,13 @@ def spread_graphs(problems, algorithms, Configurations,aggregate_measure=mean, t
             axarr.set_xlim([-10, 10000])
             axarr.set_xscale('log', nonposx='clip')
             axarr.set_ylabel("Spread")
-        if not os.path.isdir('charts/' + date_folder_prefix):
-            os.makedirs('charts/' + date_folder_prefix)
+        if not os.path.isdir('./Results/Charts/' + date_folder_prefix):
+            os.makedirs('./Results/Charts/' + date_folder_prefix)
 
         f.suptitle(problem.name)
-        fignum = len([name for name in os.listdir('charts/' + date_folder_prefix)]) + 1
+        fignum = len([name for name in os.listdir('./Results/Charts/' + date_folder_prefix)]) + 1
         plt.legend(loc='lower center', bbox_to_anchor=(1, 0.5))
-        plt.savefig('charts/' + date_folder_prefix + '/figure' + str("%02d" % fignum) + "_" + problem.name + "_" + tag + '.png', dpi=100)
+        plt.savefig('./Results/Charts/' + date_folder_prefix + '/figure' + str("%02d" % fignum) + "_" + problem.name + "_" + tag + '.png', dpi=100)
         cla()
         problem_scores[problem.name] = scores
     return problem_scores
@@ -356,11 +354,11 @@ def statistic_reporter(problems, algorithms, Configurations,aggregate_measure=me
         plt.title(title)
         plt.xticks(ind + width/2., names)
         date_folder_prefix = strftime("%m-%d-%Y")
-        if not os.path.isdir('charts/' + date_folder_prefix):
-            os.makedirs('charts/' + date_folder_prefix)
+        if not os.path.isdir('./Results/Charts/' + date_folder_prefix):
+            os.makedirs('./Results/Charts/' + date_folder_prefix)
 
-        fignum = len([name for name in os.listdir('charts/' + date_folder_prefix)]) + 1
-        plt.savefig('charts/' + date_folder_prefix + '/figure' + str("%02d" % fignum) + "_" + problem.name + "_" + tag + '.png', dpi=100)
+        fignum = len([name for name in os.listdir('./Results/Charts/' + date_folder_prefix)]) + 1
+        plt.savefig('./Results/Charts/' + date_folder_prefix + '/figure' + str("%02d" % fignum) + "_" + problem.name + "_" + tag + '.png', dpi=100)
         cla()
 
 
@@ -413,10 +411,10 @@ def comparision_reporter(problems, algorithms, list_hypervolume_scores, list_spr
         np_x_dpoints = np.array(x_dpoints)
 
         date_folder_prefix = strftime("%m-%d-%Y")
-        if not os.path.isdir('charts/' + date_folder_prefix):
-                os.makedirs('charts/' + date_folder_prefix)
-        fignum = len([name for name in os.listdir('charts/' + date_folder_prefix)]) + 1
-        file_name = 'charts/' + date_folder_prefix + '/figure' + str("%02d" % fignum) + "_" + tag + measure_name + '.png'
+        if not os.path.isdir('./Results/Charts/' + date_folder_prefix):
+                os.makedirs('./Results/Charts/' + date_folder_prefix)
+        fignum = len([name for name in os.listdir('./Results/Charts/' + date_folder_prefix)]) + 1
+        file_name = './Results/Charts/' + date_folder_prefix + '/figure' + str("%02d" % fignum) + "_" + tag + measure_name + '.png'
 
         from Graphs.grouped_bar_plots import barplot
         barplot(np_x_dpoints, file_name, tag + measure_name, {alg.name:alg.color for alg in algorithms})
@@ -489,23 +487,38 @@ def igd_reporter(problems, algorithms, Configurations, aggregate_measure=mean, t
     from PerformanceMetrics.HyperVolume.hv import get_hyper_volume
     result, actual_frontier = get_data_from_archive(problems, algorithms, Configurations, get_hyper_volume)
 
-
-
-
+    date_folder_prefix = strftime("%m-%d-%Y")
+    if not os.path.isdir('./Results/Final_Frontier/' + date_folder_prefix):
+            os.makedirs('./Results/Final_Frontier/' + date_folder_prefix)
 
     date_folder_prefix = strftime("%m-%d-%Y")
+    if not os.path.isdir('./Results/Charts/' + date_folder_prefix):
+            os.makedirs('./Results/Charts/' + date_folder_prefix)
 
     problem_scores = {}
     for problem in problems:
+        print problem.name
         from PerformanceMetrics.IGD.IGD_Calculation import IGD
-        baseline_igd = IGD(actual_frontier, baseline_objectives(problem,Configurations))
+        baseline_igd = IGD(actual_frontier, baseline_objectives(problem, Configurations))
+
+        # write the final frontier
+        fignum = len([name for name in os.listdir('./Results/Final_Frontier/' + date_folder_prefix)]) + 1
+        filename_frontier = './Results/Final_Frontier/' + date_folder_prefix + '/table' + str("%02d" % fignum) + "_" \
+                             + problem.name + "_" + tag + '.csv'
+        ffrontier = open(filename_frontier, "w")
+        for l in actual_frontier:
+            string_l = ",".join(map(str, l))
+            ffrontier.write(string_l + "\n")
+        ffrontier.close()
 
         f, axarr = plt.subplots(1)
         scores = {}
         for algorithm in algorithms:
             median_scores = []
             median_evals = []
-            print "Problem: ", problem.name , " Algorithm Name: ", algorithm.name
+            Tables_Content = ""
+            Tables_Content += "Generation, o25, o50, o75, n25, n50, n75 \n"
+
             for generation in xrange(Configurations["Universal"]["No_of_Generations"]):
                 temp_result = result[problem.name][str(generation)][algorithm.name]
                 hypervolume_list = [temp_result[str(repeat)]["IGD"] for repeat in xrange(Configurations["Universal"]["Repeats"]) if temp_result[str(repeat)]["IGD"] is not None]
@@ -518,12 +531,20 @@ def igd_reporter(problems, algorithms, Configurations, aggregate_measure=mean, t
                     o25 = getPercentile(hypervolume_list, 25)
                     o50 = getPercentile(hypervolume_list, 50)
                     o75 = getPercentile(hypervolume_list, 75)
-                    print "Generation: ", generation, " o25: ", o25, " o50: ", o50, " o75: ", o75, \
-                     " n25: ", (o25 - baseline_igd)/baseline_igd, \
-                     " n50: ", (o50 - baseline_igd)/baseline_igd, \
-                     " n75: ", (o75 - baseline_igd)/baseline_igd
+                    Tables_Content += str(generation) + "," + str(o25) + "," + str(o50) + "," + str(o75) + "," + str(
+                        (o25 - baseline_igd) / baseline_igd) + "," + str(
+                        (o50 - baseline_igd) / baseline_igd) + "," + str((o75 - baseline_igd) / baseline_igd) + "\n"
                     median_scores.append(aggregate_measure(hypervolume_list))
                     median_evals.append(aggregate_measure(old_evals))
+
+            if not os.path.isdir('./Results/Tables/' + date_folder_prefix):
+                    os.makedirs('./Results/Tables/' + date_folder_prefix)
+            fignum = len([name for name in os.listdir('./Results/Tables/' + date_folder_prefix)]) + 1
+            filename_table = './Results/Tables/' + date_folder_prefix + '/table' + str("%02d" % fignum) + "_" \
+                             + algorithm.name + "_" + problem.name + "_" + tag + '.csv'
+
+            # print Tables_Content
+            open(filename_table, "w").write(Tables_Content)
 
             scores[algorithm.name] = aggregate_measure(median_scores)
             axarr.plot(median_evals, median_scores, linestyle='None', label=algorithm.name, marker=algorithm.type, color=algorithm.color, markersize=8, markeredgecolor='none')
@@ -533,13 +554,12 @@ def igd_reporter(problems, algorithms, Configurations, aggregate_measure=mean, t
             axarr.set_xlim([-10, 10000])
             axarr.set_xscale('log', nonposx='clip')
             axarr.set_ylabel("IGD")
-        if not os.path.isdir('charts/' + date_folder_prefix):
-            os.makedirs('charts/' + date_folder_prefix)
+
 
         f.suptitle(problem.name)
-        fignum = len([name for name in os.listdir('charts/' + date_folder_prefix)]) + 1
+        fignum = len([name for name in os.listdir('./Results/Charts/' + date_folder_prefix)]) + 1
         plt.legend(loc='lower center', bbox_to_anchor=(1, 0.5))
-        plt.savefig('charts/' + date_folder_prefix + '/figure' + str("%02d" % fignum) + "_" + problem.name + "_" + tag + '.png', dpi=100)
+        plt.savefig('./Results/Charts/' + date_folder_prefix + '/figure' + str("%02d" % fignum) + "_" + problem.name + "_" + tag + '.png', dpi=100)
         cla()
         problem_scores[problem.name] = scores
 
