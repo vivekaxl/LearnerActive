@@ -544,7 +544,7 @@ def charter_reporter(problems, algorithms, Configurations, tag=""):
     sys.setrecursionlimit(10000)
     # hypervolume_scores = hypervolume_graphs(problems, algorithms, Configurations, aggregate_measure=median)
     # spread_scores = spread_graphs(problems, algorithms, Configurations, aggregate_measure=median)
-    joes_diagrams(problems, algorithms, Configurations)
+    # joes_diagrams(problems, algorithms, Configurations)
     # return [hypervolume_scores, spread_scores]
     igd_reporter(problems, algorithms, Configurations)
 
