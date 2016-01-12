@@ -438,13 +438,28 @@ def igd_reporter(problems, algorithms, Configurations, aggregate_measure=mean, t
                 for repeat in final_frontiers[key]:
                     unpacked_frontier.extend(repeat)
 
+
+            # Vivek: I have noticed that some of the algorithms (specifically VALE8) produces duplicate points
+            # which would then show up in nondominated sort and tip the scale in its favour. So I would like to remove
+            # all the duplicate points from the population and then perform a non dominated sort
+            old = len(unpacked_frontier)
+            unpacked_frontier = list(set(unpacked_frontier))
+            if len(unpacked_frontier) - old == 0:
+                print "There are no duplicates!! check"
+                import pdb
+                pdb.set_trace()
+
             # Find the non dominated solutions
 
             # change into jmoo_individual
             from jmoo_individual import jmoo_individual
             population = [jmoo_individual(problem, i.decisions, i.objectives) for i in unpacked_frontier]
-            # solutions which are non-dominated
+
+            # Vivek: I first tried to choose only the non dominated solutions. But then there are only few solutions
+            # (in order of 1-2) so I am just doing a non dominated sorting with crowd distance
             actual_frontier = [sol.fitness.fitness for sol in get_non_dominated_solutions(problem, population, Configurations)]
+            assert(len(actual_frontier) == Configurations["Universal"]["Population_Size"])
+
 
             generation_dict = {}
             for generation in xrange(Configurations["Universal"]["No_of_Generations"]):
@@ -483,7 +498,7 @@ def igd_reporter(problems, algorithms, Configurations, aggregate_measure=mean, t
     problem_scores = {}
     for problem in problems:
         from PerformanceMetrics.IGD.IGD_Calculation import IGD
-        baseline_igd = IGD(actual_frontier, baseline_objectives(problem))
+        baseline_igd = IGD(actual_frontier, baseline_objectives(problem,Configurations))
 
         f, axarr = plt.subplots(1)
         scores = {}
@@ -532,10 +547,10 @@ def igd_reporter(problems, algorithms, Configurations, aggregate_measure=mean, t
 
 
 def baseline_objectives(prob, Configurations):
-    filename = open("data/" + prob.name + "-p" + str(Configurations["Universal"]["Population_Size"]) + "-d"  + str(len(prob.decisions)) + "-o" + str(len(prob.objectives)) + "-dataset.txt", 'rb')
+    file_handle = open("data/" + prob.name + "-p" + str(Configurations["Universal"]["Population_Size"]) + "-d"  + str(len(prob.decisions)) + "-o" + str(len(prob.objectives)) + "-dataset.txt", 'rb')
     objectives = []
-    for line in open(filename, "r").readlines():
-        objectives.append(map(float, line.strip().split(","))[-1*len(prob.objectives):])
+    for i, line in enumerate(file_handle):
+        if i != 0 and i <= Configurations["Universal"]["Population_Size"]: objectives.append(map(float, line.strip().split(","))[-1*len(prob.objectives):])
     return objectives
 
 

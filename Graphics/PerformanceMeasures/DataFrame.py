@@ -146,3 +146,10 @@ class SolutionFrame():
 
     def __repr__(self):
         return "|".join(map(str, self.decisions + self.objectives))
+
+    def __eq__(self, other):
+        return isinstance(other, self.__class__) and self.__dict__ == other.__dict__
+
+    def __hash__(self):
+
+        return reduce(lambda x,y: x or y, [hash(d) for d in self.decisions + self.objectives])

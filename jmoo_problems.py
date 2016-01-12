@@ -844,7 +844,7 @@ class dtlz4(jmoo_problem):
 class dtlz5(jmoo_problem):
     "DTLZ5"
     def __init__(prob, numDecs=10, numObjs=2):
-        prob.name = "DTLZ5"
+        prob.name = "DTLZ5_" + str(numDecs) + "_" + str(numObjs)
         names = ["x"+str(i+1) for i in range(numDecs)]
         lows =  [0.0 for i in range(numDecs)]
         ups =   [1.0 for i in range(numDecs)]
@@ -890,7 +890,7 @@ class dtlz5(jmoo_problem):
 class dtlz6(jmoo_problem):
     "DTLZ6"
     def __init__(prob, numDecs=20, numObjs=2):
-        prob.name = "DTLZ6"
+        prob.name = "DTLZ6_" + str(numDecs) + "_" + str(numObjs)
         names = ["x"+str(i+1) for i in range(numDecs)]
         lows =  [0.0 for i in range(numDecs)]
         ups =   [1.0 for i in range(numDecs)]
@@ -939,7 +939,7 @@ class dtlz7(jmoo_problem):
     def __init__(prob, numDecs=20, numObjs=2):
 
         super(dtlz7, prob).__init__()
-        prob.name = "DTLZ7"
+        prob.name = "DTLZ7_" + str(numDecs) + "_" + str(numObjs)
         names = ["x"+str(i+1) for i in range(numDecs)]
         lows =  [0.0 for i in range(numDecs)]
         ups =   [1.0 for i in range(numDecs)]

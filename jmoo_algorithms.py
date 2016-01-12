@@ -475,7 +475,7 @@ def deap_format(problem, individuals):
 
 def get_non_dominated_solutions(problem, population, configurations):
     # NOTE: This might look wierd but this would return all the non dominated solutions
-    k = len(population)
+    k = configurations["Universal"]["Population_Size"]
     # Evaluate any new guys
     for individual in population:
         if not individual.valid:
@@ -485,8 +485,8 @@ def get_non_dominated_solutions(problem, population, configurations):
     dIndividuals = deap_format(problem, population)
 
     # Combine
-    from Algorithms.DEAP.tools.emo import sortNondominated
-    dIndividuals = sortNondominated(dIndividuals, k, first_front_only=True)[-1]
+    from Algorithms.DEAP.tools.emo import deap_selNSGA2
+    dIndividuals = deap_selNSGA2(dIndividuals, k)
 
     # Copy from DEAP structure to JMOO structure
     population = []
