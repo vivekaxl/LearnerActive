@@ -2,28 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a38f80-8881-4b9f-8044-6c9fa16de38b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_01_ExperimentRecords.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_02_ExperimentRecords.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_03_ExperimentRecords.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_04_ExperimentRecords.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_05_ExperimentRecords.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_06_ExperimentRecords.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_07_ExperimentRecords.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_08_ExperimentRecords.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_09_ExperimentRecords.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_10_ExperimentRecords.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_11_ExperimentRecords.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_12_ExperimentRecords.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_13_ExperimentRecords.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_14_ExperimentRecords.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RawData/ExperimentalRecords/12-22-2015/Record_15_ExperimentRecords.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/01-11-2016/figure01_DTLZ7_HyperVolume.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/01-11-2016/figure02_DTLZ7_Spread.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/01-11-2016/figure03_DTLZ7_JoeDiagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/01-11-2016/figure04_DTLZ7_Runtimes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/01-11-2016/figure05_DTLZ7_Evaluations.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/01-11-2016/figure06_ComparisionsHyperVolume.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/01-11-2016/figure07_ComparisionsSpread.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LearnerActive.iml" afterPath="$PROJECT_DIR$/.idea/LearnerActive.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/DTLZ7-p92-d22-o3-dataset.txt" afterPath="$PROJECT_DIR$/Data/DTLZ7-p92-d22-o3-dataset.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/DTLZ7-p92-d24-o5-dataset.txt" afterPath="$PROJECT_DIR$/Data/DTLZ7-p92-d24-o5-dataset.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/DTLZ7-p92-d27-o8-dataset.txt" afterPath="$PROJECT_DIR$/Data/DTLZ7-p92-d27-o8-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/POM3A-p92-d9-o3-dataset.txt" afterPath="$PROJECT_DIR$/Data/POM3A-p92-d9-o3-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/POM3B-p92-d9-o3-dataset.txt" afterPath="$PROJECT_DIR$/Data/POM3B-p92-d9-o3-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ7-p92-d27-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ7-p92-d27-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ7-p92-d27-o8_VALE64.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ7-p92-d27-o8_VALE64.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_GALE.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_NSGA3.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_VALE32.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_VALE32.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_VALE64.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_VALE64.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_VALE8.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3A-p92-d9-o3_VALE8.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_GALE.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_NSGA3.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_NSGAII.datatable" />
@@ -31,9 +30,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_VALE32.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_VALE32.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_VALE64.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_VALE64.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_VALE8.datatable" afterPath="$PROJECT_DIR$/Data/RRS_TABLE__POM3B-p92-d9-o3_VALE8.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ7-p92-d27-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ7-p92-d27-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ7-p92-d27-o8_VALE64.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ7-p92-d27-o8_VALE64.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_GALE.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_NSGA3.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_VALE32.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_VALE32.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_VALE64.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_VALE64.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_VALE8.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3A-p92-d9-o3_VALE8.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_GALE.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_NSGA3.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_NSGAII.datatable" />
@@ -41,9 +43,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_VALE32.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_VALE32.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_VALE64.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_VALE64.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_VALE8.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_POM3B-p92-d9-o3_VALE8.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ7-p92-d27-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ7-p92-d27-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ7-p92-d27-o8_VALE64.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ7-p92-d27-o8_VALE64.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_GALE.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_NSGA3.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_VALE32.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_VALE32.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_VALE64.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_VALE64.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_VALE8.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3A-p92-d9-o3_VALE8.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_GALE.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_NSGA3.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_NSGAII.datatable" />
@@ -52,9 +57,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_VALE64.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_VALE64.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_VALE8.datatable" afterPath="$PROJECT_DIR$/Data/results_POM3B-p92-d9-o3_VALE8.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_.datatable" afterPath="$PROJECT_DIR$/Data/summary_.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ7-p92-d27-o8_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ7-p92-d27-o8_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ7-p92-d27-o8_VALE64.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ7-p92-d27-o8_VALE64.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_GALE.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_NSGA3.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_NSGAII.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_VALE32.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_VALE32.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_VALE64.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_VALE64.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_VALE8.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3A-p92-d9-o3_VALE8.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_GALE.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_NSGA3.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_NSGA3.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_NSGAII.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_NSGAII.datatable" />
@@ -62,14 +70,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_VALE32.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_VALE32.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_VALE64.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_VALE64.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_VALE8.datatable" afterPath="$PROJECT_DIR$/Data/summary_POM3B-p92-d9-o3_VALE8.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graphics/PerformanceMeasures/DataFrame.py" afterPath="$PROJECT_DIR$/Graphics/PerformanceMeasures/DataFrame.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/xomo_flight-p92-d27-o3-dataset.txt" afterPath="$PROJECT_DIR$/Data/xomo_flight-p92-d27-o3-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/xomoo2-p92-d27-o3-dataset.txt" afterPath="$PROJECT_DIR$/Data/xomoo2-p92-d27-o3-dataset.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graphics/charter.py" afterPath="$PROJECT_DIR$/Graphics/charter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Problems/XOMO/XOMO_flight.py" afterPath="$PROJECT_DIR$/Problems/XOMO/XOMO_flight.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Problems/XOMO/XOMO_osp2.py" afterPath="$PROJECT_DIR$/Problems/XOMO/XOMO_osp2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_algorithms.py" afterPath="$PROJECT_DIR$/jmoo_algorithms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_core.py" afterPath="$PROJECT_DIR$/jmoo_core.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_problems.py" afterPath="$PROJECT_DIR$/jmoo_problems.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_properties.py" afterPath="$PROJECT_DIR$/jmoo_properties.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility.py" afterPath="$PROJECT_DIR$/utility.py" />
     </list>
     <ignored path="LearnerActive.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="57" selection-end-column="28" />
+              <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
               <folding>
                 <element signature="e#1078#1107#0" expanded="true" />
               </folding>
@@ -103,22 +110,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jmoo_problems.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jmoo_problems.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="947" column="0" selection-start-line="947" selection-start-column="0" selection-end-line="947" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="jmoo_core.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jmoo_core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-6.2222223">
+              <caret line="127" column="34" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
+              <folding>
+                <element signature="e#1059#1072#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,14 +125,35 @@
       <file leaf-file-name="charter.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Graphics/charter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79923517">
-              <caret line="476" column="11" selection-start-line="476" selection-start-column="11" selection-end-line="476" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.6928105">
+              <caret line="508" column="64" selection-start-line="508" selection-start-column="64" selection-end-line="508" selection-end-column="64" />
               <folding>
                 <element signature="e#6900#11874#0" expanded="false" />
+                <element signature="e#6983#8691#0" expanded="false" />
                 <element signature="e#11975#16595#0" expanded="false" />
                 <element signature="e#16704#19637#0" expanded="false" />
                 <element signature="e#19767#20963#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DTLZ7-p92-d22-o3-dataset.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/DTLZ7-p92-d22-o3-dataset.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utility.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utility.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,16 +163,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jmoo_individual.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jmoo_individual.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -186,7 +196,7 @@
         <entry file="file://$PROJECT_DIR$/jmoo_algorithms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="476" column="87" selection-start-line="476" selection-start-column="87" selection-end-line="476" selection-end-column="87" />
+              <caret line="235" column="34" selection-start-line="235" selection-start-column="34" selection-end-line="235" selection-end-column="34" />
               <folding>
                 <element signature="e#7799#8470#0" expanded="false" />
                 <element signature="e#8706#9160#0" expanded="false" />
@@ -242,12 +252,13 @@
         <option value="$PROJECT_DIR$/PerformanceMetrics/HyperVolume/hv.py" />
         <option value="$PROJECT_DIR$/RawData/ExperimentalRecords/01-11-2016/Record_02_ExperimentRecords.xml" />
         <option value="$PROJECT_DIR$/RawData/ExperimentalRecords/01-11-2016/Record_01_ExperimentRecords.xml" />
-        <option value="$PROJECT_DIR$/jmoo_core.py" />
         <option value="$PROJECT_DIR$/jmoo_problems.py" />
         <option value="$PROJECT_DIR$/jmoo_individual.py" />
-        <option value="$PROJECT_DIR$/jmoo_properties.py" />
         <option value="$PROJECT_DIR$/Graphics/PerformanceMeasures/DataFrame.py" />
+        <option value="$PROJECT_DIR$/jmoo_core.py" />
+        <option value="$PROJECT_DIR$/jmoo_properties.py" />
         <option value="$PROJECT_DIR$/jmoo_algorithms.py" />
+        <option value="$PROJECT_DIR$/utility.py" />
         <option value="$PROJECT_DIR$/Graphics/charter.py" />
       </list>
     </option>
@@ -258,10 +269,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1882" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1008" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -289,7 +298,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -318,7 +326,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PerformanceMetrics" />
+              <option name="myItemId" value="RawData" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,16 +340,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PerformanceMetrics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IGD" />
+              <option name="myItemId" value="Data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,57 +368,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LearnerActive" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LearnerActive" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LearnerActive" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -430,20 +384,6 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -571,17 +511,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1882" y="23" width="1920" height="1008" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28647497" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.286117" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38115633" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3799759" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -590,29 +529,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3469388" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26286116" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -632,6 +552,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Graphics/PerformanceMeasures/DataFrame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+          <folding>
+            <element signature="e#357#652#0" expanded="false" />
+            <element signature="e#719#2092#0" expanded="false" />
+            <element signature="e#2160#2901#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_algorithms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="476" column="87" selection-start-line="476" selection-start-column="87" selection-end-line="476" selection-end-column="87" />
+          <folding>
+            <element signature="e#7799#8470#0" expanded="false" />
+            <element signature="e#8706#9160#0" expanded="false" />
+            <element signature="e#9247#10022#0" expanded="false" />
+            <element signature="e#10246#11088#0" expanded="false" />
+            <element signature="e#11752#12534#0" expanded="false" />
+            <element signature="e#13631#13884#0" expanded="false" />
+            <element signature="e#14081#14999#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Charts/12-21-2015_gale32_dtlz/figure26_DTLZ1_12_8_Spread.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -804,31 +752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Charts/01-11-2016/figure06_ComparisionsHyperVolume.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Charts/01-11-2016/figure07_ComparisionsSpread.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Charts/01-11-2016/figure03_DTLZ7_JoeDiagram.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Charts/01-11-2016/figure01_DTLZ7_HyperVolume.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/DTLZ1_9_5-p92-d9-o5-dataset.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="99" column="10" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,15 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.250478">
           <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,19 +789,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RawData/PopulationArchives/GALE_DTLZ7/0/15.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.054545455">
-          <caret line="2" column="350" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="350" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/DEAP/tools/emo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16909091">
           <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,10 +824,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.2222223">
+          <caret line="127" column="34" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
+          <folding>
+            <element signature="e#1059#1072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding>
+            <element signature="e#1078#1107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jmoo_algorithms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="476" column="87" selection-start-line="476" selection-start-column="87" selection-end-line="476" selection-end-column="87" />
+          <caret line="235" column="34" selection-start-line="235" selection-start-column="34" selection-end-line="235" selection-end-column="34" />
           <folding>
             <element signature="e#7799#8470#0" expanded="false" />
             <element signature="e#8706#9160#0" expanded="false" />
@@ -932,22 +860,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
+    <entry file="file://$PROJECT_DIR$/utility.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="57" selection-end-column="28" />
-          <folding>
-            <element signature="e#1078#1107#0" expanded="true" />
-          </folding>
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/DTLZ7-p92-d22-o3-dataset.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm50/python_stubs/348993582/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="3321" column="6" selection-start-line="3321" selection-start-column="6" selection-end-line="3321" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Graphics/charter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79923517">
-          <caret line="476" column="11" selection-start-line="476" selection-start-column="11" selection-end-line="476" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.6928105">
+          <caret line="508" column="64" selection-start-line="508" selection-start-column="64" selection-end-line="508" selection-end-column="64" />
           <folding>
             <element signature="e#6900#11874#0" expanded="false" />
+            <element signature="e#6983#8691#0" expanded="false" />
             <element signature="e#11975#16595#0" expanded="false" />
             <element signature="e#16704#19637#0" expanded="false" />
             <element signature="e#19767#20963#0" expanded="false" />

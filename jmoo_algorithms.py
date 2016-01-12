@@ -233,7 +233,7 @@ class jmoo_MOEAD_PBI:
 
 
 class jmoo_NSGAIII:
-    def __init__(self, color="pink"):
+    def __init__(self, color="Blue"):
         self.name = "NSGA3"
         self.initializer = None
         self.selector = nsgaiii_selector2
