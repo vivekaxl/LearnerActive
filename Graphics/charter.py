@@ -422,11 +422,70 @@ def comparision_reporter(problems, algorithms, list_hypervolume_scores, list_spr
         barplot(np_x_dpoints, file_name, tag + measure_name, {alg.name:alg.color for alg in algorithms})
 
 
+def igd_reporter(problems, algorithms, Configurations):
+    def get_data_from_archive(problems, algorithms, Configurations, function):
+        from PerformanceMeasures.DataFrame import ProblemFrame
+        problem_dict = {}
+        for problem in problems:
+            data = ProblemFrame(problem, algorithms)
+
+            # # finding the final frontier
+            final_frontiers = data.get_frontier_values()
+
+            # unpacking the final frontiers
+            unpacked_frontier = []
+            for key in final_frontiers.keys():
+                for repeat in final_frontiers[key]:
+                    unpacked_frontier.extend(repeat)
+
+            # Find the non dominated solutions
+
+            # change into jmoo_individual
+            from jmoo_individual import jmoo_individual
+            population = [jmoo_individual(problem, i.decisions, i.objectives) for i in unpacked_frontier]
+            # solutions which are non-dominated
+            actual_frontier = [sol.fitness.fitness for sol in get_non_dominated_solutions(problem, population, Configurations)]
+
+            generation_dict = {}
+            for generation in xrange(Configurations["Universal"]["No_of_Generations"]):
+                #
+                population = data.get_frontier_values(generation)
+                evaluations = data.get_evaluation_values(generation)
+
+                algorithm_dict = {}
+                for algorithm in algorithms:
+                    repeat_dict = {}
+                    for repeat in xrange(Configurations["Universal"]["Repeats"]):
+                        candidates = [pop.objectives for pop in population[algorithm.name][repeat]]
+                        repeat_dict[str(repeat)] = {}
+                        from PerformanceMetrics.IGD.IGD_Calculation import IGD
+                        if len(candidates) > 0:
+                            repeat_dict[str(repeat)]["IGD"] = IGD(actual_frontier, candidates)
+                            repeat_dict[str(repeat)]["Evaluations"] = evaluations[algorithm.name][repeat]
+                        else:
+                            repeat_dict[str(repeat)]["IGD"] = None
+                            repeat_dict[str(repeat)]["Evaluations"] = None
+
+                    algorithm_dict[algorithm.name] = repeat_dict
+                generation_dict[str(generation)] = algorithm_dict
+            problem_dict[problem.name] = generation_dict
+        return problem_dict
+
+    from PerformanceMetrics.HyperVolume.hv import get_hyper_volume
+    result = get_data_from_archive(problems, algorithms, Configurations, get_hyper_volume)
+    print "here"
+    asdasds
+    import pdb
+    pdb.set_trace()
+
+
 def charter_reporter(problems, algorithms, Configurations, tag=""):
     import sys
     sys.setrecursionlimit(10000)
-    hypervolume_scores = hypervolume_graphs(problems, algorithms, Configurations, aggregate_measure=median)
-    spread_scores = spread_graphs(problems, algorithms, Configurations, aggregate_measure=median)
-    joes_diagrams(problems, algorithms, Configurations)
-    return [hypervolume_scores, spread_scores]
+    # hypervolume_scores = hypervolume_graphs(problems, algorithms, Configurations, aggregate_measure=median)
+    # spread_scores = spread_graphs(problems, algorithms, Configurations, aggregate_measure=median)
+    # joes_diagrams(problems, algorithms, Configurations)
+    # return [hypervolume_scores, spread_scores]
+    igd_reporter(problems, algorithms, Configurations)
+
 

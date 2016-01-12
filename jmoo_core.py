@@ -127,7 +127,7 @@ class jmoo_chart_report:
         comparision_reporter(self.tests.problems, self.tests.algorithms, [hvp[0] for hvp in hv_spread], [hvp[1] for hvp in hv_spread], "GALE")
         # for problem in self.tests.problems:
         #     hv_spread.append(charter_reporter([problem], self.tests.algorithms, self.Configurations, tag=tagnote))
-        generate_summary(self.tests.problems, self.tests.algorithms, "GALE", self.Configurations)
+        # generate_summary(self.tests.problems, self.tests.algorithms, "GALE", self.Configurations)
 
 
 def generate_final_frontier_for_gale4(problems, algorithms, Configurations, tag=""):

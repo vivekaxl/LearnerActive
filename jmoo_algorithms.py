@@ -465,8 +465,35 @@ def deap_format(problem, individuals):
     for i, individual in enumerate(individuals):
         dIndividuals.append(creator.Individual([dv for dv in individual.decisionValues]))
         dIndividuals[-1].fitness.decisionValues = [dv for dv in individual.decisionValues]
-        if individual.valid: dIndividuals[i].fitness.values = individual.fitness.fitness
+        if individual.valid:
+            dIndividuals[i].fitness.values = individual.fitness.fitness
         dIndividuals[-1].fitness.feasible = not problem.evalConstraints([dv for dv in individual.decisionValues])
         dIndividuals[-1].fitness.problem = problem
 
     return dIndividuals
+
+
+def get_non_dominated_solutions(problem, population, configurations):
+    # NOTE: This might look wierd but this would return all the non dominated solutions
+    k = len(population)
+    # Evaluate any new guys
+    for individual in population:
+        if not individual.valid:
+            individual.evaluate()
+
+    # Format a population Data structure usable by DEAP's package
+    dIndividuals = deap_format(problem, population)
+
+    # Combine
+    from Algorithms.DEAP.tools.emo import sortNondominated
+    dIndividuals = sortNondominated(dIndividuals, k, first_front_only=True)[-1]
+
+    # Copy from DEAP structure to JMOO structure
+    population = []
+    for i, dIndividual in enumerate(dIndividuals):
+        cells = []
+        for j in range(len(dIndividual)):
+            cells.append(dIndividual[j])
+        population.append(jmoo_individual(problem, cells, [f for f in dIndividual.fitness.values]))
+
+    return population

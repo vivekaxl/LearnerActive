@@ -19,7 +19,8 @@ class ProblemFrame():
     def get_extreme_points(self, number_of_generations):
         """This method should be used to find the extreme points of particular generation across all the algorithms"""
         from Techniques.flatten_list import flatten
-        points = flatten([d.get_frontiers_collection(number_of_generations) for d in self.data])
+        points = []
+        points.extend(flatten([d.get_frontiers_collection(number_of_generations) for d in self.data]))
         objectives = [point.objectives for point in points]
         maps_objectives = [[-1 for _ in objectives] for _ in objectives]
         from Techniques.euclidean_distance import euclidean_distance
@@ -30,6 +31,7 @@ class ProblemFrame():
                     maps_objectives[j][i] = euclidean_distance(ii, jj)
                 elif i == j:
                     maps_objectives[i][j] = 0
+
         max_distance = max([max(maps_objective) for maps_objective in maps_objectives])
         indexes = [[(i, j) for j, distance in enumerate(distances) if distance == max_distance] for i, distances in
                    enumerate(maps_objectives)]
@@ -56,7 +58,8 @@ class ProblemFrame():
 
     def get_frontier_values(self, generation_number=-1):
         result = {}
-        for d in self.data: result[d.algorithm.name] = d.get_frontiers_for_generation(generation_number)
+        for d in self.data:
+            result[d.algorithm.name] = d.get_frontiers_for_generation(generation_number)
         return result
 
     def get_evaluation_values(self, generation_number):
@@ -82,6 +85,10 @@ class AlgorithmFrame():
         return [item for repeat in self.repeats for item in repeat.get_frontier(number)]
 
     def get_frontiers_for_generation(self, number=-1):
+        """
+        would return a list of solution(data structure) if that generation exists or would
+        return an empty list
+        """
         return [repeat.get_frontier(number) for repeat in self.repeats]
 
     def get_evaluations_for_generation(self, number):

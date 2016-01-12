@@ -49,21 +49,22 @@ from Problems.XOMO.XOMO_osp2 import XOMO_osp2
 
 # JMOO Experimental Definitions
 algorithms = [
+            jmoo_GALE(),
             jmoo_GALE64(),
-            jmoo_GALE32(),
-            jmoo_GALE8(),
-            jmoo_GALE16(),
-            jmoo_NSGAIII(),
-            jmoo_NSGAII(),
+            # jmoo_GALE32(),
+            # jmoo_GALE8(),
+            # jmoo_GALE16(),
+            # jmoo_NSGAIII(),
+            # jmoo_NSGAII(),
               ]
 
 problems =[
-    POM3B(),
-    POM3A(),
-    XOMO_flight(),
-    XOMO_osp2(),
-    dtlz7(22, 3),
-    dtlz7(24, 5),
+    # POM3B(),
+    # POM3A(),
+    # XOMO_flight(),
+    # XOMO_osp2(),
+    # dtlz7(22, 3),
+    # dtlz7(24, 5),
     dtlz7(27, 8),
 ]
 
@@ -71,7 +72,7 @@ build_new_pop = False                                       # Whether or not to 
 
 Configurations = {
     "Universal": {
-        "Repeats" : 20,
+        "Repeats" : 10,
         "Population_Size" : 92,
         "No_of_Generations" : 20
     },
