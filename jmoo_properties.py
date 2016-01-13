@@ -64,8 +64,8 @@ problems =[
     XOMO_flight(),
     XOMO_osp2(),
     dtlz7(22, 3),
-    dtlz7(24, 5),
-    dtlz7(27, 8),
+    # dtlz7(24, 5),
+    # dtlz7(27, 8),
 ]
 
 build_new_pop = False                                       # Whether or not to rebuild the initial population

@@ -574,13 +574,72 @@ def baseline_objectives(prob, Configurations):
     return objectives
 
 
+def hypervolume_approximate_ranking(problems, algorithms, Configurations, tag="hv_approx"):
+    def get_data_from_archive(problems, algorithms, Configurations):
+        from PerformanceMeasures.DataFrame import ProblemFrame
+        problem_dict = {}
+        for problem in problems:
+            data = ProblemFrame(problem, algorithms)
+            generation_dict = {}
+            for generation in xrange(Configurations["Universal"]["No_of_Generations"]):
+                population = data.get_frontier_values(generation)
+                evaluations = data.get_evaluation_values(generation)
+
+                repeat_dict = {}
+                for repeat in xrange(Configurations["Universal"]["Repeats"]):
+                    algorithm_dict = {}
+                    for algorithm in algorithms:
+                        algorithm_dict[algorithm.name] ={}
+                        try:
+                            candidates = [jmoo_individual(problem, pop.decisions, pop.objectives) for pop in
+                                          population[algorithm.name][repeat]]
+                        except:
+                            import pdb
+                            pdb.set_trace()
+                        repeat_dict[str(repeat)] = {}
+                        if len(candidates) > 0:
+                            algorithm_dict[algorithm.name]["Solutions"] = candidates
+                            algorithm_dict[algorithm.name]["Evaluations"] = evaluations[algorithm.name][repeat]
+                        else:
+                            algorithm_dict[algorithm.name]["Solutions"] = None
+                            algorithm_dict[algorithm.name]["Evaluations"] = None
+
+                    repeat_dict[str(repeat)] = algorithm_dict
+                generation_dict[str(generation)] = repeat_dict
+            problem_dict[problem.name] = generation_dict
+        return problem_dict
+
+
+    date_folder_prefix = strftime("%m-%d-%Y")
+    if not os.path.isdir('./Results/Approx_HyperVolume/' + date_folder_prefix):
+            os.makedirs('./Results/Approx_HyperVolume/' + date_folder_prefix)
+
+    result = get_data_from_archive(problems, algorithms, Configurations)
+    for problem in problems:
+        print ".",
+        import sys
+        sys.stdout.flush()
+        from PerformanceMetrics.HyperVolumeEstimator.hypervolume_estimator import hypervolume_ranking
+        ranking_string = hypervolume_ranking(problem, result[problem.name])
+
+        # write the final frontier
+        fignum = len([name for name in os.listdir('./Results/Approx_HyperVolume/' + date_folder_prefix)]) + 1
+        filename_frontier = './Results/Approx_HyperVolume/' + date_folder_prefix + '/table' + str("%02d" % fignum) + "_" \
+                             + problem.name + "_" + tag + '.csv'
+        hv_approx = open(filename_frontier, "w")
+        hv_approx.write(ranking_string)
+        hv_approx.close()
+
+
 def charter_reporter(problems, algorithms, Configurations, tag=""):
     import sys
     sys.setrecursionlimit(10000)
-    # hypervolume_scores = hypervolume_graphs(problems, algorithms, Configurations, aggregate_measure=median)
-    # spread_scores = spread_graphs(problems, algorithms, Configurations, aggregate_measure=median)
+    hypervolume_scores = hypervolume_graphs(problems, algorithms, Configurations, aggregate_measure=median)
+    spread_scores = spread_graphs(problems, algorithms, Configurations, aggregate_measure=median)
     # joes_diagrams(problems, algorithms, Configurations)
-    # return [hypervolume_scores, spread_scores]
     igd_reporter(problems, algorithms, Configurations)
+    # hypervolume_approximate_ranking(problems, algorithms, Configurations)
+    return [hypervolume_scores, spread_scores]
+
 
 
