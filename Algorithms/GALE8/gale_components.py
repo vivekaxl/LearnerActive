@@ -123,7 +123,7 @@ def fastmap(problem, true_population):
         return True
 
     from random import choice
-    from euclidean_distance import euclidean_distance
+    from Techniques.euclidean_distance import euclidean_distance
 
     decision_population = [pop.decisionValues for pop in true_population]
     one = choice(decision_population)

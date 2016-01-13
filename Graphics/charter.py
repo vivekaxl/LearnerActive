@@ -186,8 +186,7 @@ def hypervolume_graphs(problems, algorithms, Configurations, aggregate_measure=m
                         if len(candidates) > 0:
                             repeat_dict[str(repeat)]["HyperVolume"] = function(reference_point, candidates)
                             if repeat_dict[str(repeat)]["HyperVolume"] == 0:
-                                import pdb
-                                pdb.set_trace()
+                                pass
                             repeat_dict[str(repeat)]["Evaluations"] = evaluations[algorithm.name][repeat]
                         else:
                             repeat_dict[str(repeat)]["HyperVolume"] = None

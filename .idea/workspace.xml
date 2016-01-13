@@ -2,9 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a38f80-8881-4b9f-8044-6c9fa16de38b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/FastmapNDS/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/FastmapNDS/fastmap_based_nds.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Charts/01-12-2016/figure01_POM3B_IGD.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Charts/01-12-2016/figure02_POM3A_IGD.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Charts/01-12-2016/figure03_xomo_flight_IGD.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Charts/01-12-2016/figure04_xomoo2_IGD.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Charts/01-12-2016/figure05_DTLZ7_22_3_IGD.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Charts/01-12-2016/figure06_DTLZ7_24_5_IGD.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Charts/01-12-2016/figure07_DTLZ7_27_8_IGD.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Final_Frontier/01-12-2016/table01_POM3B_IGD.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Final_Frontier/01-12-2016/table02_POM3A_IGD.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Final_Frontier/01-12-2016/table03_xomo_flight_IGD.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Final_Frontier/01-12-2016/table04_xomoo2_IGD.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Final_Frontier/01-12-2016/table05_DTLZ7_22_3_IGD.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Final_Frontier/01-12-2016/table06_DTLZ7_24_5_IGD.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Final_Frontier/01-12-2016/table07_DTLZ7_27_8_IGD.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Tables/01-12-2016/table43_GALE_DTLZ7_27_8_IGD.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Tables/01-12-2016/table44_VALE64_DTLZ7_27_8_IGD.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Tables/01-12-2016/table45_VALE32_DTLZ7_27_8_IGD.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Tables/01-12-2016/table46_VALE8_DTLZ7_27_8_IGD.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Tables/01-12-2016/table47_VALE16_DTLZ7_27_8_IGD.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Tables/01-12-2016/table48_NSGA3_DTLZ7_27_8_IGD.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/Tables/01-12-2016/table49_NSGAII_DTLZ7_27_8_IGD.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/GALE8/gale_components.py" afterPath="$PROJECT_DIR$/Algorithms/GALE8/gale_components.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graphics/charter.py" afterPath="$PROJECT_DIR$/Graphics/charter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_core.py" afterPath="$PROJECT_DIR$/jmoo_core.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_algorithms.py" afterPath="$PROJECT_DIR$/jmoo_algorithms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_properties.py" afterPath="$PROJECT_DIR$/jmoo_properties.py" />
     </list>
     <ignored path="LearnerActive.iws" />
@@ -27,11 +51,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jmoo_properties.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gale_components.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/GALE8/gale_components.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jmoo_properties.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48969072">
-              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="64" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
               <folding>
                 <element signature="e#1078#1107#0" expanded="true" />
               </folding>
@@ -43,7 +77,19 @@
         <entry file="file://$PROJECT_DIR$/jmoo_core.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+              <caret line="265" column="33" selection-start-line="265" selection-start-column="33" selection-end-line="265" selection-end-column="33" />
+              <folding>
+                <element signature="e#4287#5929#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jmoo_jmoea.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jmoo_jmoea.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -62,13 +108,13 @@
       <file leaf-file-name="charter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graphics/charter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.555555">
-              <caret line="642" column="0" selection-start-line="642" selection-start-column="0" selection-end-line="642" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.777778">
+              <caret line="202" column="45" selection-start-line="202" selection-start-column="45" selection-end-line="202" selection-end-column="45" />
               <folding>
-                <element signature="e#16726#19699#0" expanded="false" />
-                <element signature="e#19829#21065#0" expanded="false" />
-                <element signature="e#29183#29617#0" expanded="false" />
-                <element signature="e#29789#31502#0" expanded="false" />
+                <element signature="e#16672#19645#0" expanded="false" />
+                <element signature="e#19775#21011#0" expanded="false" />
+                <element signature="e#29129#29563#0" expanded="false" />
+                <element signature="e#29735#31448#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -82,6 +128,32 @@
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jmoo_algorithms.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jmoo_algorithms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41752577">
+              <caret line="437" column="0" selection-start-line="437" selection-start-column="0" selection-end-line="437" selection-end-column="0" />
+              <folding>
+                <element signature="e#8103#8774#0" expanded="false" />
+                <element signature="e#9010#9464#0" expanded="false" />
+                <element signature="e#10550#11392#0" expanded="false" />
+                <element signature="e#12056#12838#0" expanded="false" />
+                <element signature="e#14247#14500#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fastmap_based_nds.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/FastmapNDS/fastmap_based_nds.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,7 +186,6 @@
         <option value="$PROJECT_DIR$/RawData/ExperimentalRecords/12-08-2015/Record_10_ExperimentRecords.xml" />
         <option value="$PROJECT_DIR$/Algorithms/GALE/gale_components.py" />
         <option value="$PROJECT_DIR$/jmoo_jmoea.py" />
-        <option value="$PROJECT_DIR$/Algorithms/GALE8/gale_components.py" />
         <option value="$PROJECT_DIR$/Algorithms/GALE16/gale_components.py" />
         <option value="$PROJECT_DIR$/Algorithms/GALE32/gale_components.py" />
         <option value="$PROJECT_DIR$/Graphics/Graphs/grouped_bar_plots.py" />
@@ -133,12 +204,14 @@
         <option value="$PROJECT_DIR$/Techniques/euclidean_distance.py" />
         <option value="$PROJECT_DIR$/jmoo_individual.py" />
         <option value="$PROJECT_DIR$/Graphics/PerformanceMeasures/DataFrame.py" />
-        <option value="$PROJECT_DIR$/jmoo_algorithms.py" />
         <option value="$PROJECT_DIR$/cleanup.py" />
         <option value="$PROJECT_DIR$/PerformanceMetrics/HyperVolumeEstimator/hypervolume_estimator.py" />
-        <option value="$PROJECT_DIR$/Graphics/charter.py" />
         <option value="$PROJECT_DIR$/jmoo_core.py" />
         <option value="$PROJECT_DIR$/jmoo_properties.py" />
+        <option value="$PROJECT_DIR$/Graphics/charter.py" />
+        <option value="$PROJECT_DIR$/Algorithms/GALE8/gale_components.py" />
+        <option value="$PROJECT_DIR$/Algorithms/FastmapNDS/fastmap_based_nds.py" />
+        <option value="$PROJECT_DIR$/jmoo_algorithms.py" />
       </list>
     </option>
   </component>
@@ -198,12 +271,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnerActive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnerActive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnerActive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnerActive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GALE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnerActive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnerActive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FastmapNDS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Rescue_gale" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CodeLab" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -215,11 +338,11 @@
       <recent name="$PROJECT_DIR$/Algorithms/LearnerActive" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Algorithms/FastmapNDS" />
       <recent name="$PROJECT_DIR$/Algorithms/GALE64" />
       <recent name="$PROJECT_DIR$/Algorithms/GALE32" />
       <recent name="$PROJECT_DIR$/Algorithms/GALE16" />
       <recent name="$PROJECT_DIR$/Algorithms/GALE8" />
-      <recent name="$PROJECT_DIR$/Algorithms/GALE4" />
     </key>
   </component>
   <component name="RunManager">
@@ -474,14 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE8/gale_components.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Problems/XOMO/XOMO_all.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -616,21 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_algorithms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="488" column="49" selection-start-line="488" selection-start-column="49" selection-end-line="488" selection-end-column="49" />
-          <folding>
-            <element signature="e#7799#8470#0" expanded="false" />
-            <element signature="e#8706#9160#0" expanded="false" />
-            <element signature="e#9247#10022#0" expanded="false" />
-            <element signature="e#10246#11088#0" expanded="false" />
-            <element signature="e#11752#12534#0" expanded="false" />
-            <element signature="e#13631#13884#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/11-16-2015/stats_suite_summary_report_01.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -640,57 +740,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example1_graph.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cleanup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Results/Final_Frontier/01-12-2016/table01_POM3B_IGD.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Results/Charts/01-12-2016/figure01_POM3B_IGD.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Results/Charts/01-12-2016/figure02_POM3A_IGD.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Results/Charts/01-12-2016/figure03_xomo_flight_IGD.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Results/Charts/01-12-2016/figure04_xomoo2_IGD.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Results/Charts/01-12-2016/figure05_DTLZ7_22_3_IGD.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Results/Charts/01-12-2016/figure06_DTLZ7_24_5_IGD.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Results/Charts/01-12-2016/figure07_DTLZ7_27_8_IGD.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -721,19 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/charter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.555555">
-          <caret line="642" column="0" selection-start-line="642" selection-start-column="0" selection-end-line="642" selection-end-column="0" />
-          <folding>
-            <element signature="e#16726#19699#0" expanded="false" />
-            <element signature="e#19829#21065#0" expanded="false" />
-            <element signature="e#29183#29617#0" expanded="false" />
-            <element signature="e#29789#31502#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jmoo_interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -742,20 +778,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_core.py">
+    <entry file="file://$PROJECT_DIR$/cleanup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.15463917">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48969072">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="64" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
           <folding>
             <element signature="e#1078#1107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Results/Charts/01-12-2016/figure19_ComparisionsHyperVolume.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphics/charter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.777778">
+          <caret line="202" column="45" selection-start-line="202" selection-start-column="45" selection-end-line="202" selection-end-column="45" />
+          <folding>
+            <element signature="e#16672#19645#0" expanded="false" />
+            <element signature="e#19775#21011#0" expanded="false" />
+            <element signature="e#29129#29563#0" expanded="false" />
+            <element signature="e#29735#31448#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="265" column="33" selection-start-line="265" selection-start-column="33" selection-end-line="265" selection-end-column="33" />
+          <folding>
+            <element signature="e#4287#5929#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_jmoea.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/FastmapNDS/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/GALE8/gale_components.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/FastmapNDS/fastmap_based_nds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_algorithms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41752577">
+          <caret line="437" column="0" selection-start-line="437" selection-start-column="0" selection-end-line="437" selection-end-column="0" />
+          <folding>
+            <element signature="e#8103#8774#0" expanded="false" />
+            <element signature="e#9010#9464#0" expanded="false" />
+            <element signature="e#10550#11392#0" expanded="false" />
+            <element signature="e#12056#12838#0" expanded="false" />
+            <element signature="e#14247#14500#0" expanded="false" />
           </folding>
         </state>
       </provider>

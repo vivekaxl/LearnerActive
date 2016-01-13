@@ -78,6 +78,16 @@ class jmoo_NSGAII:
         self.color = color
         self.type = '^'
 
+class jmoo_NSGAII_2:
+    def __init__(self, color="Blue"):
+        self.name = "NSGAII_2"
+        self.initializer = None
+        self.selector = selTournamentDCD
+        self.adjustor = crossoverAndMutation
+        self.recombiner = selNSGA2_cheaper
+        self.color = color
+        self.type = '^'
+
 
 class jmoo_SPEA2:
     def __init__(self, color="Green"):
@@ -233,7 +243,7 @@ class jmoo_MOEAD_PBI:
 
 
 class jmoo_NSGAIII:
-    def __init__(self, color="Blue"):
+    def __init__(self, color="Black"):
         self.name = "NSGA3"
         self.initializer = None
         self.selector = nsgaiii_selector2
@@ -428,6 +438,13 @@ def selNSGA2(problem, population, selectees, configurations):
 
     return population, k
 
+
+def selNSGA2_cheaper(problem, population, selectees, configurations):
+    k = configurations["Universal"]["Population_Size"]
+    from Algorithms.FastmapNDS.fastmap_based_nds import do_fastmap_domination
+    new_population, k = do_fastmap_domination(problem, population + selectees, k)
+
+    return population, k
 
 #############################################################
 ### MOO Algorithm Convergence Stops
