@@ -50,22 +50,44 @@ from Problems.XOMO.XOMO_osp2 import XOMO_osp2
 # JMOO Experimental Definitions
 algorithms = [
             jmoo_GALE(),
-            jmoo_GALE64(),
-            jmoo_GALE32(),
-            jmoo_GALE8(),
-            jmoo_GALE16(),
-            jmoo_NSGAIII(),
+            # jmoo_GALE64(),
+            # jmoo_GALE32(),
+            # jmoo_GALE8(),
+            # jmoo_GALE16(),
+            # jmoo_NSGAIII(),
             jmoo_NSGAII(),
+            jmoo_NSGAII_2()
               ]
 
 problems =[
-    POM3B(),
-    POM3A(),
-    XOMO_flight(),
-    XOMO_osp2(),
-    dtlz7(22, 3),
-    dtlz7(24, 5),
+    # POM3B(),
+    # POM3A(),
+    # XOMO_flight(),
+    # XOMO_osp2(),
+    # dtlz7(22, 3),
+    # dtlz7(24, 5),
     # dtlz7(27, 8),
+    ]
+
+problems =[
+        dtlz1(9, 5),
+        dtlz2(14, 5),
+        dtlz3(14, 5),
+        dtlz4(14, 5),
+        dtlz1(7, 3),
+        dtlz2(12, 3),
+        dtlz3(12, 3),
+        dtlz4(12, 3),
+        dtlz4(7, 3),
+        dtlz4(7, 5),
+        dtlz4(7, 8),
+        dtlz1(12, 8),
+        dtlz2(17, 8),
+        dtlz3(17, 8),
+        dtlz4(17, 8),
+        dtlz7(22, 3),
+        dtlz7(24, 5),
+        dtlz7(27, 8)
 ]
 
 build_new_pop = False                                       # Whether or not to rebuild the initial population

@@ -84,20 +84,29 @@ def new_fastmap(problem, true_population):
         for true_pop in true_population:
             if list_equality(tpop[0], true_pop.decisionValues):
                 true_pop.x = tpop[-1]
+
+    for i, true_pop in enumerate(true_population):
+        if list_equality(west, true_pop.decisionValues):
+            true_pop.fitness = west_indi.fitness
+        elif list_equality(east, true_pop.decisionValues):
+            true_pop.fitness = east_indi.fitness
+
+
     temp_list = sorted(true_population, key=lambda pop: pop.x)
     ranklist = [t.id for t in temp_list]
     return true_population, ranklist, temp_list[0], temp_list[-1]
 
 
-def add_id_to_population(population):
-    for count, pop in enumerate(population):        pop.id = count
-    return population
+def add_id_to_population(x_population):
+    for count, pop in enumerate(x_population):
+        x_population[count].id = count
+    return x_population
 
 
-def do_fastmap_domination(problem, population, actual_population_length):
+def do_fastmap_domination(problem, population, Configurations):
     add_scores = {}
     repeat = 20
-
+    population = add_id_to_population(population)
     for _ in xrange(repeat):
         population, ranklist, east, west = new_fastmap(problem, population)
         for rank, rl in enumerate(ranklist):
@@ -105,10 +114,15 @@ def do_fastmap_domination(problem, population, actual_population_length):
                 add_scores[str(rl)] += rank
             else:
                 add_scores[str(rl)] = rank
+
     from operator import itemgetter
-    sorted_population_id = [int(i[0]) for i in sorted(add_scores.items(), key=itemgetter(1))[:Configurations["Universal"]["Population_Size"]]]
-    sorted_population = [pop for pop in population if pop.id in sorted_population_id]
-    return sorted_population[:actual_population_length], repeat * 2
+    sorted_population_id = [int(i[0]) for i in sorted(add_scores.items(), key=itemgetter(1))][:Configurations["Universal"]["Population_Size"]]
+    sorted_population = []
+    for i, pop in enumerate(population):
+        if pop.id in sorted_population_id:
+            sorted_population.append(pop)
+
+    return sorted_population, len([p for p in sorted_population if p.valid])
 
 
 

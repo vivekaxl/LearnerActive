@@ -55,7 +55,7 @@ def read_file(problem, filename):
 
 def store_values(latestdir, generation_number, population):
     filename = latestdir + "/" + str(generation_number) + ".txt"
-    shorten_population = [pop for pop in population if pop.fitness.valid]
+    shorten_population = [pop for pop in population if pop.valid]
     try:
         values = [", ".join(map(str, pop.decisionValues + pop.fitness.fitness)) for pop in shorten_population]
     except:
@@ -181,7 +181,6 @@ def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
         # # # # # # # # # # #
 
         population, evals = algorithm.recombiner(problem, population, selectees, configurations)
-
 
         numNewEvals += evals
         assert(len(population) == configurations["Universal"]["Population_Size"]), \

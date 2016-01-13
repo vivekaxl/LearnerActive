@@ -79,7 +79,7 @@ class jmoo_NSGAII:
         self.type = '^'
 
 class jmoo_NSGAII_2:
-    def __init__(self, color="Blue"):
+    def __init__(self, color="Green"):
         self.name = "NSGAII_2"
         self.initializer = None
         self.selector = selTournamentDCD
@@ -322,8 +322,10 @@ def selTournament(problem, individuals, configuration, value_to_be_passed):
     return [individuals[s] for s in selectedIndices], len(individuals)
 
 
-def selTournamentDCD(problem, individuals, configuration, value_to_be_passed):
+def selTournamentDCD(problem, population, configuration, value_to_be_passed):
 
+    from copy import deepcopy
+    individuals = deepcopy(population)
     # Evaluate any new guys
     for individual in individuals:
         if not individual.valid:
@@ -351,8 +353,10 @@ def selTournamentDCD(problem, individuals, configuration, value_to_be_passed):
 #############################################################
 
 
-def crossoverAndMutation(problem, individuals, configuration):
+def crossoverAndMutation(problem, population, configuration):
 
+    from copy import deepcopy
+    individuals = deepcopy(population)
     # Format a population data structure usable by DEAP's package
     dIndividuals = deap_format(problem, individuals)
 
@@ -441,10 +445,11 @@ def selNSGA2(problem, population, selectees, configurations):
 
 def selNSGA2_cheaper(problem, population, selectees, configurations):
     k = configurations["Universal"]["Population_Size"]
+    population.extend(selectees)
     from Algorithms.FastmapNDS.fastmap_based_nds import do_fastmap_domination
-    new_population, k = do_fastmap_domination(problem, population + selectees, k)
+    new_population, k = do_fastmap_domination(problem, population, configurations)
 
-    return population, k
+    return new_population, k
 
 #############################################################
 ### MOO Algorithm Convergence Stops

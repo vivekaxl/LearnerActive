@@ -1,0 +1,230 @@
+<Experiment>
+<Problem name = 'DTLZ7_22_3'>
+<Algorithm name = 'GALE'>
+<Run id = '1'>
+<Summary>
+<NumEvals>63</NumEvals>
+<RunTime>1.1485440731</RunTime>
+<IBD>0.791223503808</IBD>
+<IBS>0.0704945807032</IBS>
+<f1>0.0983097239166</f1>
+<f2>0.295453196961</f2>
+<f3>16.8424849622</f3>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>95</NumEvals>
+<RunTime>1.7518529892</RunTime>
+<IBD>0.955247409112</IBD>
+<IBS>0.109984343786</IBS>
+<f1>0.17855325365</f1>
+<f2>0.180483647068</f2>
+<f3>19.2409971175</f3>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>37</NumEvals>
+<RunTime>0.642893075943</RunTime>
+<IBD>0.950504467741</IBD>
+<IBS>0.0482418910146</IBS>
+<f1>0.156930195799</f1>
+<f2>0.0690762166576</f2>
+<f3>19.5184781718</f3>
+</Summary></Run>
+<Run id = '4'>
+<Summary>
+<NumEvals>80</NumEvals>
+<RunTime>1.56685400009</RunTime>
+<IBD>0.874161482243</IBD>
+<IBS>0.0905350875234</IBS>
+<f1>0.116352750275</f1>
+<f2>0.181757676984</f2>
+<f3>17.8971461977</f3>
+</Summary></Run>
+<Run id = '5'>
+<Summary>
+<NumEvals>52</NumEvals>
+<RunTime>1.03925395012</RunTime>
+<IBD>0.789944096391</IBD>
+<IBS>0.0231915601577</IBS>
+<f1>0.32763044914</f1>
+<f2>0.13895223518</f2>
+<f3>17.8780820638</f3>
+</Summary></Run>
+<Run id = '6'>
+<Summary>
+<NumEvals>77</NumEvals>
+<RunTime>1.38352799416</RunTime>
+<IBD>0.8291921678</IBD>
+<IBS>0.0550336645036</IBS>
+<f1>0.130094780982</f1>
+<f2>0.164363827414</f2>
+<f3>17.3863317131</f3>
+</Summary></Run>
+<Run id = '7'>
+<Summary>
+<NumEvals>53</NumEvals>
+<RunTime>1.09700393677</RunTime>
+<IBD>0.916585980238</IBD>
+<IBS>0.0211900701252</IBS>
+<f1>0.150820951655</f1>
+<f2>0.102429487555</f2>
+<f3>19.1853398523</f3>
+</Summary></Run>
+<Run id = '8'>
+<Summary>
+<NumEvals>75</NumEvals>
+<RunTime>1.39366793633</RunTime>
+<IBD>0.879310621265</IBD>
+<IBS>0.0847385279145</IBS>
+<f1>0.0871972674158</f1>
+<f2>0.198994898596</f2>
+<f3>17.3220701452</f3>
+</Summary></Run>
+<Run id = '9'>
+<Summary>
+<NumEvals>52</NumEvals>
+<RunTime>1.1090400219</RunTime>
+<IBD>0.982573940578</IBD>
+<IBS>0.0927188604395</IBS>
+<f1>0.181520416814</f1>
+<f2>0.191437707031</f2>
+<f3>19.0185036612</f3>
+</Summary></Run>
+<Run id = '10'>
+<Summary>
+<NumEvals>75</NumEvals>
+<RunTime>1.44324088097</RunTime>
+<IBD>0.876854361426</IBD>
+<IBS>0.0806228639678</IBS>
+<f1>0.388773815397</f1>
+<f2>0.0495145492566</f2>
+<f3>17.1634097931</f3>
+</Summary></Run>
+</Algorithm>
+</Problem>
+<Problem name = 'DTLZ7_24_5'>
+<Algorithm name = 'GALE'>
+<Run id = '1'>
+<Summary>
+<NumEvals>80</NumEvals>
+<RunTime>1.96868014336</RunTime>
+<IBD>1.03332417888</IBD>
+<IBS>0.0128267654354</IBS>
+<f1>0.607379749082</f1>
+<f2>0.204388188567</f2>
+<f3>0.623437905246</f3>
+<f4>0.515352419137</f4>
+<f5>31.6120778142</f5>
+</Summary></Run>
+<Run id = '2'>
+<Summary>
+<NumEvals>122</NumEvals>
+<RunTime>2.5744638443</RunTime>
+<IBD>0.923841982803</IBD>
+<IBS>0.00935434829604</IBS>
+<f1>0.0848999246094</f1>
+<f2>0.766916605204</f2>
+<f3>0.0417009378125</f3>
+<f4>0.260359754555</f4>
+<f5>31.5105855844</f5>
+</Summary></Run>
+<Run id = '3'>
+<Summary>
+<NumEvals>80</NumEvals>
+<RunTime>1.71321296692</RunTime>
+<IBD>0.997920043052</IBD>
+<IBS>0.0467144903121</IBS>
+<f1>0.278994917997</f1>
+<f2>0.873732804762</f2>
+<f3>0.416216243851</f3>
+<f4>0.306496672382</f4>
+<f5>30.3496109977</f5>
+</Summary></Run>
+<Run id = '4'>
+<Summary>
+<NumEvals>74</NumEvals>
+<RunTime>1.5611140728</RunTime>
+<IBD>0.995945325683</IBD>
+<IBS>0.0233881766336</IBS>
+<f1>0.577706767377</f1>
+<f2>0.249259003819</f2>
+<f3>0.417973670804</f3>
+<f4>0.238604152987</f4>
+<f5>30.8825423058</f5>
+</Summary></Run>
+<Run id = '5'>
+<Summary>
+<NumEvals>102</NumEvals>
+<RunTime>2.20457601547</RunTime>
+<IBD>0.969215467731</IBD>
+<IBS>0.0385706620166</IBS>
+<f1>0.139667263587</f1>
+<f2>0.0872861648041</f2>
+<f3>0.213544503002</f3>
+<f4>0.731245013808</f4>
+<f5>34.1448373081</f5>
+</Summary></Run>
+<Run id = '6'>
+<Summary>
+<NumEvals>102</NumEvals>
+<RunTime>2.20829606056</RunTime>
+<IBD>0.933894867508</IBD>
+<IBS>0.0829422639147</IBS>
+<f1>0.281157653175</f1>
+<f2>0.0582877647838</f2>
+<f3>0.158406683246</f3>
+<f4>0.0768164796604</f4>
+<f5>30.1326025357</f5>
+</Summary></Run>
+<Run id = '7'>
+<Summary>
+<NumEvals>78</NumEvals>
+<RunTime>1.61724996567</RunTime>
+<IBD>0.976562022349</IBD>
+<IBS>0.0510614792798</IBS>
+<f1>0.294214664173</f1>
+<f2>0.695246100578</f2>
+<f3>0.267253593293</f3>
+<f4>0.854360005686</f4>
+<f5>27.0890414326</f5>
+</Summary></Run>
+<Run id = '8'>
+<Summary>
+<NumEvals>91</NumEvals>
+<RunTime>1.90033698082</RunTime>
+<IBD>0.92797452851</IBD>
+<IBS>0.0348674977879</IBS>
+<f1>0.41665486221</f1>
+<f2>0.0494742589352</f2>
+<f3>0.184051745619</f3>
+<f4>0.238739597351</f4>
+<f5>27.2054282413</f5>
+</Summary></Run>
+<Run id = '9'>
+<Summary>
+<NumEvals>75</NumEvals>
+<RunTime>1.7826089859</RunTime>
+<IBD>0.946452342635</IBD>
+<IBS>0.00933734739726</IBS>
+<f1>0.0452219040926</f1>
+<f2>0.0221626015616</f2>
+<f3>0.353307779226</f3>
+<f4>0.103223339573</f4>
+<f5>34.3962908768</f5>
+</Summary></Run>
+<Run id = '10'>
+<Summary>
+<NumEvals>90</NumEvals>
+<RunTime>1.88156509399</RunTime>
+<IBD>0.969557976463</IBD>
+<IBS>0.0322714494103</IBS>
+<f1>0.221496158045</f1>
+<f2>0.167578006099</f2>
+<f3>0.404134931843</f3>
+<f4>0.418971375886</f4>
+<f5>32.3127704621</f5>
+</Summary></Run>
+</Algorithm>
+</Problem>
+</Experiment>
